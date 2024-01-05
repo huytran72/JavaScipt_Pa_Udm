@@ -22,3 +22,10 @@ let job2 = 'teacher';
 
 console.log(myFirstJob);
 
+let country = 'America';
+let continent = 'North_America';
+let population = 300;
+
+console.log(country);
+console.log(continent);
+console.log(population);
