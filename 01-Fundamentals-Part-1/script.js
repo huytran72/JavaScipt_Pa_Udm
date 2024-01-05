@@ -9,6 +9,7 @@ console.log(firstName);
 console.log(firstName); 
 console.log(firstName); 
 
+//Variable name conventions
 let crown_kenny = "CK";
 let $func = 27;
 
@@ -29,3 +30,12 @@ let population = 300;
 console.log(country);
 console.log(continent);
 console.log(population);
+
+//Data Types
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+console.log(typeof 'Crown');
+console.log(typeof 25);
