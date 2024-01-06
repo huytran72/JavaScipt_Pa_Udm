@@ -77,3 +77,18 @@ job = 'teacher1';
 
 lastName = 'Scheme';
 console.log(lastName);
+
+//Operators
+console.log('---------------------');
+console.log('Operators');
+
+const now = 2037;
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah);
+
+const ageRon = now - 2020;
+console.log(ageRon);
+
+console.log(ageJonas * 2, ageJonas / 2);
+
