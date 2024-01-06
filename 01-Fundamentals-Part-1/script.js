@@ -59,3 +59,11 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+
+//Const and Var
+console.log('-----------------------');
+console.log('Const and Var');
+
+let age = 30;
+age = 31;
