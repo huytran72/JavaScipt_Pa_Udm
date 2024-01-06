@@ -78,6 +78,8 @@ job = 'teacher1';
 lastName = 'Scheme';
 console.log(lastName);
 
+
+
 //Operators
 console.log('---------------------');
 console.log('Operators');
@@ -90,5 +92,12 @@ console.log(ageJonas, ageSarah);
 const ageRon = now - 2020;
 console.log(ageRon);
 
-console.log(ageJonas * 2, ageJonas / 2);
+console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
+
+const fisrtName_1 = 'Lili';
+const lastName_1 = 'Titi';
+console.log(fisrtName_1 + ' ' + lastName_1);
+
+
+
 
