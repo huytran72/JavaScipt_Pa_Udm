@@ -74,3 +74,6 @@ const birthYear = 1991;
 
 var job = 'programmer1';
 job = 'teacher1';
+
+lastName = 'Scheme';
+console.log(lastName);
