@@ -98,6 +98,13 @@ const fisrtName_1 = 'Lili';
 const lastName_1 = 'Titi';
 console.log(fisrtName_1 + ' ' + lastName_1);
 
+let x = 10 +5;  // = 15
+x += 10;  // x = x + 10
+x *= 4;  // x = x * 4 = 100
+x++;      // x = x + 1
+x--;       
+x--;
+console.log(x);
 
 
 
