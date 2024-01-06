@@ -67,3 +67,10 @@ console.log('Const and Var');
 
 let age = 30;
 age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+// const job;
+
+var job = 'programmer1';
+job = 'teacher1';
