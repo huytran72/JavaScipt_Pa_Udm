@@ -106,5 +106,9 @@ x--;
 x--;
 console.log(x);
 
+//Comparison operators
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
 
 
