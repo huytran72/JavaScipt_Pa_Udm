@@ -54,6 +54,7 @@ console.log('----------------------');
 // Assignments
 let isIsland = true;
 let language;
+language = 'English';
 
 console.log(typeof isIsland);
 console.log(typeof population);
@@ -129,3 +130,15 @@ console.log(y, z);
 
 const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, averageAge);
+
+//Assignment
+console.log(population/2);
+population++;
+console.log(population);
+const population_Finland = 6;
+console.log(population > population_Finland);
+const population_average = 33;
+console.log(population < population_average);
+const description = country + ' is in ' + continent + ', and its ' + 
+                    population + ' million people speak ' + language;
+console.log(description);
