@@ -126,3 +126,6 @@ let z;
 
 y = z = 25-10-5;
 console.log(y, z);
+
+const averageAge = (ageJonas + ageSarah) / 2
+console.log(ageJonas, ageSarah, averageAge);
