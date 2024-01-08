@@ -118,3 +118,11 @@ console.log(now - 1991 > now - 2018);
 //Operator Precdence
 console.log('------------------');
 console.log('Operator Precedence');
+
+console.log(25-10-5);
+
+let y;
+let z;
+
+y = z = 25-10-5;
+console.log(y, z);
