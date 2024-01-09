@@ -142,3 +142,18 @@ console.log(population < population_average);
 const description = country + ' is in ' + continent + ', and its ' + 
                     population + ' million people speak ' + language;
 console.log(description);
+
+//Challenge #1
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+console.log('BMI of Mark is ' + BMIMark);
+
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log('BMI of John is ' + BMIJohn);
+
+let markHigherBMI = 'Mark has a higher BMI than John';
+console.log(markHigherBMI);
