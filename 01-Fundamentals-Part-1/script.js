@@ -155,5 +155,18 @@ console.log('BMI of Mark is ' + BMIMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log('BMI of John is ' + BMIJohn);
 
-let markHigherBMI = 'Mark has a higher BMI than John';
-console.log(markHigherBMI);
+let markHigherBMI = BMIMark > BMIJohn;
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+//Strings and Template Literals
+console.log('--------------------');
+console.log('Strings and Template Literals');
+
+const firstName_2 = 'Jonas';
+const job_2 = 'teacher';
+const birthYear_2 = 1991;
+const year_2 = 2037;
+
+const jonas = "I'm " + firstName_2 + ', a ' + (year_2 - birthYear_2) + ' years old ' + job_2 + '!';
+console.log(jonas);
