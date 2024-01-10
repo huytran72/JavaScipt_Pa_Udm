@@ -191,13 +191,20 @@ const description_1 = `${country} is in ${continent} , and its ${population} mil
 //                     population + ' million people speak ' + language;
 console.log(description_1);
 
+
+
 //Taking Decisions: IF/ELSE STATEMENTS
 console.log('-----------------------');
 console.log('Taking Decisions: IF/ELSE STATEMENTS');
 
-const age_3 = 19;
-const isOldEnough = age_3 >= 18;
+const age_3 = 15;
+// const isOldEnough = age_3 >= 18;
 
-if(isOldEnough) {
+if(age_3 >= 18) {
     console.log('Sarah can start driving license 🚕');
+}else {
+    const yearsLeft = 18 - age_3;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years 😂`);
 }
+
+const birthYear_3 = 1991;
