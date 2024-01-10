@@ -183,3 +183,11 @@ lines');
 console.log(`String
 multiple
 lines`);
+
+//Assignment
+const description_1 = `${country} is in ${continent} , and its ${population} million people speak ${language}`;
+
+// country + ' is in ' + continent + ', and its ' + 
+//                     population + ' million people speak ' + language;
+console.log(description_1);
+
