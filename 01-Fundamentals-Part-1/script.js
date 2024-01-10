@@ -215,7 +215,7 @@ if(birthYear_3 <= 2000) {
     century = 21;
 }
 console.log(century);
-
+ 
 //Challenge #2
 const massMark_1 = 78;
 const heightMark_1 = 1.69;
