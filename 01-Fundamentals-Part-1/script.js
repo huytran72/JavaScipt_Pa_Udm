@@ -215,3 +215,13 @@ if(birthYear_3 <= 2000) {
     century = 21;
 }
 console.log(century);
+
+//Challenge #2
+const massMark_1 = 78;
+const heightMark_1 = 1.69;
+const massJohn_1 = 92;
+const heightJohn_1 = 1.95;
+
+const BMIMark_1 = massMark_1 / (heightMark_1 * heightMark_1);
+const BMIJohn_1 = massJohn_1 / (heightJohn_1 * heightJohn_1);
+console.log(BMIMark_1, BMIJohn_1);
