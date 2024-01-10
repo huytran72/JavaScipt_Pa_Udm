@@ -170,3 +170,6 @@ const year_2 = 2037;
 
 const jonas = "I'm " + firstName_2 + ', a ' + (year_2 - birthYear_2) + ' years old ' + job_2 + '!';
 console.log(jonas);
+
+const jonasNew = `I'm ${firstName_2}, a ${year_2 - birthYear_2} years old ${job_2}!`;
+console.log(jonasNew);
