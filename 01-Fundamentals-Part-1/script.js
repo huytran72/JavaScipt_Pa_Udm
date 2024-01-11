@@ -267,7 +267,7 @@ console.log('9' - '5'); // = 4
 console.log('19' - '13' + '17'); // = 617
 console.log('19' - '13' + 17); // = 23
 console.log('123' < 57); // = false
-console.log(5 + 6 + '4' + 9 - 4 - 2); // = 601
+console.log(5 + 6 + '4' + 9 - 4 - 2); // = 1143
 
 
 
@@ -277,4 +277,7 @@ console.log('-------------------');
 console.log('Truthy and Falsy Values');
 
 //5 Falsy values: 0, '', undefined, null, NaN
-console.log
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
