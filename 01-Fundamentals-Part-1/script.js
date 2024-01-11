@@ -241,3 +241,10 @@ if(BMIMark_1 > BMIJohn_1) {
 // Type Conversion and Coercion
 console.log('----------------------');
 console.log('Type Conversion and Coercion');
+
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(inputYear + 18);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
