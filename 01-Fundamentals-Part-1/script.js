@@ -261,3 +261,20 @@ console.log('23' * '2');
 let n = '1' + 1;
 n = n - 1;
 console.log(n);
+
+//Assignment
+console.log('9' - '5'); // = 4
+console.log('19' - '13' + '17'); // = 617
+console.log('19' - '13' + 17); // = 23
+console.log('123' < 57); // = false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // = 601
+
+
+
+
+//Truthy and Falsy Values
+console.log('-------------------');
+console.log('Truthy and Falsy Values');
+
+//5 Falsy values: 0, '', undefined, null, NaN
+console.log
