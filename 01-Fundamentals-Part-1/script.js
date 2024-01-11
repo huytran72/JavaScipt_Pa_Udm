@@ -237,3 +237,7 @@ if(BMIMark_1 > BMIJohn_1) {
 }else {
     console.log(`John's BMI (${BMIJohn_1}) is higher than Mark's (${BMIMark_1})`);
 }
+
+// Type Conversion and Coercion
+console.log('----------------------');
+console.log('Type Conversion and Coercion');
