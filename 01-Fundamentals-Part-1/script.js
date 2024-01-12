@@ -297,3 +297,7 @@ if(height) {
 }else {
     console.log('Height is UNDEFINED');
 }
+
+//Equality Operators: == VS ====
+console.log('--------------------');
+console.log('Equality Operators: == VS ====');
