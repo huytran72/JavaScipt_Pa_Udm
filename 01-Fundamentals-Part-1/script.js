@@ -306,3 +306,11 @@ const age_4 = 18;
 if(age_4 === 18) console.log('You just became an adult (strict)');
 
 if(age_4 == 18) console.log('You just became an adult (loose)');
+
+const favourite = prompt("What's your favourite number?");
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite === 23) { // '23' == 23
+    console.log('Cool! 23 is an amazing number!');
+}
