@@ -301,3 +301,8 @@ if(height) {
 //Equality Operators: == VS ====
 console.log('--------------------');
 console.log('Equality Operators: == VS ====');
+
+const age_4 = 18;
+if(age_4 === 18) console.log('You just became an adult (strict)');
+
+if(age_4 == 18) console.log('You just became an adult (loose)');
