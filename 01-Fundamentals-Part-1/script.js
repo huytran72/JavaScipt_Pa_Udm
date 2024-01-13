@@ -336,5 +336,9 @@ if (favourite !== 23) console.log('Why not 23?');
 
 //Boolean Logic
 console.log('---------------------');
-console.log('Boolean Logic');
+console.log('Boolean Logic and Logical Operators');
 
+const hasDriverLicense = true;  // A
+const hasGoodVision = false;     // B
+
+console.log(hasDriverLicense && hasGoodVision);
