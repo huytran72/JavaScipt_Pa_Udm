@@ -444,3 +444,9 @@ switch(language_1) {
     default:
         console.log('Great language too :D');
 }
+
+//Statements and Expressions
+console.log('------------------');
+console.log('Statements and Expressions');
+
+
