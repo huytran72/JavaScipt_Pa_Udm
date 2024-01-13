@@ -353,7 +353,7 @@ const shouldDrive = hasDriverLicense && hasGoodVision;
 //     console.log('Someone else should drive...');
 // }
 
-const isTired = true;
+const isTired = false;
 console.log(hasDriverLicense && hasGoodVision && isTired);
 
 if (hasDriverLicense && hasGoodVision && !isTired) {
