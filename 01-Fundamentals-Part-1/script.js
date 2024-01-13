@@ -307,10 +307,10 @@ if(age_4 === 18) console.log('You just became an adult (strict)');
 
 if(age_4 == 18) console.log('You just became an adult (loose)');
 
-const favourite = prompt("What's your favourite number?");
-console.log(favourite);
-console.log(typeof favourite);
-
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+const favourite = 23;
 if (favourite === 23) { // '23' == 23
     console.log('Cool! 23 is an amazing number!');
 } else if (favourite === 7) {
@@ -318,3 +318,17 @@ if (favourite === 23) { // '23' == 23
 } else {
     console.log('Number is not 23 or 7');
 }
+
+if (favourite !== 23) console.log('Why not 23?');
+
+//Assignment
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+    console.log('More than 1 border');
+} else {
+    console.log('No borders')
+}
+
