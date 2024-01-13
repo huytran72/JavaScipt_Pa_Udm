@@ -382,7 +382,7 @@ if(scoreDolphins > scoreKoalas) {
 console.log('---------------------');
 console.log('The Switch Statement');
 
-const day = 'monday';
+const day = 'friday';
 
 switch(day) {
     case 'monday': 
@@ -405,4 +405,13 @@ switch(day) {
         break;
     default:
         console.log('Not a valid day!');
+}
+
+if(day === 'monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else {
+    console.log('Not a valid day!');
 }
