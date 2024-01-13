@@ -322,13 +322,18 @@ if (favourite === 23) { // '23' == 23
 if (favourite !== 23) console.log('Why not 23?');
 
 //Assignment
-const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+// const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
 
-if (numNeighbours === 1) {
-    console.log('Only 1 border!');
-} else if (numNeighbours > 1) {
-    console.log('More than 1 border');
-} else {
-    console.log('No borders')
-}
+// if (numNeighbours === 1) {
+//     console.log('Only 1 border!');
+// } else if (numNeighbours > 1) {
+//     console.log('More than 1 border');
+// } else {
+//     console.log('No borders')
+// }
 
+
+
+//Boolean Logic
+console.log('---------------------');
+console.log('Boolean Logic');
