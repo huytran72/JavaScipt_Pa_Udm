@@ -459,3 +459,7 @@ if(23 > 10) {
 
 const me = 'Jonas';
 console.log(`I'm ${2037 - 1991} years old ${me}`);
+
+//The Conditional (Ternary) Operator
+console.log('------------------');
+console.log('The Conditional (Ternary) Operator');
