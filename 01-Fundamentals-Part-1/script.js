@@ -449,4 +449,4 @@ switch(language_1) {
 console.log('------------------');
 console.log('Statements and Expressions');
 
-
+console.log(3+4);
