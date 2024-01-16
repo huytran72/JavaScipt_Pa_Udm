@@ -499,7 +499,5 @@ console.log (`Portugal's population is ${population1 > 33 ? 'above' : 'below'} a
 console.log('--------------------');
 console.log('JS ReleasesL: ES5 ES6+ and ESNEXT');
 
-//Activating Strict Mode
-console.log('--------------------');
-console.log('Activating Strict Mode');
+
 
