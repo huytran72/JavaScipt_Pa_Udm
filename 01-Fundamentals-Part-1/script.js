@@ -466,3 +466,14 @@ console.log('The Conditional (Ternary) Operator');
 
 const ages = 23;
 ages >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water ');
+
+const drink = ages >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if(ages >= 18) {
+    drink2 = 'wine';
+} else {
+    drink2 = 'water';
+}
+console.log(drink2);
