@@ -38,3 +38,13 @@ console.log(fruitProcessor(5, 0));
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+
+//Assignment
+function describeCountry(country, population, capitalCity) {
+    const result = `${country} has ${population} million people and its capital city is ${capitalCity}.`
+    return result;
+}
+
+console.log(describeCountry('Finland', 6, 'Helsinki'));
+console.log(describeCountry('America', 300, 'NewYork'));
+console.log(describeCountry('Japan', 99, 'Tokyo'));
