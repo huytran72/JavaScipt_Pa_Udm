@@ -491,3 +491,4 @@ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bil
 const population1 = 300;
 population1 > 33 ? console.log(`Portugal's population is above average`) : console.log(`Portugal's population is below average`);
 
+console.log (`Portugal's population is ${population1 > 33 ? 'above' : 'below'} average`);
