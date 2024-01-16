@@ -492,3 +492,14 @@ const population1 = 300;
 population1 > 33 ? console.log(`Portugal's population is above average`) : console.log(`Portugal's population is below average`);
 
 console.log (`Portugal's population is ${population1 > 33 ? 'above' : 'below'} average`);
+
+
+
+//JS ReleasesL: ES5 ES6+ and ESNEXT
+console.log('--------------------');
+console.log('JS ReleasesL: ES5 ES6+ and ESNEXT');
+
+//Activating Strict Mode
+console.log('--------------------');
+console.log('Activating Strict Mode');
+
