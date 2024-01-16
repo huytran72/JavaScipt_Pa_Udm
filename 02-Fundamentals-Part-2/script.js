@@ -48,3 +48,8 @@ function describeCountry(country, population, capitalCity) {
 console.log(describeCountry('Finland', 6, 'Helsinki'));
 console.log(describeCountry('America', 300, 'NewYork'));
 console.log(describeCountry('Japan', 99, 'Tokyo'));
+
+
+//Function Declarations VS Expressions
+console.log('----------------------------');
+console.log('Function Declarations VS Expressions');
