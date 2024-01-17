@@ -90,3 +90,20 @@ const country4 = percentageOfWorld2(10);
 const country5 = percentageOfWorld2(300);
 const country6 = percentageOfWorld2(1500);
 console.log(country4, country5, country6);
+
+
+//Arrow Functions
+console.log('------------------------');
+console.log('Arrow Functions');
+
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2037 - birthYear;
+    const retirement = 65 - age;
+    return `${firstName} retires in ${retirement} years.`;
+}
+console.log(yearsUntilRetirement(1991, 'Kenny'));
+console.log(yearsUntilRetirement(1980, 'Jenny'));
