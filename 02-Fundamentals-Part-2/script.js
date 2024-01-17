@@ -107,3 +107,10 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 }
 console.log(yearsUntilRetirement(1991, 'Kenny'));
 console.log(yearsUntilRetirement(1980, 'Jenny'));
+
+
+//Assignment
+const percentageOfWorld3 = (population1) => (population1/7900)*100;
+console.log(percentageOfWorld3(1441));
+
+
