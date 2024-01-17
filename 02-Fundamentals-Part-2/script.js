@@ -114,3 +114,7 @@ const percentageOfWorld3 = (population1) => (population1/7900)*100;
 console.log(percentageOfWorld3(1441));
 
 
+//Functions Calling Other Functions
+console.log('-----------------------');
+console.log('Functions Calling Other Functions');
+
