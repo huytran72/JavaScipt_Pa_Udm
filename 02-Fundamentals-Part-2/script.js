@@ -68,3 +68,25 @@ const calcAge2 = function (birthYear) {
 }
 const age2 = calcAge2(1991);
 console.log(age2);
+
+//Assignment
+function percentageOfWorld1(population1) {
+    return (population1/7900)*100;
+}
+
+console.log(percentageOfWorld1(1441));
+
+const country1 = percentageOfWorld1(10);
+const country2 = percentageOfWorld1(300);
+const country3 = percentageOfWorld1(1500);
+console.log(country1, country2, country3);
+
+const percentageOfWorld2 = function(population1) {
+    return (population1/7900)*100;
+}
+console.log(percentageOfWorld2(1441));
+
+const country4 = percentageOfWorld2(10);
+const country5 = percentageOfWorld2(300);
+const country6 = percentageOfWorld2(1500);
+console.log(country4, country5, country6);
