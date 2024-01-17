@@ -134,3 +134,19 @@ function fruitProcessor(apples, oranges) {
 
 console.log(fruitProcessor(2,3));
 
+//Assignment
+
+function percentageOfWorld1(population1) {
+    return (population1/7900)*100;
+}
+
+function describePopulation(country7, population2) {
+    const pop = percentageOfWorld1(population2);
+    return `${country7} has ${population2} million people, which is about ${pop}% of the world.`;
+}
+
+const descAmerica = describePopulation('America', 300);
+const descJapan = describePopulation('Japan', 99);
+const descEngland = describePopulation('England', 150);
+
+console.log(descAmerica, descJapan, descEngland);
