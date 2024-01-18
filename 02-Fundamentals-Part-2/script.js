@@ -188,3 +188,10 @@ const years1 = new Array(1991, 1984, 2008, 2024);
 console.log(friends[0]);
 console.log(friends[1]);
 console.log(friends[2]);
+
+console.log(friends.length);
+console.log(years1.length);
+console.log(friends[friends.length-1]);
+
+friends[2] = 'Jay';
+console.log(friends);
