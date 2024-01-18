@@ -171,3 +171,7 @@ function checkWinner(avgDolphins, avgKoalas) {
 }
 
 checkWinner(scoreDolphins,scoreKoalas);
+
+//Introduction to Arrays
+console.log('---------------------');
+console.log('Introduction to Arrays');
