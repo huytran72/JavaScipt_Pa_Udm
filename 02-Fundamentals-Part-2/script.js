@@ -212,3 +212,7 @@ console.log(calcAge(y));
 console.log(calcAge(y[0]));
 console.log(calcAge(y[1]));
 console.log(calcAge(y[2]));
+console.log(calcAge(y[y.length-1]));
+
+const ages = [calcAge(y[0]), calcAge(y[1]), calcAge(y[y.length-1])];
+console.log(ages);
