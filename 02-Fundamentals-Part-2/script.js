@@ -206,4 +206,9 @@ const calcAge = function (birthYear) {
     return 2037 - birthYear;
 }
 
-const years = [1990, 1967, 2002, 2010, 2018];
+const y = [1990, 1967, 2002, 2010, 2018];
+
+console.log(calcAge(y));
+console.log(calcAge(y[0]));
+console.log(calcAge(y[1]));
+console.log(calcAge(y[2]));
