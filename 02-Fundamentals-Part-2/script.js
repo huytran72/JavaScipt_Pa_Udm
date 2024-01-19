@@ -199,3 +199,11 @@ console.log(friends);
 const firstName = 'Jonas';
 const jonas = [firstName,'Jonas', 'Schime', 2037 - 1991, 'teacher', friends];
 console.log(jonas);
+console.log(jonas.length);
+
+//Exercise
+const calcAge = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const years = [1990, 1967, 2002, 2010, 2018];
