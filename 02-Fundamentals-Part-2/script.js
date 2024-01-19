@@ -216,3 +216,9 @@ console.log(calcAge(y[y.length-1]));
 
 const ages = [calcAge(y[0]), calcAge(y[1]), calcAge(y[y.length-1])];
 console.log(ages);
+
+
+
+//Basic Array Operators (Meathods)
+console.log('-----------------');
+console.log('Basic Array Operators(Methods)');
