@@ -234,7 +234,6 @@ console.log(friends_1);
 
 //Remove elements
 friends_1.pop();  //Last
-friends_1.pop();  //Last
 console.log(friends_1);
 
 const popped = friends_1.pop();
@@ -242,3 +241,12 @@ console.log(popped);
 
 friends_1.shift();  //First
 console.log(friends_1);
+
+console.log(friends_1.indexOf('Steven'));
+console.log(friends_1.indexOf('Bob'));
+
+console.log(friends_1.includes('Steven'));
+console.log(friends_1.includes('Bob'));
+
+
+
