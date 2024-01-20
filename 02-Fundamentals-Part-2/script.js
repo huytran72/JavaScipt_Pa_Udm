@@ -223,10 +223,22 @@ console.log(ages);
 console.log('-----------------');
 console.log('Basic Array Operators(Methods)');
 
+//Add elements
 const friends_1 = ['Michael', 'Steven', 'Peter'];
 const newLength = friends_1.push('Jay');
 console.log(friends_1);
 console.log(newLength);
 
 friends_1.unshift('John');
+console.log(friends_1);
+
+//Remove elements
+friends_1.pop();  //Last
+friends_1.pop();  //Last
+console.log(friends_1);
+
+const popped = friends_1.pop();
+console.log(popped);
+
+friends_1.shift();  //First
 console.log(friends_1);
