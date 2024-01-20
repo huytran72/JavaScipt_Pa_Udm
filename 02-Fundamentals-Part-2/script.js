@@ -245,8 +245,15 @@ console.log(friends_1);
 console.log(friends_1.indexOf('Steven'));
 console.log(friends_1.indexOf('Bob'));
 
+friends_1.push(23);
 console.log(friends_1.includes('Steven'));
 console.log(friends_1.includes('Bob'));
+console.log(friends_1.includes('23'));
+console.log(friends_1.includes(23));
+console.log(friends_1);
 
+if(friends_1.includes('Steven')) {
+    console.log('You have a friend called Peter');
+}
 
 
