@@ -224,5 +224,9 @@ console.log('-----------------');
 console.log('Basic Array Operators(Methods)');
 
 const friends_1 = ['Michael', 'Steven', 'Peter'];
-friends_1.push('Jay');
+const newLength = friends_1.push('Jay');
+console.log(friends_1);
+console.log(newLength);
+
+friends_1.unshift('John');
 console.log(friends_1);
