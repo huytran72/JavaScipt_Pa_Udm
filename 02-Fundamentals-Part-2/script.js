@@ -222,3 +222,7 @@ console.log(ages);
 //Basic Array Operators (Meathods)
 console.log('-----------------');
 console.log('Basic Array Operators(Methods)');
+
+const friends_1 = ['Michael', 'Steven', 'Peter'];
+friends_1.push('Jay');
+console.log(friends_1);
