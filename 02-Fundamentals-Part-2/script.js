@@ -256,4 +256,17 @@ if(friends_1.includes('Steven')) {
     console.log('You have a friend called Peter');
 }
 
+//Challenge #2
+console.log('----------Challenge #2----------');
+function calcTip(bill) {
+    if(bill >=50 && bill <= 300) {
+        const tip = 15 * bill / 100;
+        console.log(tip);
+    } else {
+        tip = 20 * bill/100;
+        console.log(tip);
+    }
+    return bill;
+}
 
+calcTip(125);
