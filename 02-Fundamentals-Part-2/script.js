@@ -294,3 +294,15 @@ const kenny = {
 //DOT VS BRACKET NOTATION
 console.log('------------------');
 console.log('DOT VS BRACKET NOTATION');
+
+const kenny1 = {
+    firstName: 'Kenny',
+    lastName: "Tran",
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven']
+};
+console.log(kenny1);
+
+console.log(kenny1.lastName);
+console.log(kenny1['lastName']);
