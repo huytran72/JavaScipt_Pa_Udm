@@ -274,3 +274,18 @@ console.log(bills, tips, totals);
 console.log('-----------------');
 console.log('Introduction to Objects');
 
+const kennyArray = [
+    'Kenny',
+    'Tran',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+const kenny = {
+    firstName: 'Kenny',
+    lastName: "Tran",
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven']
+};
