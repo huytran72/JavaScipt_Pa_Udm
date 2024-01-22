@@ -289,3 +289,8 @@ const kenny = {
     job: 'teacher',
     friends: ['Michael', 'Peter', 'Steven']
 };
+
+
+//DOT VS BRACKET NOTATION
+console.log('------------------');
+console.log('DOT VS BRACKET NOTATION');
