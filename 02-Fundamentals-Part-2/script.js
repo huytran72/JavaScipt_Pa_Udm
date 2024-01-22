@@ -306,3 +306,19 @@ console.log(kenny1);
 
 console.log(kenny1.lastName);
 console.log(kenny1['lastName']);
+
+const nameKey = 'Name';
+console.log(kenny1['first' + nameKey]);
+console.log(kenny1['last' + nameKey]);
+
+const interestedIn = prompt('What do you want to know about Kenny? Choose between firstName, lastName, age, job and friends');
+
+// console.log(kenny1.interestedIn);  //false
+// console.log(kenny1[interestedIn]);  //true
+
+if(kenny1[interestedIn]) {
+    console.log(kenny1[interestedIn]);  //true
+} else {
+    console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
+}
+
