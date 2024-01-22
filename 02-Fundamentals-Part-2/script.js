@@ -311,14 +311,20 @@ const nameKey = 'Name';
 console.log(kenny1['first' + nameKey]);
 console.log(kenny1['last' + nameKey]);
 
-const interestedIn = prompt('What do you want to know about Kenny? Choose between firstName, lastName, age, job and friends');
+// const interestedIn = prompt('What do you want to know about Kenny? Choose between firstName, lastName, age, job and friends');
 
 // console.log(kenny1.interestedIn);  //false
 // console.log(kenny1[interestedIn]);  //true
 
-if(kenny1[interestedIn]) {
-    console.log(kenny1[interestedIn]);  //true
-} else {
-    console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
-}
+// if(kenny1[interestedIn]) {
+//     console.log(kenny1[interestedIn]);  //true
+// } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
+// }
 
+kenny1.location = 'America';
+kenny1['twitter'] = '@kenny';
+console.log(kenny1);
+
+//Challenge
+console.log(`${kenny1.firstName} has ${kenny1.friends.length} friends, and his best friend is called ${kenny1.friends[0]} `);
