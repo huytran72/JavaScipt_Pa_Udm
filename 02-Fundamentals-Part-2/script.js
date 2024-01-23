@@ -353,15 +353,19 @@ console.log('Object Methods');
 const kenny2 = {
     firstName: 'Kenny',
     lastName: "Tran",
-    age: 2037 - 1991,
+    age: 1991,
     job: 'teacher',
     friends: ['Michael', 'Peter', 'Steven'],
     hasDriverLicence: true,
 
-    calcAge: function(birthYear) {
-        return 2037 - birthYear;
+    calcAge: function() {
+        // console.log(this);
+        return 2037 - this.age;
     }
 };
 
-console.log(kenny2.calcAge(1991));
-console.log(kenny2['calcAge'](1991));
+// console.log(kenny2.calcAge(1991));
+// console.log(kenny2['calcAge'](1991));
+console.log(kenny2.calcAge());
+console.log(kenny2.calcAge());
+console.log(kenny2.calcAge());
