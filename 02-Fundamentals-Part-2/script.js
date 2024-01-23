@@ -328,3 +328,9 @@ console.log(kenny1);
 
 //Challenge
 console.log(`${kenny1.firstName} has ${kenny1.friends.length} friends, and his best friend is called ${kenny1.friends[0]} `);
+
+
+
+//Object methods
+console.log('-----------------');
+console.log('Object Methods');
