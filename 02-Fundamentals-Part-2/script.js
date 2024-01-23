@@ -345,6 +345,20 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry.population);
 
+
 //Object methods
 console.log('-----------------');
 console.log('Object Methods');
+
+const kenny2 = {
+    firstName: 'Kenny',
+    lastName: "Tran",
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriverLicence: true,
+
+    calcAge: function(birthYear) {
+        return 2037 - birthYear;
+    }
+};
