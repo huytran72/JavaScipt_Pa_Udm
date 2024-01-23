@@ -329,7 +329,21 @@ console.log(kenny1);
 //Challenge
 console.log(`${kenny1.firstName} has ${kenny1.friends.length} friends, and his best friend is called ${kenny1.friends[0]} `);
 
+//Assignment
+const myCountry = {
+    country: 'Findland',
+    capital: 'Helsinki',
+    language: 'finnish',
+    population: 6,
+    neighbours: ['Norway', 'Sweden', 'Russia']
+}
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, and a captital called ${myCountry.capital}.`);
 
+myCountry.population +=2;
+console.log(myCountry.population);
+
+myCountry['population'] -= 2;
+console.log(myCountry.population);
 
 //Object methods
 console.log('-----------------');
