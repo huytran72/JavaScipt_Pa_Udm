@@ -362,3 +362,6 @@ const kenny2 = {
         return 2037 - birthYear;
     }
 };
+
+console.log(kenny2.calcAge(1991));
+console.log(kenny2['calcAge'](1991));
