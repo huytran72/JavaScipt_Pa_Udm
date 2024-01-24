@@ -398,3 +398,18 @@ const myCountry1 = {
 console.log(myCountry1.describe());
 myCountry1.checkIsland();
 console.log(myCountry1);
+
+
+//Challenge #3
+console.log('-------Challenge--------');
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69
+}
+
+const john = {
+    fullName: 'John Smith',
+    mass: 92,
+    height: 1.95
+}
