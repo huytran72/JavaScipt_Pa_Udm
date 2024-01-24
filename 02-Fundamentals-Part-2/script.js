@@ -387,8 +387,12 @@ const myCountry1 = {
     neighbours: ['Norway', 'Sweden', 'Russia'],
 
     describe: function() {
-        return `${myCountry1.country} has ${myCountry1.population} million ${myCountry1.language}-speaking people, ${myCountry1.neighbours} neighbouring countries and a capital called ${myCountry1.capital}.`;
+        return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`;
+    },
+
+    checkIsland: function() {
+        
     }
 }
 
-console.log(myCountry1.describe);
+console.log(myCountry1.describe());
