@@ -376,3 +376,19 @@ console.log(kenny2.calcAge());
 
 //Challenge
 console.log(kenny2.getSummary());
+
+
+//Assignment
+const myCountry1 = {
+    country: 'Findland',
+    capital: 'Helsinki',
+    language: 'finnish',
+    population: 6,
+    neighbours: ['Norway', 'Sweden', 'Russia'],
+
+    describe: function() {
+        return `${myCountry1.country} has ${myCountry1.population} million ${myCountry1.language}-speaking people, ${myCountry1.neighbours} neighbouring countries and a capital called ${myCountry1.capital}.`;
+    }
+}
+
+console.log(myCountry1.describe);
