@@ -351,16 +351,20 @@ console.log('-----------------');
 console.log('Object Methods');
 
 const kenny2 = {
-    firstName: 'Kenny',
-    lastName: "Tran",
-    age: 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriverLicence: true,
+    firstName2: 'Kenny',
+    lastName2: "Tran",
+    age2: 1991,
+    job2: 'teacher',
+    friends2: ['Michael', 'Peter', 'Steven'],
+    hasDriverLicence2: true,
 
     calcAge: function() {
         // console.log(this);
-        return 2037 - this.age;
+        return 2037 - this.age2;
+    }
+
+    getSummary: function() {
+        return `${this.firstName2} is a ${this.calcAge()}`
     }
 };
 
@@ -369,3 +373,6 @@ const kenny2 = {
 console.log(kenny2.calcAge());
 console.log(kenny2.calcAge());
 console.log(kenny2.calcAge());
+
+//Challenge
+console.log(kenny2.getSummary());
