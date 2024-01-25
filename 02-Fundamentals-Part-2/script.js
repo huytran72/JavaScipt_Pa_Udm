@@ -405,11 +405,25 @@ console.log('-------Challenge--------');
 const mark = {
     fullName: 'Mark Miller',
     mass: 78,
-    height: 1.69
+    height: 1.69,
+
+    calcBMI: function() {
+        const BMI = mass/ (height * height);
+        return BMI;
+    }
 }
 
 const john = {
     fullName: 'John Smith',
     mass: 92,
-    height: 1.95
+    height: 1.95,
+
+    calcBMI: function() {
+        const BMI = mass/ (height * height);
+        return BMI;
+    }
 }
+
+mark.calcBMI();
+john.calcBMI();
+console.log(``)
