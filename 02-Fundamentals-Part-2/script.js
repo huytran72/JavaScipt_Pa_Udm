@@ -449,3 +449,9 @@ console.log('Lifting weights repetation 7 🏋️‍♀️');
 console.log('Lifting weights repetation 8 🏋️‍♀️');
 console.log('Lifting weights repetation 9 🏋️‍♀️');
 console.log('Lifting weights repetation 10 🏋️‍♀️');
+
+
+//for loop keeps running while condition is TRUE
+for( let rep = 1; rep <= 10; rep++) {
+    console.log('Lifting weights repetation 1 🏋️‍♀️');
+}
