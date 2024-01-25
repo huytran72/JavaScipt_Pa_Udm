@@ -411,7 +411,7 @@ const mark = {
         this.BMI = this.mass/ (this.height * this.height);
         return this.BMI;
     }
-}
+};
 
 const john = {
     fullName: 'John Smith',
@@ -422,8 +422,13 @@ const john = {
         this.BMI = this.mass/ (this.height * this.height);
         return this.BMI;
     }
-}
+};
 
 mark.calcBMI();
 john.calcBMI();
-console.log(``)
+
+if(mark.BMI > john.BMI) {
+    console.log(`${mark.fullName}'s BMI (${mark.BMI}) is higher than ${john.fullName}'s (${john.BMI})!`);
+} else {
+    console.log(`${john.fullName}'s BMI(${john.BMI}) is higher than ${mark.fullName}'s (${mark.BMI})!`);
+}
