@@ -432,3 +432,20 @@ if(mark.BMI > john.BMI) {
 } else {
     console.log(`${john.fullName}'s BMI(${john.BMI}) is higher than ${mark.fullName}'s (${mark.BMI})!`);
 }
+
+
+
+//Iteration: The For Loop
+console.log('------------------------');
+console.log('The For Loop');
+
+console.log('Lifting weights repetation 1 🏋️‍♀️');
+console.log('Lifting weights repetation 2 🏋️‍♀️');
+console.log('Lifting weights repetation 3 🏋️‍♀️');
+console.log('Lifting weights repetation 4 🏋️‍♀️');
+console.log('Lifting weights repetation 5 🏋️‍♀️');
+console.log('Lifting weights repetation 6 🏋️‍♀️');
+console.log('Lifting weights repetation 7 🏋️‍♀️');
+console.log('Lifting weights repetation 8 🏋️‍♀️');
+console.log('Lifting weights repetation 9 🏋️‍♀️');
+console.log('Lifting weights repetation 10 🏋️‍♀️');
