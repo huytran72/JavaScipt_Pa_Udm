@@ -459,3 +459,14 @@ for( let rep = 1; rep <= 10; rep++) {
 for( let rep = 2; rep <= 10; rep = rep+2) {
     console.log(`Lifting weights repetation ${rep} 🏋️‍♀️`);
 }
+
+//Assignment
+for(let i = 1; i <= 50; i++) {
+    console.log(`Voter number ${i} is currently voting`);
+}
+
+
+
+//Looping Arrays, Breaking, And Continuing
+console.log('------------------------');
+console.log('Looping Arrays, Breaking, and Continuing');
