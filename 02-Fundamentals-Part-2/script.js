@@ -489,6 +489,16 @@ for(let i = 0; i < kenny3.length; i++) {
     console.log(kenny3[i], typeof[i]);
 
     types[i] = typeof kenny3[i];
+
+    types.push(typeof kenny3[i]);
 }
 
 console.log(types);
+
+const years2 = [1991, 2007, 1969, 2020];
+const ages2 = [];
+
+for(let i = 0; i < years2.length; i++) {
+    ages2.push(2037 - years2[i]);
+}
+console.log(ages2);
