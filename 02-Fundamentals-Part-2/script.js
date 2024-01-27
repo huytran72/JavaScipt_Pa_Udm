@@ -479,10 +479,16 @@ const kenny3 = [
     ['Michael', 'Peter', 'Steven']
 ];
 
+const types = [];
+
 for(let i = 0; i < 5; i++) {
     console.log(kenny3[i]);
 }
 
 for(let i = 0; i < kenny3.length; i++) {
     console.log(kenny3[i], typeof[i]);
+
+    types[i] = typeof kenny3[i];
 }
+
+console.log(types);
