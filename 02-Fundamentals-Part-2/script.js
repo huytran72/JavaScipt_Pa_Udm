@@ -502,3 +502,11 @@ for(let i = 0; i < years2.length; i++) {
     ages2.push(2037 - years2[i]);
 }
 console.log(ages2);
+
+
+console.log('----ONLY STRINGS-----');
+for(let i = 0; i < kenny3.length; i++) {
+    if(typeof kenny3[i] !== 'string') continue;
+
+    console.log(kenny3[i], typeof[i]);
+}
