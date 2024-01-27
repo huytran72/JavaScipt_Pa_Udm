@@ -480,5 +480,9 @@ const kenny3 = [
 ];
 
 for(let i = 0; i < 5; i++) {
-    console.log[kenny3[0]];
+    console.log(kenny3[i]);
+}
+
+for(let i = 0; i < kenny3.length; i++) {
+    console.log(kenny3[i], typeof[i]);
 }
