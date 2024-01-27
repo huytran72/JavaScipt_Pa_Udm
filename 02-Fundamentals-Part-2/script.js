@@ -473,12 +473,12 @@ console.log('Looping Arrays, Breaking, and Continuing');
 
 const kenny3 = [
     'Kenny',
-    "Tran",
+    'Tran',
     2037 - 1991,
     'teacher',
     ['Michael', 'Peter', 'Steven']
 ];
 
-for(let i = 0; ; i++) {
-    console.log[kenny3[0]]
+for(let i = 0; i < 5; i++) {
+    console.log[kenny3[0]];
 }
