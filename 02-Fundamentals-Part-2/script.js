@@ -517,3 +517,14 @@ for(let i = 0; i < kenny3.length; i++) {
 
     console.log(kenny3[i], typeof[i]);
 }
+
+
+//Assignment
+const population3 = [10, 1441, 332, 83];
+const percentages2 = [];
+
+for(let i = 0; i < population3.length; i++) {
+    const perc = percentageOfWorld1(population3[i]);
+    percentages2.push(perc);
+}
+console.log(percentages2);
