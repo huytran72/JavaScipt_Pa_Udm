@@ -528,3 +528,9 @@ for(let i = 0; i < population3.length; i++) {
     percentages2.push(perc);
 }
 console.log(percentages2);
+
+
+
+//Looping Backwards and loops in Loops
+console.log('----------------------');
+console.log('Looping Backwards and loops in Loops');
