@@ -510,3 +510,10 @@ for(let i = 0; i < kenny3.length; i++) {
 
     console.log(kenny3[i], typeof[i]);
 }
+
+console.log('----BREAK WITH NUMBER-----');
+for(let i = 0; i < kenny3.length; i++) {
+    if(typeof kenny3[i] === 'number') break;
+
+    console.log(kenny3[i], typeof[i]);
+}
