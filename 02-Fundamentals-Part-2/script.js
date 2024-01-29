@@ -543,3 +543,6 @@ const kenny4 = [
     ['Michael', 'Peter', 'Steven']
 ];
 
+for(let i = kenny4.length - 1; i >= 0; i--) {
+    console.log(kenny4[i]);
+}
