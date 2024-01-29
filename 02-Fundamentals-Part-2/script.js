@@ -534,3 +534,12 @@ console.log(percentages2);
 //Looping Backwards and loops in Loops
 console.log('----------------------');
 console.log('Looping Backwards and loops in Loops');
+
+const kenny4 = [
+    'Kenny',
+    'Tran',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
