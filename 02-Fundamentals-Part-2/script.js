@@ -546,3 +546,11 @@ const kenny4 = [
 for(let i = kenny4.length - 1; i >= 0; i--) {
     console.log(kenny4[i]);
 }
+
+for(let exercise = 1; exercise <= 3; exercise++) {
+    console.log(kenny4[exercise]);
+    console.log(`------- Starting exercise ${exercise}`);
+
+    for(let rep = 1)
+}
+
