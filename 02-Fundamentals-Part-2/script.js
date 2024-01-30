@@ -601,3 +601,14 @@ for(let i = 0; i < bills1.length; i++) {
     totals1.push(total);
 }
 console.log(totals1);
+
+//Another Solution for Challenge #4
+const calcAverage1 = function(arr) {
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum/ arr.length;
+}
+console.log(calcAverage1([2,3,7]));
+console.log(totals1);
