@@ -590,12 +590,14 @@ const bills1 = [22, 295,176, 440, 37,105, 10, 1100, 86, 52];
 const tips1 = [];
 const totals1 = [];
 
-for(let i = 0; i < bills.length-1; i++) {
+for(let i = 0; i < bills.length; i++) {
     const calc = calcTip1(bills1[i]);
     tips1.push(calc);
 }
 console.log(tips1);
 
 for(let i = 0; i < bills1.length; i++) {
-    
+    const total = calcTip1(bills1[i]) + bills1[i];
+    totals1.push(total);
 }
+console.log(totals1);
