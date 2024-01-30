@@ -580,3 +580,22 @@ while(dice !== 6) {
     dice = Math.trunc(Math.random() * 6) + 1;
     if(dice === 6) console.log('Loop is about to end...');
 }
+
+//Challenge #4
+const calcTip1 = function(bill) {
+    return bill >= 50 && bill <= 300? bill * 0.15 : bill * 0.2;
+}
+
+const bills1 = [22, 295,176, 440, 37,105, 10, 1100, 86, 52];
+const tips1 = [];
+const totals1 = [];
+
+for(let i = 0; i < bills.length-1; i++) {
+    const calc = calcTip1(bills1[i]);
+    tips1.push(calc);
+}
+console.log(tips1);
+
+for(let i = 0; i < bills1.length; i++) {
+    
+}
