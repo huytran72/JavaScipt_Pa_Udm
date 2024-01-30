@@ -562,4 +562,12 @@ for(let exercise = 1; exercise <= 3; exercise++) {
 console.log('------------------');
 console.log('The While Loop');
 
+for(let rep = 1;  rep <= 10; rep++) {
+    console.log(`Lifting weight repetition ${rep}`);
+}
 
+let rep = 1;
+while(rep <= 10) {
+    console.log(`WHILE: Lifting weight repetition ${rep}`);
+    rep++;
+}
