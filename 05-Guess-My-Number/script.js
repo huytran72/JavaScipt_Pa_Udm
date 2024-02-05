@@ -33,6 +33,7 @@ document.querySelector('.check').addEventListener('click', function() {
 
         if(score > highscore) {
             highscore = score;
+            document.querySelector('.highscore').textContent = highscore;
         }
 
     } else if (guess > secretNumber) {
