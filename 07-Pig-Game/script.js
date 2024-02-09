@@ -22,6 +22,7 @@ diceEl.classList.add('hidden');
 const scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
+let playing = true;
 
 // Function Switch to next player
 const switchPlayer = function() {
@@ -34,9 +35,9 @@ const switchPlayer = function() {
 
 // Rolling dice functionality
 btnRoll.addEventListener('click', function() {
+    if(playing) {
     // 1. Generating a random dice roll
     const dice = Math.trunc(Math.random() * 6) + 1;
-    console.log(dice);
     
     // 2. Dislay dice
     diceEl.classList.remove('hidden');
@@ -53,9 +54,11 @@ btnRoll.addEventListener('click', function() {
         // Switch to next player
         switchPlayer();
     }
+}
 });
 
 btnHold.addEventListener('click', function() {
+    if(playing){
     // 1. Add current score to active player's score
     scores[activePlayer] += currentScore;    // scores[1] = scores[1] + currentScore
     document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
@@ -63,12 +66,13 @@ btnHold.addEventListener('click', function() {
 
     // 2. Check if player's score is >= 100
     // Finish the game
-    if(scores[activePlayer] >= 100) {
+    if(scores[activePlayer] >= 20) {
+        playing = false;
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
     } else {
         // Switch to the next player
         switchPlayer();
     }
-    
+}
 });
