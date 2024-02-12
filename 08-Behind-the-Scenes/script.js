@@ -4,7 +4,7 @@ function calcAge(birthYear) {
     const age = 2037 - birthYear;
 
     function printAge() {
-        const output = `You are ${age}, born in ${birthYear}`;
+        const output = `${firstName}, You are ${age}, born in ${birthYear}`;
         console.log(output);
     }
     printAge();
@@ -14,3 +14,5 @@ function calcAge(birthYear) {
 
 const firstName = 'Percy';
 calcAge(1991);
+// console.log(age);
+// printAge();
