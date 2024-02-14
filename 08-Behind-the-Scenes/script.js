@@ -40,3 +40,8 @@ const firstName = 'Percy';
 calcAge(1991);
 // console.log(age);
 // printAge();
+
+
+var me = 'Percy';
+let job = 'student';
+const year = 1991;
