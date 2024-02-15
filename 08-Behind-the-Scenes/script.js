@@ -111,3 +111,17 @@ const matilda = {
 };
 matilda.calcAge1 = percy.calcAge1;
 matilda.calcAge1();
+
+const f = percy.calcAge1;
+
+const percy1 = {
+    firstName: 'Percy',
+    year: 1993,
+    calcAge1: function() {
+        console.log(this);
+        console.log(2037 - this.year);
+    },
+
+    greet: () => console.log(`Hey ${this.firstName}`),
+};
+percy1.greet();
