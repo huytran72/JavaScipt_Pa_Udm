@@ -93,3 +93,12 @@ const calcAgeArrow = birthYear => {
 };
 
 calcAgeArrow(1991);
+
+
+const percy = {
+    year: 1993,
+    calcAge1: function() {
+        console.log(this);
+    },
+};
+percy.calcAge1();
