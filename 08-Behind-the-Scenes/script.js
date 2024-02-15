@@ -103,3 +103,11 @@ const percy = {
     },
 };
 percy.calcAge1();
+
+
+
+const matilda = {
+    year: 2018,
+};
+matilda.calcAge1 = percy.calcAge1;
+matilda.calcAge1();
