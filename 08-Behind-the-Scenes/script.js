@@ -99,6 +99,7 @@ const percy = {
     year: 1993,
     calcAge1: function() {
         console.log(this);
+        console.log(2037 - this.year);
     },
 };
 percy.calcAge1();
