@@ -125,3 +125,4 @@ const percy1 = {
     greet: () => console.log(`Hey ${this.firstName}`),
 };
 percy1.greet();
+console.log(this.firstName);
