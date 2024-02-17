@@ -126,6 +126,12 @@ const percy1 = {
         console.log(this);
         console.log(`Hey ${this.firstName}`);
     },
+
+    greet1: function() {
+        console.log(this);
+        console.log(`Hey ${this.firstName}`);
+    }
 };
 percy1.greet();
 console.log(this.firstName);
+percy1.greet1();
