@@ -160,4 +160,6 @@ addExpr1(2,5,8,12);
 // addArrow1(2,5,8);
 
 
-
+//Primitives vs objects (Primitive vs Reference types)
+console.log('------------------');
+console.log('Primitives vs objects (Primitive vs Reference types)');
