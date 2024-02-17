@@ -143,3 +143,11 @@ percy1.greet();
 console.log(this.firstName);
 percy1.greet1();
 percy1.calcAge1();
+
+//Arguments keyword
+const addExpr1 = function(a,b) {
+    console.log(arguments);
+    return a+b;
+};
+addExpr1(2,5);
+
