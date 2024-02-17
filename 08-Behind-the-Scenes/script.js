@@ -150,4 +150,11 @@ const addExpr1 = function(a,b) {
     return a+b;
 };
 addExpr1(2,5);
+addExpr1(2,5,8,12);
+
+var addArrow1 = (a,b) => {
+    console.log(arguments);
+    return a+b;
+};
+addArrow1(2,5,8);
 
