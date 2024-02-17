@@ -122,7 +122,10 @@ const percy1 = {
         console.log(2037 - this.year);
     },
 
-    greet: () => console.log(`Hey ${this.firstName}`),
+    greet: () => {
+        console.log(this);
+        console.log(`Hey ${this.firstName}`);
+    },
 };
 percy1.greet();
 console.log(this.firstName);
