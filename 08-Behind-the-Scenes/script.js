@@ -120,6 +120,11 @@ const percy1 = {
     calcAge1: function() {
         console.log(this);
         console.log(2037 - this.year);
+
+        const isMillenial = function() {
+            console.log(this.year >= 1981 && this.year <= 1996);
+        }
+        isMillenial();
     },
 
     greet: () => {
@@ -135,3 +140,4 @@ const percy1 = {
 percy1.greet();
 console.log(this.firstName);
 percy1.greet1();
+percy1.calcAge1();
