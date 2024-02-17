@@ -163,3 +163,9 @@ addExpr1(2,5,8,12);
 //Primitives vs objects (Primitive vs Reference types)
 console.log('------------------');
 console.log('Primitives vs objects (Primitive vs Reference types)');
+
+let age = 30;
+let oldAge = age;
+age = 31;
+console.log(age);
+console.log(oldAge);
