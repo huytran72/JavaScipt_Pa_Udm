@@ -170,11 +170,11 @@ age = 31;
 console.log(age);
 console.log(oldAge);
 
-const me = {
+const me1 = {
     name: 'Jonas',
     age: 30,
 };
-const friend = me;
+const friend = me1;
 friend.age = 27;
 console.log('Friend:', friend);
-console.log('Me:', me);
+console.log('Me:', me1);
