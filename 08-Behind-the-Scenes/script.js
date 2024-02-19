@@ -178,3 +178,15 @@ const friend = me1;
 friend.age = 27;
 console.log('Friend:', friend);
 console.log('Me:', me1);
+
+let lastName1 = 'Williams';
+let oldLastName1 = lastName1;
+lastName1 = 'Davis';
+console.log(lastName1, oldLastName1);
+
+const jessica = {
+    firstName: 'Jessica',
+    lastName: 'Williams',
+    age: 27,
+};
+const marriedJessica = jessica;
