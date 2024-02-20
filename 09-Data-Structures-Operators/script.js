@@ -20,3 +20,14 @@ const c = arr[2];
 
 const [x, y, z] = arr;
 console.log(x, y, z);
+console.log(arr);
+
+let [main, , secondary] = restaurant.categories;
+console.log(main, secondary);
+
+
+//Switch the variables
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary);
