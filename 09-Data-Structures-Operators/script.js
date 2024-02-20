@@ -44,3 +44,10 @@ console.log(main, secondary);
 //Receive 2 return values from a function
 const [start, mainCourse] = restaurant.order(2,0);
 console.log(start, mainCourse);
+
+
+const nested = [2, 4, [5, 6]];
+// const [i, ,j] = nested;
+// console.log(i, j);
+const [i, , [j, k]] = nested;
+console.log(i, j, k);
