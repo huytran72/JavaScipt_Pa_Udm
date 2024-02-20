@@ -26,8 +26,12 @@ let [main, , secondary] = restaurant.categories;
 console.log(main, secondary);
 
 
-//Switch the variables
+//Switching the variables
 const temp = main;
 main = secondary;
 secondary = temp;
+console.log(main, secondary);
+
+
+[main, secondary] = [secondary, main];
 console.log(main, secondary);
