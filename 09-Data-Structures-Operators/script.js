@@ -34,7 +34,7 @@ const restaurant = {
     console.log(mainIngredient);
     console.log(otherIngredients);
   },
-  
+
 };
 
 const arr = [2,3,4];
@@ -118,3 +118,16 @@ const x1 = [23, 5, 7];
 add(...x1);
 
 restaurant.orderPizza('mushroom', 'onion', 'olives', 'spinach');
+restaurant.orderPizza('mushroom');
+
+
+
+//Destructuring Objects
+console.log('-----------------------');
+console.log('Destructuring Objects');
+
+const {name, openingHours, categories} = restaurant;
+console.log(name, openingHours, categories);
+
+const {name: restaurantName, openingHours: hours, categories: tags} = restaurant;
+console.log(restaurantName, hours, tags);
