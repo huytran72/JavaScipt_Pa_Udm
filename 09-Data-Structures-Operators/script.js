@@ -135,3 +135,9 @@ console.log(restaurantName, hours, tags);
 const {menu = [], starterMenu: starters = []} = restaurant;
 console.log(menu, starters);
 
+// Mutating variables
+let a1 = 111;
+let b1 = 999;
+const obj = {a1: 23, b1: 7, c1:14};
+({a1,b1} = obj);
+console.log(a1, b1);
