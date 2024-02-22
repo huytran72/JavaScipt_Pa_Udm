@@ -74,3 +74,6 @@ const arr2 = [1, 2, ...[3, 4]];
 const [e, f, ...others] = [1, 2, 3, 4, 5];
 console.log(e, f, others);
 console.log(arr2);
+
+const [pizza, , risotto, ...otherFood] = [...restaurant.mainMenu, ...restaurant.starterMenu];
+console.log(pizza,  risotto, otherFood);
