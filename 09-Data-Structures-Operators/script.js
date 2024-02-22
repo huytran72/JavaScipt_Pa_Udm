@@ -80,6 +80,7 @@ console.log(p, q, r);
 // const [fiveStarRatings, oneStarRatings, threeStarRatings = 0] = ratingStars;
 
 
+// 1.Destructuring
 //Rest Pattern and Parameters
 console.log('-----------------------');
 console.log('Rest Pattern and Parameters');
@@ -91,3 +92,10 @@ console.log(arr2);
 
 const [pizza, , risotto, ...otherFood] = [...restaurant.mainMenu, ...restaurant.starterMenu];
 console.log(pizza,  risotto, otherFood);
+
+//Objects
+const {sat, ...weekdays} = restaurant.openingHours;
+console.log(sat, weekdays);
+
+
+// 2. Functions
