@@ -157,3 +157,9 @@ restaurant.orderDelivery ({
   mainIndex: 2,
   starterIndex: 2,
 });
+
+
+//The Spread Operators
+console.log('---------------');
+console.log('The Spread Operators');
+
