@@ -28,7 +28,13 @@ const restaurant = {
 
   order: function(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
-  }
+  },
+
+  orderPizza: function(mainIngredient, ...otherIngredients){
+    console.log(mainIngredient);
+    console.log(otherIngredients);
+  },
+  
 };
 
 const arr = [2,3,4];
@@ -107,3 +113,8 @@ const add = function(...numbers) {
 add(2,3);
 add(5,3,7,2);
 add(8,2,5,3,2,1,4);
+
+const x1 = [23, 5, 7];
+add(...x1);
+
+restaurant.orderPizza('mushroom', 'onion', 'olives', 'spinach');
