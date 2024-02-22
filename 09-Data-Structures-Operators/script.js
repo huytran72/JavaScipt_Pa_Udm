@@ -55,3 +55,10 @@ console.log(i, j, k);
 // Default values
 const [p = 1, q = 1, r = 1] = [8, 9];
 console.log(p, q, r);
+
+
+//Assignment
+const [firstBook, secondBook] = books;
+const [, , thirdBook] = books;
+const ratings = [['rating', 4.19], ['ratingsCount', 144584]];
+const [[, rating], [, ratingsCount]] = ratings;
