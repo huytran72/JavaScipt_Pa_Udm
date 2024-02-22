@@ -58,9 +58,19 @@ console.log(p, q, r);
 
 
 //Assignment
-const [firstBook, secondBook] = books;
-const [, , thirdBook] = books;
-const ratings = [['rating', 4.19], ['ratingsCount', 144584]];
-const [[, rating], [, ratingsCount]] = ratings;
-const ratingStars = [63405, 1808];
-const [fiveStarRatings, oneStarRatings, threeStarRatings = 0] = ratingStars;
+// const [firstBook, secondBook] = books;
+// const [, , thirdBook] = books;
+// const ratings = [['rating', 4.19], ['ratingsCount', 144584]];
+// const [[, rating], [, ratingsCount]] = ratings;
+// const ratingStars = [63405, 1808];
+// const [fiveStarRatings, oneStarRatings, threeStarRatings = 0] = ratingStars;
+
+
+//Rest Pattern and Parameters
+console.log('-----------------------');
+console.log('Rest Pattern and Parameters');
+
+const arr2 = [1, 2, ...[3, 4]];
+const [e, f, ...others] = [1, 2, 3, 4, 5];
+console.log(e, f, others);
+console.log(arr2);
