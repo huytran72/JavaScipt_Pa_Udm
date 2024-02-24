@@ -169,3 +169,9 @@ console.log(badNewArr);
 
 const newArr1 = [1, 2, ...arr1];
 console.log(newArr1);
+
+console.log(...newArr1);
+console.log(1,2,7,8,9);
+
+const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+console.log(newMenu);
