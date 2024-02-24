@@ -163,3 +163,7 @@ restaurant.orderDelivery ({
 console.log('---------------');
 console.log('The Spread Operators');
 
+const arr1 = [7, 8, 9];
+const badNewArr = [1, 2, arr1[0], arr1[1], arr1[2]];
+console.log(badNewArr);
+
