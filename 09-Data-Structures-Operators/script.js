@@ -167,3 +167,5 @@ const arr1 = [7, 8, 9];
 const badNewArr = [1, 2, arr1[0], arr1[1], arr1[2]];
 console.log(badNewArr);
 
+const newArr1 = [1, 2, ...arr1];
+console.log(newArr1);
