@@ -181,4 +181,5 @@ const mainMenuCopy = [...restaurant.mainMenu];
 
 
 // Join 2 arrays
-const menu = [...restaurant.starterMenu, ]
+const menu1 = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu1);
