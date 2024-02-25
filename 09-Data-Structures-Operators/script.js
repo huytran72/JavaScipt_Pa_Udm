@@ -183,3 +183,9 @@ const mainMenuCopy = [...restaurant.mainMenu];
 // Join 2 arrays
 const menu1 = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu1);
+
+
+// Iterables: arrays, strings, maps, sets. NOT objects
+const str = 'Percy';
+const letters = [...str, '', 'S.'];
+console.log(letters);
