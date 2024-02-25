@@ -39,6 +39,10 @@ const restaurant = {
     console.log(otherIngredients);
   },
 
+  orderPasta: function(ing1, ing2, ing3) {
+    console.log(`Here is your delicious pasta with ${ing1}, ${ing2} and ${ing3}`);
+  },
+
 };
 
 const arr = [2,3,4];
@@ -191,3 +195,6 @@ const letters = [...str, '', 'S.'];
 console.log(letters);
 console.log(...str);
 console.log('j','o');
+// console.log(`${...str} Shin`);
+
+const ingredients = [prompt('Let\'s make pasta! Ingredient 1?')]
