@@ -189,3 +189,5 @@ console.log(menu1);
 const str = 'Percy';
 const letters = [...str, '', 'S.'];
 console.log(letters);
+console.log(...str);
+console.log('j','o');
