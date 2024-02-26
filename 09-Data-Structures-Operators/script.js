@@ -202,3 +202,8 @@ console.log('j','o');
 
 // restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
 // restaurant.orderPasta(...ingredients);
+
+
+//Short Circuiting
+console.log('------------------');
+console.log('Short Circuiting');
