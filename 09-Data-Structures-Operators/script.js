@@ -211,3 +211,6 @@ console.log('Short Circuiting');
 
 //Use any data type, return any data type, short-circuiting
 console.log(3 || 'Percy');
+console.log('' || 'Percy');
+console.log(true || 0);
+console.log(undefined || null);
