@@ -210,6 +210,7 @@ console.log('Short Circuiting');
 
 
 //Use any data type, return any data type, short-circuiting
+console.log('------OR------');
 console.log(3 || 'Percy');
 console.log('' || 'Percy');
 console.log(true || 0);
@@ -220,3 +221,8 @@ restaurant.numGuests = 23;
 const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
 console.log(guests1);
 
+const guest2 = restaurant.numGuests || 10
+console.log(guest2);
+
+
+console.log('--------AND-------');
