@@ -226,3 +226,6 @@ console.log(guest2);
 
 
 console.log('--------AND-------');
+console.log(0 && 'Percy');
+console.log(7 && 'Percy');
+console.log('Hello' && 23 && null && 'Percy');
