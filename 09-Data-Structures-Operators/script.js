@@ -240,3 +240,6 @@ restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
 //The Nullish Coalescing Operator
 console.log('---------------');
 console.log('The Nullish Coalescing Operator');
+
+const guestCorrect = restaurant.numGuests ?? 10;
+console.log(guestCorrect);
