@@ -252,5 +252,6 @@ const rest1 = {
 const rest2 = {
   name: 'La Piazza',
   owner: 'Giovanni Rossi',
-  numGuests: 20,
 };
+
+rest2.numGuests = rest1.numGuests || 10;
