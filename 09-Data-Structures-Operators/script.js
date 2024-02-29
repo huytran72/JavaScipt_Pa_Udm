@@ -262,3 +262,4 @@ rest2.numGuests ||= 10;
 
 console.log(rest1);
 console.log(rest2);
+
