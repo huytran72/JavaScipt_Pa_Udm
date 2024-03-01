@@ -266,6 +266,9 @@ rest2.numGuests ??= 10;
 rest1.owner = rest1.owner && '<ANONYMOUS>';
 rest2.owner = rest2.owner && '<ANONYMOUS>';
 
+rest1.owner &&= '<ANONYMOUS>';
+rest2.owner &&= '<ANONYMOUS>';
+
 console.log(rest1);
 console.log(rest2);
 
