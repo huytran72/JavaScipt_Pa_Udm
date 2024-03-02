@@ -275,3 +275,8 @@ console.log(rest2);
 
 console.log('-------------------');
 console.log('Coding Challenge #1');
+
+const game = {
+  team 1: 'Bayern Munich',
+  
+}
