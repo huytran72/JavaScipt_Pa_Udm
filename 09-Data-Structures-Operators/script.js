@@ -277,6 +277,15 @@ console.log('-------------------');
 console.log('Coding Challenge #1');
 
 const game = {
-  team 1: 'Bayern Munich',
-  
+  team1: 'Bayern Munich',
+  team2: 'Borusia Dounmund',
+  players: [
+    'Neuer',
+    'Pavard',
+    'Martinez',
+    'Abala',
+    'Davies',
+    'Kimich',
+    'Goezrtka'
+  ]
 }
