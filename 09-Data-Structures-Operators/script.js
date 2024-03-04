@@ -287,5 +287,5 @@ const game = {
     'Davies',
     'Kimich',
     'Goezrtka'
-  ]
+  ],
 }
