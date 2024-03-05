@@ -280,13 +280,24 @@ const game = {
   team1: 'Bayern Munich',
   team2: 'Borusia Dounmund',
   players: [
-    'Neuer',
-    'Pavard',
-    'Martinez',
-    'Abala',
-    'Davies',
-    'Kimich',
-    'Goezrtka',
-    'Davis'
-  ],
+    [
+      'Neuer',
+      'Pavard',
+      'Martinez',
+      'Abala',
+      'Davies',
+      'Kimich',
+      'Goezrtka',
+      'Davis',
+      'Gnarby'
+    ],
+    [
+      'Burki',
+      'Schulz',
+      'Hummels',
+      'Akanji',
+      'Hakimi',
+      'Weigl',
+      'Hazard'
+    ]
 }
