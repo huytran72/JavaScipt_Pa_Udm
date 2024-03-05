@@ -307,5 +307,6 @@ const game = {
   odds: {
     team1: 1.33,
     x: 3.25,
+    team2: 6.5,
   },
 };
