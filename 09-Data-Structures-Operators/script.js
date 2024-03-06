@@ -332,8 +332,10 @@ console.log(team1, draw, team2);
 
 //6.
 const printGoal = function(...players) {
+  console.log(players);
   console.log(`${players.length} goals were scored`);
 };
 
 printGoal('Davies', 'Muller', 'Lewandowski', 'Kimmich');
 printGoal('Davies', 'Muller');
+printGoal(...game.scored);
