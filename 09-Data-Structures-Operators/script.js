@@ -359,4 +359,4 @@ for(const item of menu2.entries()) {
   console.log(item);
 }
 
-console.log(menu2.entries());
+console.log([...menu2.entries()]);
