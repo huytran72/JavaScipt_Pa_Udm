@@ -343,3 +343,10 @@ printGoal(...game.scored);
 // 7.
 team1 < team2 && console.log('Team 1 is more likely to win');
 team1 > team2 && console.log('Team 2 is more likely to win');
+
+
+
+
+//Looping Arrays: The For-Of Loop
+console.log('--------------------');
+console.log('Looping Arrays: The For-Of Loop');
