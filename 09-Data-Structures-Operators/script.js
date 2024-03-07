@@ -353,4 +353,4 @@ console.log('Looping Arrays: The For-Of Loop');
 
 const menu2 = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
-for(const item of menu) console.log(item);
+for(const item of menu2) console.log(item);
