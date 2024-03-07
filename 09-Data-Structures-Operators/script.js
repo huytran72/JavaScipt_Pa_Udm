@@ -355,8 +355,13 @@ const menu2 = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for(const item of menu2) console.log(item);
 
-for(const item of menu2.entries()) {
-  console.log(`${item[0] + 1}: ${item[1]}`);
+for(const [i, el] of menu2.entries()) {
+  console.log(`${i + 1}: ${el}`);
 }
 
 console.log([...menu2.entries()]);
+
+
+//Enhanced Object Literals
+console.log('-------------------');
+console.log('Enhanced Object Literals');
