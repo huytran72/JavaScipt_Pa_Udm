@@ -365,3 +365,7 @@ console.log([...menu2.entries()]);
 //Enhanced Object Literals
 console.log('-------------------');
 console.log('Enhanced Object Literals');
+
+if(restaurant.openingHours && restaurant.openingHours.mon)
+  console.log(restaurant.openingHours.mon.open);
+  console.log(restaurant.openingHours.mon?.open);
