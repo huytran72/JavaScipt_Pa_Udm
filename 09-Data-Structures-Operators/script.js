@@ -369,3 +369,5 @@ console.log('Enhanced Object Literals');
 if(restaurant.openingHours && restaurant.openingHours.mon)
   console.log(restaurant.openingHours.mon.open);
   console.log(restaurant.openingHours.mon?.open);
+
+const days = ['mon', 'tue', 'web', 'thu', 'fri', 'sat', 'sun'];
