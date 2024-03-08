@@ -370,4 +370,9 @@ if(restaurant.openingHours && restaurant.openingHours.mon)
   console.log(restaurant.openingHours.mon.open);
   console.log(restaurant.openingHours.mon?.open);
 
-const days = ['mon', 'tue', 'web', 'thu', 'fri', 'sat', 'sun'];
+const days = ['mon', 'tue', 'web', 'thu', 'fri', 'sat', 'sun']; 
+for(const day of days) {
+  console.log(day);
+  restaurant.openingHours[day]
+  openingHours.mon
+}
