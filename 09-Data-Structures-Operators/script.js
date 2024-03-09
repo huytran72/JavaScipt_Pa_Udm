@@ -395,6 +395,11 @@ else console.log('User array empty');
 console.log('------------------');
 console.log('Looping Objects: Keys, Values, and Entries');
 
-for(const day of Object.keys(openingHours)) {
+const properties = Object.keys(openingHours);
+console.log(properties);
+
+console.log(`We are open on ${properties.length}`);
+
+for(const day of properties) {
   console.log(day);
 }
