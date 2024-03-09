@@ -388,3 +388,10 @@ console.log(users[0]?.name ?? 'User array empty');
 
 if(users.length > 0) console.log(users[0].name);
 else console.log('User array empty');
+
+
+
+//Looping Objects: Keys, Values, and Entries
+console.log('------------------');
+console.log('Looping Objects: Keys, Values, and Entries');
+
