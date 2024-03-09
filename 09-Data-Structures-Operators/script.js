@@ -395,3 +395,6 @@ else console.log('User array empty');
 console.log('------------------');
 console.log('Looping Objects: Keys, Values, and Entries');
 
+for(const day of Object.keys(openingHours)) {
+  console.log(day);
+}
