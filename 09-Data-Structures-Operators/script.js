@@ -423,3 +423,10 @@ for(const [key, {open, close}] of entries) {
 // Coding Challenge #2
 console.log('------------------');
 console.log('Coding Challenge #2');
+
+//1.
+for(const [i, player] of game.scored.entries()) {
+  console.log(`Goal ${i+1}: ${player}`);
+}
+
+//2.
