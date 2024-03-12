@@ -444,3 +444,8 @@ for(const [team, odd] of Object.entries(game.odds)) {
   console.log(`Odd of ${teamStr} ${odds}`);
 }
 
+
+
+// SETS
+console.log('-----------------');
+console.log('SETS');
