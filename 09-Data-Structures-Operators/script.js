@@ -449,3 +449,6 @@ for(const [team, odd] of Object.entries(game.odds)) {
 // SETS
 console.log('-----------------');
 console.log('SETS');
+
+const ordersSet = new Set(['Pasta', 'Pizza', 'Pizza', 'Risotto', 'Pasta', 'Pizza']);
+console.log(ordersSet);
