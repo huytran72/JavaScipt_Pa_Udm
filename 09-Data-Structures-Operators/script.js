@@ -462,3 +462,4 @@ ordersSet.add('Garlic Bread');
 ordersSet.delete('Risotto');
 console.log(ordersSet);
 
+for(const order of ordersSet) console.log(order);
