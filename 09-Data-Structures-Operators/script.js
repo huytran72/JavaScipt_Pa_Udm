@@ -471,3 +471,10 @@ console.log(staffUnique);
 console.log(
   new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
 );
+
+
+
+// Maps: Fundamentals
+console.log('------------------');
+console.log('Maps: Fundamentals');
+
