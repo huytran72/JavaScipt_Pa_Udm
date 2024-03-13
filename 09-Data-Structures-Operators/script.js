@@ -478,3 +478,10 @@ console.log(
 console.log('------------------');
 console.log('Maps: Fundamentals');
 
+const rest = new Map();
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Ilaty');
+console.log(rest.set(2, 'Lisbon, Portugal'));
+
+rest
+  .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
