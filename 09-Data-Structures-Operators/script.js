@@ -514,3 +514,14 @@ console.log(rest.get(arr3));
 //Maps: Iteration
 console.log('-----------------');
 console.log('Maps: Iteration');
+
+const question = new Map([
+  ['question','What is the best programming language in the world'],
+  [1,'C'],
+  [2,'Java'],
+  [3,'JavaScript'],
+  ['correct', 3],
+  [true, 'Corrct'],
+  [false, 'Try again'],
+]);
+console.log(question);
