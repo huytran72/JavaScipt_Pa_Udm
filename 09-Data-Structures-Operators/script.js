@@ -508,3 +508,9 @@ console.log(rest);
 console.log(rest.size);
 
 console.log(rest.get(arr3));
+
+
+
+//Maps: Iteration
+console.log('-----------------');
+console.log('Maps: Iteration');
