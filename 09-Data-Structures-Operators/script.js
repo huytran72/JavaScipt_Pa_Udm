@@ -500,8 +500,11 @@ console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
 console.log(rest.has('categories'));
 rest.delete(2);
 // rest.clear();
-rest.set([1,2], 'Tets');
+
+const arr3 = [1,2];
+rest.set(arr3, 'Test');
+rest.set(document.querySelector('h1'),'Heading');
 console.log(rest);
 console.log(rest.size);
 
-console.log(rest.get([1,2]));
+console.log(rest.get(arr3));
