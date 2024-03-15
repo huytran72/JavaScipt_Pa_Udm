@@ -533,7 +533,7 @@ console.log(hoursMap);
 
 
 //Quiz App
-console.log()
+console.log(question.get('question'));
 for(const [key, value] of question) {
   if(typeof key === 'number') console.log(`Answer ${key}: ${value}`);
 }
