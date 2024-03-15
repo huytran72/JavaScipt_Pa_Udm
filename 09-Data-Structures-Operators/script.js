@@ -521,7 +521,7 @@ const question = new Map([
   [2,'Java'],
   [3,'JavaScript'],
   ['correct', 3],
-  [true, 'Corrct'],
+  [true, 'Correct'],
   [false, 'Try again'],
 ]);
 console.log(question);
@@ -539,3 +539,5 @@ for(const [key, value] of question) {
 }
 const answer1 = Number(prompt('Your answer'));
 console.log(answer1);
+
+console.log(question.get(question.get('correct') === answer1));
