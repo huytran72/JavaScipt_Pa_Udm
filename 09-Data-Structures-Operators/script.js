@@ -558,3 +558,16 @@ console.log('Summary');
 console.log('-----------------');
 console.log('Coding Challenge #3');
 
+const gameEvents = new Map([
+  [17, 'Goal'],
+  [36, 'Substitution'],
+  [47, 'Goal'],
+  [61, 'Substitution'],
+  [64, 'Yellow Card'],
+  [69, 'Red Card'],
+  [70, 'Substitution'],
+  [72, 'Substitution'],
+  [76, 'Goal'],
+  [80, 'Goal'],
+  [92, 'Yellow Card'],
+]);   
