@@ -554,3 +554,7 @@ console.log([...question.values()]);
 console.log('-----------------');
 console.log('Summary');
 
+//Coding Challenge #3
+console.log('-----------------');
+console.log('Coding Challenge #3');
+
