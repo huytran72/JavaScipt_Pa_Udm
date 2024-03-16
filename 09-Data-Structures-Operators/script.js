@@ -575,3 +575,7 @@ const gameEvents = new Map([
 //1. Create an array 'events' of the different game events that happened (no duplicates)
 const events = [...new Set(gameEvents.values())];
 console.log(events);
+
+//2. After the game has finished, is was found that the yellow card was given to player number 92. Create a variable to the minute of the yellow card
+gameEvents.delete(64);
+console.log(gameEvents);
