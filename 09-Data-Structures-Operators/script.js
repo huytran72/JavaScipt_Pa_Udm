@@ -579,3 +579,5 @@ console.log(events);
 //2. After the game has finished, is was found that the yellow card was given to player number 92. Create a variable to the minute of the yellow card
 gameEvents.delete(64);
 console.log(gameEvents);
+
+//3.Print the following string: "An event happened, on average, every 9 minutes" (keep in mind that a game has 90 minutes)
