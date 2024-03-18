@@ -592,3 +592,8 @@ for(const [min, event] of gameEvents) {
   console.log(`[${half} HALF] ${min}: ${event}`);
 }
 
+
+
+//Working with Strings - Part 1
+console.log('-----------------');
+console.log('Working with Strings - Part 1');
