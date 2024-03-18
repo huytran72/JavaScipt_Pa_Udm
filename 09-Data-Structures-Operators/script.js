@@ -581,3 +581,11 @@ gameEvents.delete(64);
 console.log(gameEvents);
 
 //3.Print the following string: "An event happened, on average, every 9 minutes" (keep in mind that a game has 90 minutes)
+console.log(`An event happened, on average, every ${90 / gameEvents.size} minutes`);
+
+//4. Loop over the events and log them to the console, marking whether it's in the first half or second half (after 45 min) of the game, like this: [FIRST HALF] 17: GOAL
+
+for(const [min, event] of gameEvents) {
+  const half = min <= 45 ? 'FIRST' : 'SECOND';
+  console.log(`[${half} HALF] ${min}: ${event}`);
+}
