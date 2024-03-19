@@ -656,3 +656,10 @@ console.log(passengerCorrect);
 const email = 'hello@percy.io';
 const loginEmail = '  Hello@Percy.Io \n';
 const lowerEmail = email.toLowerCase();
+const trimmedEmail = loginEmail.trim();
+console.log(trimmedEmail);
+console.log(lowerEmail);
+console.log(trimmedEmail === lowerEmail);
+
+//Replacing
+const priceGB = '288,97£';
