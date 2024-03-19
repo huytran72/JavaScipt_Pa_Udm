@@ -674,4 +674,15 @@ const announcement = 'All passengers come to boarding door 23. Boarding door 23!
 console.log(announcement.replace('door', 'gate'));
 console.log(announcement.replaceAll('door', 'gate'));
 
+//Booleans
+const plane1 = 'Airbus A320neo';
+console.log(plane1.includes('A320'));
+console.log(plane1.startsWith('Air'));
+
+if(plane1.startsWith('Airbus') && plane1.endsWith('neo')) {
+  console.log('Part of the NEW Airbus family');
+};
+
+//Practice exercise
+
 //Regular Expression
