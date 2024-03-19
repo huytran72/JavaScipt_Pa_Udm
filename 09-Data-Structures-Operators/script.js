@@ -641,3 +641,10 @@ console.log(typeof new String('Percy').slice(1));
 //Working with Strings - Part 2
 console.log('-----------------');
 console.log('Working with Strings - Part 2');
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
+
+//Fix capitalization in name
+const passenger = 'pErCy';
+const passengerLower = passenger.toLowerCase();
