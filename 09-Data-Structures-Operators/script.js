@@ -631,3 +631,9 @@ const checkMiddleSeat = function(seat) {
 }
 checkMiddleSeat('11B');
 checkMiddleSeat('23C');
+checkMiddleSeat('3E');
+
+
+//Working with Strings - Part 2
+console.log('-----------------');
+console.log('Working with Strings - Part 2');
