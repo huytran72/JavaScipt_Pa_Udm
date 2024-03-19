@@ -719,3 +719,6 @@ const capitalizeName = function(name) {
   console.log(namesUpper.join(' '));
 }
 
+capitalizeName('jessica ann smith davis');
+capitalizeName('percy shin');
+
