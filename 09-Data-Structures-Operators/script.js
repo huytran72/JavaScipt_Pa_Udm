@@ -634,6 +634,8 @@ checkMiddleSeat('23C');
 checkMiddleSeat('3E');
 
 console.log(new String('Percy'));
+console.log(typeof new String('Percy'));
+console.log(typeof new String('Percy').slice(1));
 
 
 //Working with Strings - Part 2
