@@ -697,4 +697,8 @@ checkBaggage('Socks and camera');
 checkBaggage('Got some snacks and a gun for protection');
 
 
-//Regular Expression
+//Working with Strings - Part 3
+console.log('-----------------');
+console.log('Working with Strings - Part 3');
+
+console.log('a+very+nice+string'.split('+'));
