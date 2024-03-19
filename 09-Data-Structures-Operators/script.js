@@ -650,3 +650,9 @@ const passenger = 'pErCy';
 const passengerLower = passenger.toLowerCase();
 const passengerCorrect = passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
+
+
+//Comparing emails
+const email = 'hello@percy.io';
+const loginEmail = '  Hello@Percy.Io \n';
+const lowerEmail = email.toLowerCase();
