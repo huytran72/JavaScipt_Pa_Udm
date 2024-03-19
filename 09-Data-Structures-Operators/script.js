@@ -658,6 +658,10 @@ const loginEmail = '  Hello@Percy.Io \n';
 const lowerEmail = email.toLowerCase();
 const trimmedEmail = loginEmail.trim();
 console.log(trimmedEmail);
+
+const normalizedEmail = loginEmail.toLowerCase().trim();
+console.log(normalizedEmail);
+
 console.log(lowerEmail);
 console.log(trimmedEmail === lowerEmail);
 
