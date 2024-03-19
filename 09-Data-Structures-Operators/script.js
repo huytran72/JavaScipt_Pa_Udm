@@ -702,3 +702,10 @@ console.log('-----------------');
 console.log('Working with Strings - Part 3');
 
 console.log('a+very+nice+string'.split('+'));
+console.log('Percy Shin'.split(' '));
+
+const [firstName, lastName] = 'Percy Shin'.split(' ');
+console.log(firstName, lastName);
+
+const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
+console.log(newName);
