@@ -709,3 +709,13 @@ console.log(firstName, lastName);
 
 const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
+
+const capitalizeName = function(name) {
+  const names = name.split(' ');
+  const namesUpper = [];
+  for(const n of names) {
+    namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
+  }
+  console.log(namesUpper.join(' '));
+}
+
