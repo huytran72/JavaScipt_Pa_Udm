@@ -714,6 +714,7 @@ const capitalizeName = function(name) {
   const names = name.split(' ');
   const namesUpper = [];
   for(const n of names) {
+    n[0].toUpperCase() + n.slice(1);
     namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
   }
   console.log(namesUpper.join(' '));
@@ -721,4 +722,8 @@ const capitalizeName = function(name) {
 
 capitalizeName('jessica ann smith davis');
 capitalizeName('percy shin');
+
+//Padding
+const message = 'Go to gate 23!';
+console.log(message.padStart(25, '+').padEnd(35, '+'));
 
