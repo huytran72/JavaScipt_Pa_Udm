@@ -747,3 +747,8 @@ planesInLine(5);
 planesInLine(3);
 planesInLine(12);
 
+
+
+//Coding Challenge #4
+console.log('-----------------');
+console.log('Coding Challenge #4');
