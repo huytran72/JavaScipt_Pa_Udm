@@ -726,4 +726,4 @@ capitalizeName('percy shin');
 //Padding
 const message = 'Go to gate 23!';
 console.log(message.padStart(25, '+').padEnd(35, '+'));
-
+console.log('Percy'.padStart(25, '+').padEnd(35, '+'));
