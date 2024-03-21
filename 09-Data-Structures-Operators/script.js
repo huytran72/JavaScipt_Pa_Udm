@@ -755,3 +755,6 @@ console.log('Coding Challenge #4');
 
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
+
+const btn = document.querySelector('button');
+const text = document.querySelector('textarea');
