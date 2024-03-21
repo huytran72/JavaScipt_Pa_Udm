@@ -752,3 +752,6 @@ planesInLine(12);
 //Coding Challenge #4
 console.log('-----------------');
 console.log('Coding Challenge #4');
+
+document.body.append(document.createElement('textarea'));
+document.body.append(document.createElement('button'));
