@@ -761,9 +761,8 @@ document.querySelector('button').addEventListener('click', function() {
   const rows = text.split('\n');
   console.log(rows);
 
-  for(const row in rows) {
+  for(const [i, row] in rows.entries()) {
     const [first, second] = row.toLowerCase().trim().split('_');
-    console.log(row, first, second);
 
     const output = `${first}${second.replace(second[0], second[0].toUpperCase())}`;
     console.log(output);
@@ -772,7 +771,7 @@ document.querySelector('button').addEventListener('click', function() {
 }); 
 
 //Output
-// underscore_case
+// underscore_case      
 // first_name
 // Some_Variable
 // calculate_AGE
