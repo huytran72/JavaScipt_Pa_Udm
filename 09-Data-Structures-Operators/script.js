@@ -782,5 +782,13 @@ document.querySelector('button').addEventListener('click', function() {
 // calculate_AGE
 
 
+//String Methods Practice
+console.log('-----------------');
+console.log('String Methods Practice');
+
+
+
+
+
 
 
