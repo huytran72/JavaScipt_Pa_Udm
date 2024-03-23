@@ -796,5 +796,12 @@ const flights =
 
 console.log(flights.split('+'));
 
+for(const flight of flights.split('+')) {
+  const [type, from, to, time] = flight.split(';');
+  const output = `${type.startsWith('_Delayed') ? '🔴' : ''}${type.replaceAll('_', ' ')} ${from.slice(0,3).toUpperCase()} to ${to.slice(0,3).toUpperCase()} (${time.replace(':', 'h')})`.padStart(45);
+  console.log(output);
+}
+
+
 
 
