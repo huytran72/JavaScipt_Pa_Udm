@@ -791,6 +791,15 @@ const flights2 = 'LH235';
 const flights3 = 'LH236';
 const flights4 = 'LH237';
 
+const airline1 = 'TAP Air Portugal';
+const plane2 = 'A320';
+
+console.log(flights1.slice(2));
+console.log(flights1.slice(1));
+console.log(flights1.slice(1, 3));
+console.log(flights1.slice(1, -1));
+console.log(flights1.slice(1, -2));
+
 
 
 
