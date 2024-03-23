@@ -786,7 +786,10 @@ document.querySelector('button').addEventListener('click', function() {
 console.log('-----------------');
 console.log('String Methods Practice');
 
-
+const flights1 = 'LH234';
+const flights2 = 'LH235';
+const flights3 = 'LH236';
+const flights4 = 'LH237';
 
 
 
