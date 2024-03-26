@@ -21,6 +21,7 @@ createBooking('LH123', undefined, 1000);
 // How Passing Arguments Works: Value vs. Reference
 console.log('--------------------');
 console.log('How Passing Arguments Works: Value vs. Reference');
+
 const flight = 'LH234';
 const jonas = {
   name: 'Jonas Schmedtmann',
