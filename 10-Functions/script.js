@@ -58,6 +58,10 @@ checkIn(flight, jonas);
 console.log('--------------------');
 console.log('First-Class and Higher-Order Functions');
 
+//Functions Accepting Callback Functions
+console.log('--------------------');
+console.log('Functions Accepting Callback Functions');
+
 
 
 
