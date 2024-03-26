@@ -47,9 +47,13 @@ console.log(jonas);
 const flightNum = flight;
 const passenger = jonas;
 
-// let's see what happens
-console.log('--------------------');
-console.log('Is the same as doing...');
+const newPassport = function (person) {
+    person.passport = Math.trunc(Math.random() * 10000000000);
+}
+
+newPassport(jonas);
+checkIn(flight, jonas);
+
 
 
 
