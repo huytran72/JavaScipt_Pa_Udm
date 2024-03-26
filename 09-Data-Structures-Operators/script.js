@@ -803,5 +803,8 @@ for(const flight of flights.split('+')) {
 }
 
 
+//Default Parameters
+console.log('-----------------');
+console.log('Default Parameters');
 
 
