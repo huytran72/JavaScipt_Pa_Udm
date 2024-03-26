@@ -43,6 +43,16 @@ checkIn(flight, jonas);
 console.log(flight);
 console.log(jonas);
 
+// Is the same as doing...
+const flightNum = flight;
+const passenger = jonas;
+
+// let's see what happens
+console.log('--------------------');
+console.log('Is the same as doing...');
+
+
+
 
 
 
