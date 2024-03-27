@@ -32,11 +32,11 @@ const checkIn = function (flightNum, passenger) {
     flightNum = 'LH999';
     passenger.name = 'Mr. ' + passenger.name;
     
-    if (passenger.passport === 24739479284) {
-        alert('Check in');
-    } else {
-        alert('Wrong passport!');
-    }
+    // if (passenger.passport === 24739479284) {
+    //     alert('Check in');
+    // } else {
+    //     alert('Wrong passport!');
+    // }
 };
 
 checkIn(flight, jonas);
@@ -87,6 +87,7 @@ const high5 = function () {
 
 document.body.addEventListener('click', high5);
 
+['Jonas', 'Martha', 'Adam'].forEach(high5);
 
 
 // Functions Returning Functions
