@@ -81,6 +81,10 @@ const transformer = function (str, fn) {
 transformer('JavaScript is the best!', upperFirstWord);
 transformer('JavaScript is the best!', oneWord);
 
+// Functions Returning Functions
+console.log('--------------------');
+console.log('Functions Returning Functions');
+
 
 
 
