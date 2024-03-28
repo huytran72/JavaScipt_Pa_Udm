@@ -145,3 +145,6 @@ const book = lufthansa.book;
 // Call method
 book.call(eurowings, 23, 'Sarah Williams');
 console.log(eurowings);
+
+book.call(lufthansa, 239, 'Mary Cooper');
+console.log(lufthansa);
