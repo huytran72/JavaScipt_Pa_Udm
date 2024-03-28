@@ -104,6 +104,12 @@ const greeterHey = greet('Hey');
 greeterHey('Jonas');
 greeterHey('Steven');
 
+greet('Hello')('Jonas');
+
+// Challenge
+console.log('--------------------');
+console.log('Challenge');
+
 
 
 
