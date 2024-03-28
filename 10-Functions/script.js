@@ -110,6 +110,13 @@ greet('Hello')('Jonas');
 console.log('--------------------');
 console.log('Challenge');
 
+const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+
+greetArr('Hi')('Jonas');
+
+// The call and apply Methods
+console.log('--------------------');
+console.log('The call and apply Methods');
 
 
 
