@@ -163,4 +163,8 @@ console.log(swiss);
 const flightData = [583, 'George Cooper'];
 book.apply(swiss, flightData);
 
-book.call(swiss, ...flightData);    
+book.call(swiss, ...flightData);
+
+// The bind Method
+console.log('--------------------');
+console.log('The bind Method');
