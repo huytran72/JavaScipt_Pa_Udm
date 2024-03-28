@@ -136,3 +136,12 @@ const eurowings = {
     iataCode: 'EW',
     bookings: [],
 };
+
+const book = lufthansa.book;
+
+// Does NOT work
+// book(23, 'Sarah Williams');
+
+// Call method
+book.call(eurowings, 23, 'Sarah Williams');
+console.log(eurowings);
