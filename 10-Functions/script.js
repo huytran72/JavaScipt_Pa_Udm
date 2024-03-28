@@ -168,3 +168,8 @@ book.call(swiss, ...flightData);
 // The bind Method
 console.log('--------------------');
 console.log('The bind Method');
+
+const bookEW = book.bind(eurowings);
+const bookLH = book.bind(lufthansa);
+const bookLX = book.bind(swiss);
+
