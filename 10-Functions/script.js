@@ -179,3 +179,12 @@ const bookEW23 = book.bind(eurowings, 23);
 bookEW23('Jonas Schmedtmann');
 bookEW23('Martha Cooper');
 
+// With Event Listeners
+lufthansa.planes = 300;
+lufthansa.buyPlane = function () {
+    console.log(this);
+
+    this.planes++;
+    console.log(this.planes);
+};
+
