@@ -175,3 +175,7 @@ const bookLX = book.bind(swiss);
 
 bookEW(23, 'Steven Williams');
 
+const bookEW23 = book.bind(eurowings, 23);
+bookEW23('Jonas Schmedtmann');
+bookEW23('Martha Cooper');
+
