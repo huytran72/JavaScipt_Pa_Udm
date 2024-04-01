@@ -251,3 +251,7 @@ document.querySelector('.poll').addEventListener('click', poll.registerNewAnswer
 console.log('--------------------');
 console.log('Immediately Invoked Function Expressions (IIFE)');
 
+(function () {
+    console.log('This will never run again');
+}
+
