@@ -291,3 +291,6 @@ console.dir(booker);
 // More Closures Examples
 console.log('--------------------');
 console.log('More Closures Examples');
+
+// Example 1
+let f;
