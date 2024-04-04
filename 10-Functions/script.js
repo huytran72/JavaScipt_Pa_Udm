@@ -306,3 +306,10 @@ const g = function () {
         console.log(a * 2);
     }
 }
+
+const h = function () {
+    const b = 777;
+    f = function () {
+        console.log(b * 2);
+    }
+}
