@@ -325,3 +325,5 @@ f();
 console.dir(f);
 
 // Example 2
+const boardPassengers = function (n, wait) {
+    
