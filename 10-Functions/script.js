@@ -326,4 +326,5 @@ console.dir(f);
 
 // Example 2
 const boardPassengers = function (n, wait) {
-    
+    const perGroup = n / 3;
+
