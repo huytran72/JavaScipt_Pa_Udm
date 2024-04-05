@@ -343,3 +343,12 @@ boardPassengers(180, 3);
 console.log('--------------------');
 console.log('Coding Challenge #2');
 
+(function () {
+    const header = document.querySelector('h1');
+    header.style.color = 'red';
+    document.querySelector('body').addEventListener('click', () => {
+        header.style.color = 'blue';
+    });
+}
+
+
