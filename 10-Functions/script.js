@@ -363,3 +363,13 @@ greet('Hi')('Jonas');
 // The call and apply Methods
 console.log('--------------------');
 console.log('The call and apply Methods');
+
+const lufthansa = {
+    airline: 'Lufthansa',
+    iataCode: 'LH',
+    bookings: [],
+    book(flightNum, name) {
+        console.log(`${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`);
+        this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
+    },
+};
