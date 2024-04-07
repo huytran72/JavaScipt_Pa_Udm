@@ -356,3 +356,7 @@ console.log('Coding Challenge #2');
 console.log('--------------------');
 console.log('Coding Challenge #3');
 
+const greet = greeting => name => console.log(`${greeting} ${name}`);   
+
+greet('Hi')('Jonas');
+
