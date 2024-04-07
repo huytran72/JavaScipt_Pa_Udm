@@ -382,3 +382,5 @@ const eurowings = {
     iataCode: 'EW',
     bookings: [],
 };
+
+const book = lufthansa.book;
