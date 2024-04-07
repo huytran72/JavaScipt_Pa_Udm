@@ -373,3 +373,5 @@ const lufthansa = {
         this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
     },
 };
+
+lufthansa.book(239, 'Jonas Schmedtmann');
