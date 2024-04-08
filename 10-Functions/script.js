@@ -393,3 +393,4 @@ const swiss = {
     bookings: [],
 };
 
+book.call(swiss, 583, 'Mary Cooper');
