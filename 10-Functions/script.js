@@ -404,3 +404,5 @@ const bookLH = book.bind(lufthansa);
 const bookLX = book.bind(swiss);
 
 bookEW(23, 'Steven Williams');
+
+const bookEW23 = book.bind(eurowings, 23);
