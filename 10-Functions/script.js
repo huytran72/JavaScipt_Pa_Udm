@@ -454,4 +454,5 @@ const poll = {
         this.displayResults();
         this.displayResults('string');
     }
+};
    
