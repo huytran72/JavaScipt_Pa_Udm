@@ -459,4 +459,6 @@ const poll = {
 document.querySelector('.poll').addEventListener('click', poll.registerNewAnswer.bind(poll));
 
 poll.displayResults.call({ answers: [5, 2, 3] }, 'string');
+
+// Immediately Invoked Function Expressions (IIFE)
    
