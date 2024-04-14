@@ -455,4 +455,6 @@ const poll = {
         this.displayResults('string');
     }
 };
+
+document.querySelector('.poll').addEventListener('click', poll.registerNewAnswer.bind(poll));
    
