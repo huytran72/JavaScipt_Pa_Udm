@@ -445,4 +445,13 @@ const poll = {
     answers: new Array(4).fill(0),
 
     registerNewAnswer() {
+        const answer = Number(prompt(`${this.question}\n${this.options.join('\n')}\n(Write option number)`));
+
+        if (typeof answer === 'number' && answer < this.answers.length) {
+            this.answers[answer]++;
+        }
+
+        this.displayResults();
+        this.displayResults('string');
+    }
    
