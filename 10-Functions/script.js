@@ -467,4 +467,12 @@ console.log('Immediately Invoked Function Expressions (IIFE)');
 (function () {
     console.log('This will never run again');
 }
+)();
+
+(() => console.log('This will ALSO never run again'))();
+
+{
+    const isPrivate = 23;
+    var notPrivate = 46;
+}
    
