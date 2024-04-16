@@ -489,4 +489,6 @@ const secureBooking = function () {
     return function () {
         passengerCount++;
         console.log(`${passengerCount} passengers`);
+    }
+}
    
