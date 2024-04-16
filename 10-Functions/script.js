@@ -484,4 +484,8 @@ console.log('--------------------');
 console.log('Closures');
 
 const secureBooking = function () {
+    let passengerCount = 0;
+
+    return function () {
+        passengerCount++;
    
