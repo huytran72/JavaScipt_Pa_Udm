@@ -501,4 +501,5 @@ booker();
 console.dir(booker);
 
 // More Closures Examples
+console.log('--------------------');
    
