@@ -480,4 +480,5 @@ console.log('Immediately Invoked Function Expressions (IIFE)');
 console.log(notPrivate);
 
 // Closures
+console.log('--------------------');
    
