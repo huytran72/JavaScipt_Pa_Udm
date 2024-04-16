@@ -481,4 +481,5 @@ console.log(notPrivate);
 
 // Closures
 console.log('--------------------');
+console.log('Closures');
    
