@@ -508,4 +508,9 @@ console.log('More Closures Examples');
 let f;
 
 const g = function () {
+    const a = 23;
+    f = function () {
+        console.log(a * 2);
+    }
+}
    
