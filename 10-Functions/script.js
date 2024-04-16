@@ -499,4 +499,6 @@ booker();
 booker();
 
 console.dir(booker);
+
+// More Closures Examples
    
