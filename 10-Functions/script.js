@@ -544,4 +544,5 @@ const boardPassengers = function (n, wait) {
 }
 
 const perGroup = 1000;
+boardPassengers(180, 3);
    
