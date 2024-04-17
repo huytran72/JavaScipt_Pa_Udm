@@ -527,4 +527,5 @@ console.dir(f);
 
 // Re-assigning f function
 h();
+f();
    
