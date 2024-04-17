@@ -548,4 +548,5 @@ boardPassengers(180, 3);
 
 // Coding Challenge #2
 console.log('--------------------');
+console.log('Coding Challenge #2');
    
