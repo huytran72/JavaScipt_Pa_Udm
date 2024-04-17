@@ -523,4 +523,5 @@ const h = function () {
 
 g();
 f();
+console.dir(f);
    
