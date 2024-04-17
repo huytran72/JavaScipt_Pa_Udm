@@ -547,4 +547,5 @@ const perGroup = 1000;
 boardPassengers(180, 3);
 
 // Coding Challenge #2
+console.log('--------------------');
    
