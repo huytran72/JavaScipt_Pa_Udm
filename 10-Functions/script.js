@@ -522,4 +522,5 @@ const h = function () {
 }
 
 g();
+f();
    
