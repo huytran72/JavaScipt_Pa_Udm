@@ -557,4 +557,5 @@ console.log('Coding Challenge #2');
         header.style.color = 'blue';
     });
 }
+)();
    
