@@ -568,4 +568,5 @@ const greet = greeting => name => console.log(`${greeting} ${name}`);
 greet('Hi')('Jonas');
 
 // The call and apply Methods
+console.log('--------------------');
    
