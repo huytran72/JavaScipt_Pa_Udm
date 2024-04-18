@@ -566,4 +566,6 @@ console.log('Coding Challenge #3');
 const greet = greeting => name => console.log(`${greeting} ${name}`);
 
 greet('Hi')('Jonas');
+
+// The call and apply Methods
    
