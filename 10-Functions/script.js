@@ -570,4 +570,6 @@ greet('Hi')('Jonas');
 // The call and apply Methods
 console.log('--------------------');
 console.log('The call and apply Methods');
+
+const lufthansa = {
    
