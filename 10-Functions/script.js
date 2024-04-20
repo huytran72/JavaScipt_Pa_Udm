@@ -617,3 +617,5 @@ document.querySelector('.buy').addEventListener('click', lufthansa.buyPlane.bind
 console.log('--------------------');
 console.log('Partial Application');
 
+const addTax = (rate, value) => value + value * rate;
+
