@@ -599,4 +599,5 @@ const swiss = {
     iataCode: 'LX',
     bookings: [],
 };
-   
+
+book.call(swiss, 583, 'Mary Cooper');
