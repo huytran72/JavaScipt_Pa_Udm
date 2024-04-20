@@ -604,3 +604,4 @@ book.call(swiss, 583, 'Mary Cooper');
 
 // The bind Method
 console.log('--------------------');
+console.log('The bind Method');
