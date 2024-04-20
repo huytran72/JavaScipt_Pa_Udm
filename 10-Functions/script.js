@@ -591,4 +591,6 @@ const eurowings = {
 };
 
 const book = lufthansa.book;
+
+book.call(eurowings, 23, 'Sarah Williams');
    
