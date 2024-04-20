@@ -595,4 +595,8 @@ const book = lufthansa.book;
 book.call(eurowings, 23, 'Sarah Williams');
 
 const swiss = {
+    airline: 'Swiss Air Lines',
+    iataCode: 'LX',
+    bookings: [],
+};
    
