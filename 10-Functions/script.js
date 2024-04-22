@@ -629,4 +629,6 @@ const addVAT2 = addTaxRate(0.23);
 console.log(addVAT2(100));
 
 // Coding Challenge #1
+console.log('--------------------');
+console.log('Coding Challenge #1');
 
