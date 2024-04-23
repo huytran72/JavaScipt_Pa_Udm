@@ -307,7 +307,7 @@ const g1 = function () {
     }
 }
 
-const h = function () {
+const h1 = function () {
     const b = 777;
     f = function () {
         console.log(b * 2);
@@ -322,7 +322,7 @@ console.dir(f);
 h();
 f();
 
-console.dir(f);
+console.dir(f1);
 
 // Example 2
 const boardPassengers = function (n, wait) {
