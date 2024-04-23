@@ -86,3 +86,4 @@ console.log(arr.slice()); // ['a', 'b', 'c', 'd', 'e']
 console.log([...arr]); // ['a', 'b', 'c', 'd', 'e']
 
 // SPLICE
+console.log(arr.splice(2)); // ['c', 'd', 'e']
