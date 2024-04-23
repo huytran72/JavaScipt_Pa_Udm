@@ -91,4 +91,5 @@ arr.splice(-1);
 arr.splice(1, 2);
 console.log(arr); // ['a', 'b']
 
+// REVERSE
 arr = ['a', 'b', 'c', 'd', 'e'];
