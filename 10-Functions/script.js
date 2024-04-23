@@ -325,7 +325,7 @@ f();
 console.dir(f1);
 
 // Example 2
-const boardPassengers = function (n, wait) {
+const boardPassengers1 = function (n, wait) {
     const perGroup = n / 3;
     
         setTimeout(function () {
