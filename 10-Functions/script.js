@@ -336,7 +336,7 @@ const boardPassengers1 = function (n, wait) {
         console.log(`Will start boarding in ${wait} seconds`);
     }
 
-const perGroup = 1000;
+const perGroup1 = 1000;
 boardPassengers(180, 3);
 
 // Coding Challenge #2
