@@ -298,11 +298,11 @@ console.log('--------------------');
 console.log('More Closures Examples');
 
 // Example 1
-let f;
+let f1;
 
-const g = function () {
+const g1 = function () {
     const a = 23;
-    f = function () {
+    f1 = function () {
         console.log(a * 2);
     }
 }
@@ -314,8 +314,8 @@ const h = function () {
     }
 }
 
-g();
-f();
+g1();
+f1();
 console.dir(f);
 
 // Re-assigning f function
