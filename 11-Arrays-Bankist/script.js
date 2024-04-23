@@ -79,3 +79,4 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 
 // SLICE
 console.log(arr.slice(2)); // ['c', 'd', 'e']
+console.log(arr.slice(2, 4)); // ['c', 'd']
