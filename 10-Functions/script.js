@@ -349,7 +349,7 @@ console.log('Coding Challenge #2');
     document.querySelector('body').addEventListener('click', () => {
         header.style.color = 'blue';
     });
-}
+})();
 
 
 // Coding Challenge #3
