@@ -103,3 +103,4 @@ console.log(letters); // ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 console.log([...arr, ...arr2]); // ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 // JOIN
+console.log(letters.join(' - ')); // a - b - c - d - e - f - g - h - i - j
