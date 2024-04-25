@@ -114,3 +114,5 @@ for (const [i, movement] of movements.entries()) {
     console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
   }
 }
+
+console.log('--- FOREACH ---');
