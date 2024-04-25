@@ -121,4 +121,5 @@ movements.forEach(function (movement, i, arr) {
     console.log(`Movement ${i + 1}: You deposited ${movement}`);
   } else {
     console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
-  }
+  } 
+}
