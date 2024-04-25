@@ -117,3 +117,6 @@ for (const [i, movement] of movements.entries()) {
 
 console.log('--- FOREACH ---');
 movements.forEach(function (movement, i, arr) {
+  if (movement > 0) {
+    console.log(`Movement ${i + 1}: You deposited ${movement}`);
+  }
