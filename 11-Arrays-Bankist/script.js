@@ -95,3 +95,6 @@ console.log(arr); // ['a', 'b']
 arr = ['a', 'b', 'c', 'd', 'e'];
 const arr2 = ['j', 'i', 'h', 'g', 'f'];
 console.log(arr2.reverse()); // ['f', 'g', 'h', 'i', 'j']
+
+// CONCAT
+const letters = arr.concat(arr2);
