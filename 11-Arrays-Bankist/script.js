@@ -116,4 +116,4 @@ for (const [i, movement] of movements.entries()) {
 }
 
 console.log('--- FOREACH ---');
-movements.forEach(function)
+movements.forEach(function (movement, i, arr) {
