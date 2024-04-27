@@ -131,3 +131,5 @@ const currencies = new Map([
   ['EUR', 'Euro'],
   ['GBP', 'Pound sterling'],
 ]);
+
+currencies.forEach(function (value, key, map) {
