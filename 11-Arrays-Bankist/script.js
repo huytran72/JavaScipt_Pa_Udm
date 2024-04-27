@@ -125,3 +125,4 @@ movements.forEach(function (movement, i, arr) {
 } );
 
 // forEach with Maps and Sets
+// Map
