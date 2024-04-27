@@ -136,3 +136,5 @@ currencies.forEach(function (value, key, map) {
   console.log(`${key}: ${value}`);
 }
 );
+
+// Set
