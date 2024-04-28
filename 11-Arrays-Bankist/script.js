@@ -115,6 +115,7 @@ console.log(arr1.at(0)); // 11
 
 // gettting the last element
 console.log(arr1[arr1.length - 1]); // 64
+console.log(arr1.slice(-1)[0]); // 64
 
 // forEach
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
