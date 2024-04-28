@@ -127,7 +127,7 @@ console.log('--- Looping Arrays: forEach ---');
 
 // forEach
 const movements1 = [200, 450, -400, 3000, -650, -130, 70, 1300];
-for (const [i, movement] of movements.entries()) {
+for (const [i, movement] of movements1.entries()) {
   if (movement > 0) {
     console.log(`Movement ${i + 1}: You deposited ${movement}`);
   } else {
