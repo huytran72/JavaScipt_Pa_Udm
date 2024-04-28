@@ -166,3 +166,4 @@ currenciesUnique.forEach(function (value, _, map) {
 );
 
 // Coding Challenge #1
+console.log('---------------------------------');
