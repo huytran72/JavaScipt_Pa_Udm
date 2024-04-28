@@ -109,7 +109,8 @@ console.log(letters.join(' - ')); // a - b - c - d - e - f - g - h - i - j
 console.log('---------------------------------');
 console.log('--- The new at Method ---');
 
-cons
+const arr = [23, 11, 64];
+console.log(arr[0]); // 23
 
 
 // forEach
