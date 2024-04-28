@@ -170,4 +170,4 @@ console.log('---------------------------------');
 console.log('--- Coding Challenge #1 ---');
 
 const checkDogs = function (dogsJulia, dogsKate) {
-  const dogsJulia
+  const dogsJuliaCorected = dogsJulia.slice();
