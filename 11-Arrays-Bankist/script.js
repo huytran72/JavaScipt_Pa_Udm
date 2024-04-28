@@ -109,9 +109,9 @@ console.log(letters.join(' - ')); // a - b - c - d - e - f - g - h - i - j
 console.log('---------------------------------');
 console.log('--- The new at Method ---');
 
-const arr = [23, 11, 64];
-console.log(arr[0]); // 23
-console.log(arr.at(0)); // 11
+const arr1 = [23, 11, 64];
+console.log(arr1[0]); // 23
+console.log(arr1.at(0)); // 11
 
 
 // forEach
