@@ -172,3 +172,4 @@ console.log('--- Coding Challenge #1 ---');
 const checkDogs = function (dogsJulia, dogsKate) {
   const dogsJuliaCorected = dogsJulia.slice();
   dogsJuliaCorected.splice(0, 1);
+  dogsJuliaCorected.splice(-2);
