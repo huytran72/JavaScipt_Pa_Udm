@@ -107,6 +107,7 @@ console.log(letters.join(' - ')); // a - b - c - d - e - f - g - h - i - j
 
 // The new at Method
 console.log('--- The new at Method ---');
+console.log(movements);
 
 // forEach
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
