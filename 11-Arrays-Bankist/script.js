@@ -118,6 +118,8 @@ console.log(arr1[arr1.length - 1]); // 64
 console.log(arr1.slice(-1)[0]); // 64
 console.log(arr1.at(-2)); // 11
 
+console.log('jonas'.at(0));
+
 // forEach
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 for (const [i, movement] of movements.entries()) {
