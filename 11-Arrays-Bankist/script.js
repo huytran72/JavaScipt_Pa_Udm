@@ -105,6 +105,9 @@ console.log([...arr, ...arr2]); // ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
 // JOIN
 console.log(letters.join(' - ')); // a - b - c - d - e - f - g - h - i - j
 
+// The new at Method
+
+
 // forEach
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 for (const [i, movement] of movements.entries()) {
