@@ -193,3 +193,4 @@ checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 
 // Data Transformation: Map, Filter, Reduce
 console.log('---------------------------------');
+console.log('--- Data Transformation: Map, Filter, Reduce ---');
