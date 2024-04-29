@@ -147,6 +147,7 @@ movements.forEach(function (movement, i, arr) {
 // forEach with Maps and Sets
 console.log('---------------------------------');
 console.log('--- forEach with Maps and Sets ---');
+
 // Map
 const currencies1 = new Map([
   ['USD', 'United States dollar'],
