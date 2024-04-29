@@ -178,6 +178,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
   dogsJuliaCorected.splice(0, 1);
   dogsJuliaCorected.splice(-2);
   // dogsJuliaCorected.slice(1, 3);
+  console.log(dogsJuliaCorected);
   const dogs = dogsJuliaCorected.concat(dogsKate);
   console.log(dogs);
 
