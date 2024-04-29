@@ -187,4 +187,4 @@ const checkDogs = function (dogsJulia, dogsKate) {
     const message = dog >= 3 ? `an adult, and is ${dog} years old` : `still a puppy 🐶`;
     console.log(`Dog number ${i + 1} is ${message}`);
   });
-
+checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
