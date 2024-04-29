@@ -182,3 +182,9 @@ const checkDogs = function (dogsJulia, dogsKate) {
   const dogs = dogsJuliaCorected.concat(dogsKate);
   console.log(dogs);
 
+  // "Dog number 1 is an adult, and is 5 years old"
+  dogs.forEach(function (dog, i) {
+    const message = dog >= 3 ? `an adult, and is ${dog} years old` : `still a puppy 🐶`;
+    console.log(`Dog number ${i + 1} is ${message}`);
+  });
+
