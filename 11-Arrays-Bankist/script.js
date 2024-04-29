@@ -168,6 +168,7 @@ currenciesUnique.forEach(function (value, _, map) {
 }
 );
 
+
 // Coding Challenge #1
 console.log('---------------------------------'); 
 console.log('--- Coding Challenge #1 ---');
@@ -176,5 +177,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
   const dogsJuliaCorected = dogsJulia.slice();
   dogsJuliaCorected.splice(0, 1);
   dogsJuliaCorected.splice(-2);
+  // dogsJuliaCorected.slice(1, 3);
   const dogs = dogsJuliaCorected.concat(dogsKate);
   console.log(dogs);
+
