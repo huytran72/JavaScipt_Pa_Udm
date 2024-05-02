@@ -196,4 +196,6 @@ console.log('---------------------------------');
 console.log('--- Data Transformation: Map, Filter, Reduce ---');
 
 // Map Method
+console.log('---------------------------------');
 console.log('--- Map Method ---');
+
