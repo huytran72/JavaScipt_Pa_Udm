@@ -204,4 +204,5 @@ const movementsUSD = movements.map(function (mov) {
   return mov * eurToUsd;
 });
 console.log(movements);
+console.log(movementsUSD);
 
