@@ -199,3 +199,5 @@ console.log('--- Data Transformation: Map, Filter, Reduce ---');
 console.log('---------------------------------');
 console.log('--- Map Method ---');
 
+const eurToUsd = 1.1;
+
