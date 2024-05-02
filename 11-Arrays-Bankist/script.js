@@ -207,4 +207,5 @@ console.log(movements);
 console.log(movementsUSD);
 
 const movementsUSDfor = [];
+for (const mov of movements) movementsUSDfor.push(mov * eurToUsd);
 
