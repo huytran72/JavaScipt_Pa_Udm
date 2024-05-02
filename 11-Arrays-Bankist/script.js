@@ -203,4 +203,5 @@ const eurToUsd = 1.1;
 const movementsUSD = movements.map(function (mov) {
   return mov * eurToUsd;
 });
+console.log(movements);
 
