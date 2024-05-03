@@ -218,4 +218,5 @@ console.log(movementsDescriptions);
 
 // Filter Method
 console.log('---------------------------------');
+console.log('--- Filter Method ---');
 
