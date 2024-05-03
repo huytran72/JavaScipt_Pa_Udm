@@ -216,3 +216,5 @@ const movementsDescriptions = movements.map((mov, i) =>
 
 console.log(movementsDescriptions);
 
+// Filter Method
+
