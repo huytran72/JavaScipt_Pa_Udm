@@ -221,4 +221,6 @@ console.log('---------------------------------');
 console.log('--- Filter Method ---');
 
 const deposits = movements.filter(function (mov) {
+  return mov > 0;
+}
 
