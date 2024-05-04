@@ -225,3 +225,5 @@ const deposits = movements.filter(function (mov) {
 }
 );
 
+console.log(movements);
+
