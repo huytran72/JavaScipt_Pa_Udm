@@ -251,3 +251,5 @@ const balance = movements.reduce(function (acc, cur, i, arr) {
 }
 , 0);
 
+console.log(balance);
+
