@@ -245,3 +245,5 @@ console.log('--- Reduce Method ---');
 
 console.log(movements);
 
+const balance = movements.reduce(function (acc, cur, i, arr) {
+
