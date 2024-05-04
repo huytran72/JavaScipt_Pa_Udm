@@ -232,3 +232,5 @@ const depositsFor = [];
 for (const mov of movements) if (mov > 0) depositsFor.push(mov);
 console.log(depositsFor);
 
+const withdrawals = movements.filter(function (mov) {
+
