@@ -239,3 +239,5 @@ const withdrawals = movements.filter(function (mov) {
 
 console.log(withdrawals);
 
+// Reduce Method
+
