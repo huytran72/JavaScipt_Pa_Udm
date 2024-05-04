@@ -241,4 +241,5 @@ console.log(withdrawals);
 
 // Reduce Method
 console.log('---------------------------------');
+console.log('--- Reduce Method ---');
 
