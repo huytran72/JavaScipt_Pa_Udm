@@ -243,3 +243,5 @@ console.log(withdrawals);
 console.log('---------------------------------');
 console.log('--- Reduce Method ---');
 
+console.log(movements);
+
