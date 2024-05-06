@@ -259,5 +259,6 @@ console.log(balance2);
 
 // Maximum value
 console.log('---------------------------------');
+console.log('--- Maximum value ---');
 
 
