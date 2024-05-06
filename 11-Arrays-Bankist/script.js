@@ -261,4 +261,6 @@ console.log(balance2);
 console.log('---------------------------------');
 console.log('--- Maximum value ---');
 
+const max = movements.reduce(function (acc, mov) {
+
 
