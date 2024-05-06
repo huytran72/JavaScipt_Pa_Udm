@@ -265,5 +265,6 @@ const max = movements.reduce(function (acc, mov) {
   if (acc > mov) return acc;
   else return mov;
 }
+, movements[0]);
 
 
