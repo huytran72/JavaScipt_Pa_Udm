@@ -297,4 +297,6 @@ const totalDepositsUSD = movements
   .map(mov => mov * eurToUsd1)
   .reduce((acc, mov) => acc + mov, 0);
 
+console.log(totalDepositsUSD);
+
 
