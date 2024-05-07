@@ -274,5 +274,14 @@ console.log('---------------------------------');
 console.log('--- Coding Challenge #2 ---');
 
 const calcAverageHumanAge = function (ages) {
+  const humanAges = ages.map(age => age <= 2 ? 2 * age : 16 + age * 4);
+  console.log(humanAges);
+
+  const adults = humanAges.filter(age => age >= 18);
+  console.log(adults);
+
+  const average = adults.reduce((acc, age) => acc + age, 0) / adults.length;
+  console.log(average);
+}
 
 
