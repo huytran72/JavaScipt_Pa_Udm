@@ -273,4 +273,6 @@ console.log(max);
 console.log('---------------------------------');
 console.log('--- Coding Challenge #2 ---');
 
+const calcAverageHumanAge = function (ages) {
+
 
