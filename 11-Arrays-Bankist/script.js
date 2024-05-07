@@ -299,4 +299,6 @@ const totalDepositsUSD = movements
 
 console.log(totalDepositsUSD);
 
+// Coding Challenge #3
+
 
