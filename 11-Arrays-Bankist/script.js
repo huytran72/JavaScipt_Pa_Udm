@@ -292,5 +292,9 @@ console.log('---------------------------------');
 console.log('--- The Magic of Chaining Methods ---');
 
 const eurToUsd1 = 1.1;
+const totalDepositsUSD = movements
+  .filter(mov => mov > 0)
+  .map(mov => mov * eurToUsd1)
+  .reduce((acc, mov) => acc + mov, 0);
 
 
