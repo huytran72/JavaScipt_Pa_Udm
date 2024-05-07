@@ -269,4 +269,6 @@ const max = movements.reduce(function (acc, mov) {
 
 console.log(max);
 
+// Coding Challenge #2
+
 
