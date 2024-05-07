@@ -289,5 +289,6 @@ calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 
 // The Magic of Chaining Methods
 console.log('---------------------------------');
+console.log('--- The Magic of Chaining Methods ---');
 
 
