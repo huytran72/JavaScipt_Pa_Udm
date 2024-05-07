@@ -301,5 +301,6 @@ console.log(totalDepositsUSD);
 
 // Coding Challenge #3
 console.log('---------------------------------');
+console.log('--- Coding Challenge #3 ---');
 
 
