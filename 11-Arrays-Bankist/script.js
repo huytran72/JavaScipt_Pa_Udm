@@ -318,4 +318,6 @@ calcAverageHumanAge1([16, 6, 10, 5, 6, 1, 4]);
 console.log('---------------------------------');
 console.log('--- The find Method ---');
 
+const firstWithdrawal = movements.find(mov => mov < 0);
+
 
