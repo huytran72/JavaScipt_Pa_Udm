@@ -303,4 +303,6 @@ console.log(totalDepositsUSD);
 console.log('---------------------------------');
 console.log('--- Coding Challenge #3 ---');
 
+const calcAverageHumanAge1 = function (ages) {
+
 
