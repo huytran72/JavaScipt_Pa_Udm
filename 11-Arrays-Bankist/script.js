@@ -316,5 +316,6 @@ calcAverageHumanAge1([16, 6, 10, 5, 6, 1, 4]);
 
 // The find Method
 console.log('---------------------------------');
+console.log('--- The find Method ---');
 
 
