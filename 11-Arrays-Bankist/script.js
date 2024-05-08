@@ -314,4 +314,6 @@ const calcAverageHumanAge1 = function (ages) {
 calcAverageHumanAge1([5, 2, 4, 1, 15, 8, 3]);
 calcAverageHumanAge1([16, 6, 10, 5, 6, 1, 4]);
 
+// The find Method
+
 
