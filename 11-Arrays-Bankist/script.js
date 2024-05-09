@@ -326,4 +326,6 @@ console.log(accounts);
 const account = accounts.find(acc => acc.owner === 'Jessica Davis');
 console.log(account);
 
+// The findIndex Method
+
 
