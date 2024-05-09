@@ -319,5 +319,6 @@ console.log('---------------------------------');
 console.log('--- The find Method ---');
 
 const firstWithdrawal = movements.find(mov => mov < 0);
+console.log(movements);
 
 
