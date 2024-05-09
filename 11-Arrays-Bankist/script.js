@@ -328,5 +328,6 @@ console.log(account);
 
 // The findIndex Method
 console.log('---------------------------------');
+console.log('--- The findIndex Method ---');
 
 
