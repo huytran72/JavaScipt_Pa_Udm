@@ -341,4 +341,6 @@ console.log('--- Some and Every ---');
 console.log(movements);
 console.log(movements.includes(-130));
 
+// Some: Condition
+
 
