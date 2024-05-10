@@ -330,4 +330,6 @@ console.log(account);
 console.log('---------------------------------');
 console.log('--- The findIndex Method ---');
 
+console.log(movements);
+
 
