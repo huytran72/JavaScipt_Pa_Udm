@@ -331,5 +331,6 @@ console.log('---------------------------------');
 console.log('--- The findIndex Method ---');
 
 console.log(movements);
+const index = movements.findIndex(mov => mov === 450);
 
 
