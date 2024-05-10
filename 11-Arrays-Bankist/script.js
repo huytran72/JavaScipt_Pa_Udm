@@ -338,4 +338,6 @@ console.log(index);
 console.log('---------------------------------');
 console.log('--- Some and Every ---');
 
+console.log(movements);
+
 
