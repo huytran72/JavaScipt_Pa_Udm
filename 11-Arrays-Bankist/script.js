@@ -336,5 +336,6 @@ console.log(index);
 
 // Some and Every
 console.log('---------------------------------');
+console.log('--- Some and Every ---');
 
 
