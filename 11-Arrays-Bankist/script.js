@@ -352,6 +352,7 @@ console.log(account4.movements.every(mov => mov > 0));
 // Separate Callback
 const deposit = mov => mov > 0;
 console.log(movements.some(deposit));
+console.log(movements.every(deposit));
 
 
 
