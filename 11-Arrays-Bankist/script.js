@@ -359,5 +359,7 @@ console.log(movements.filter(deposit));
 console.log('---------------------------------');
 console.log('--- Flat and FlatMap ---');
 
+const arr3 = [[1, 2, 3], [4, 5, 6], 7, 8];
+
 
 
