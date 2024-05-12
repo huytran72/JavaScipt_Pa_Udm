@@ -368,6 +368,7 @@ console.log(arrDeep.flat(2));
 // flatMap
 const accountMovements = accounts.map(acc => acc.movements);
 console.log(accountMovements);
+const allMovements = accountMovements.flat();
 
 
 
