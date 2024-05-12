@@ -370,6 +370,7 @@ const accountMovements = accounts.map(acc => acc.movements);
 console.log(accountMovements);
 const allMovements = accountMovements.flat();
 console.log(allMovements);
+const overallBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
 
 
 
