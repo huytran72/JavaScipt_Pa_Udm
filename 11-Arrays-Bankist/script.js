@@ -386,6 +386,7 @@ console.log(overallBalance2);
 
 // Sorting Arrays
 console.log('---------------------------------');
+console.log('--- Sorting Arrays ---');
 
 
 
