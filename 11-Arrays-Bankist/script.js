@@ -379,5 +379,7 @@ const overallBalance1 = accounts
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overallBalance1);
 
+const overallBalance2 = accounts
+
 
 
