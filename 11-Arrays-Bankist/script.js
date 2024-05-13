@@ -380,6 +380,8 @@ const overallBalance1 = accounts
 console.log(overallBalance1);
 
 const overallBalance2 = accounts
+  .flatMap(acc => acc.movements)
+  .reduce((acc, mov) => acc + mov, 0);
 
 
 
