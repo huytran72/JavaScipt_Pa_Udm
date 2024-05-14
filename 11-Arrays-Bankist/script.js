@@ -397,5 +397,7 @@ console.log(owners);
 console.log(movements);
 console.log(movements.sort());
 
+// return < 0, A, B (keep order)
+
 
 
