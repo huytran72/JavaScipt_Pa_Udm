@@ -395,6 +395,7 @@ console.log(owners);
 
 // Numbers
 console.log(movements);
+console.log(movements.sort());
 
 
 
