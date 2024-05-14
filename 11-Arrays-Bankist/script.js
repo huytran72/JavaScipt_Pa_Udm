@@ -394,6 +394,7 @@ console.log(owners.sort());
 console.log(owners);
 
 // Numbers
+console.log(movements);
 
 
 
