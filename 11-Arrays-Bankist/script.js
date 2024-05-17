@@ -401,6 +401,7 @@ console.log(movements.sort());
 // return > 0, B, A (switch order)
 
 // Ascending
+// movements.sort((a, b) => {
 
 
 
