@@ -417,5 +417,7 @@ console.log(movements);
 // }
 // );
 
+movements.sort((a, b) => b - a);
+
 
 
