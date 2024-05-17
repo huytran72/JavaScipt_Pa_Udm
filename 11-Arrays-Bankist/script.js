@@ -408,6 +408,7 @@ console.log(movements.sort());
 // );
 
 movements.sort((a, b) => a - b);
+console.log(movements);
 
 
 
