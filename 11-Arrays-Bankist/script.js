@@ -411,6 +411,7 @@ movements.sort((a, b) => a - b);
 console.log(movements);
 
 // Descending
+// movements.sort((a, b) => {
 
 
 
