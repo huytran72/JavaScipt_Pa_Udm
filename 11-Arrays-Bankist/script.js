@@ -427,6 +427,7 @@ console.log([1, 2, 3, 4, 5, 6, 7, 8, 9].sort((a, b) => b - a));
 
 const x = new Array(7).fill(1);
 console.log(x);
+x.fill(23, 3, 5);
 
 
 
