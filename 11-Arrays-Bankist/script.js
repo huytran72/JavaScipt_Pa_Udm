@@ -431,6 +431,7 @@ x.fill(23, 3, 5);
 console.log(x);
 
 const y = [1, 2, 3, 4, 5];
+console.log(y);
 
 
 
