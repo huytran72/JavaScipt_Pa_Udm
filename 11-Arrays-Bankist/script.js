@@ -436,6 +436,8 @@ console.log(y);
 const z = Array.from({ length: 7 }, () => 1);
 console.log(z);
 
+const w = Array.from({ length: 7 }, (_, i) => i + 1);
+
 
 
 
