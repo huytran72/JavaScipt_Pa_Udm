@@ -446,6 +446,7 @@ labelBalance.addEventListener('click', function () {
 );
 
 // Array Methods Practice
+console.log('---------------------------------');
 
 
 
