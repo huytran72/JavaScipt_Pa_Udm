@@ -449,6 +449,8 @@ labelBalance.addEventListener('click', function () {
 console.log('---------------------------------');
 console.log('--- Array Methods Practice ---');
 
+// 1. Calculate the total deposits in bank
+
 
 
 
