@@ -471,6 +471,7 @@ const { deposits, withdrawals } = accounts
     return sums;
   }
   , { deposits: 0, withdrawals: 0 });
+console.log(deposits, withdrawals);
 
 
 
