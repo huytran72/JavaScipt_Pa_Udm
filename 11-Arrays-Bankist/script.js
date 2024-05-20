@@ -450,6 +450,10 @@ console.log('---------------------------------');
 console.log('--- Array Methods Practice ---');
 
 // 1. Calculate the total deposits in bank
+const bankDepositSum = accounts
+  .flatMap(acc => acc.movements)
+  .filter(mov => mov > 0)
+  .reduce((sum, mov) => sum + mov, 0);
 
 
 
