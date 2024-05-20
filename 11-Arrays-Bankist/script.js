@@ -463,6 +463,8 @@ const numDeposits1000 = accounts
   .length;
 console.log(numDeposits1000);
 
+// 3. Create an object which contains the sum of deposits and withdrawals
+
 
 
 
