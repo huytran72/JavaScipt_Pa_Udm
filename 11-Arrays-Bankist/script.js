@@ -456,6 +456,9 @@ const bankDepositSum = accounts
   .reduce((sum, mov) => sum + mov, 0);
 console.log(bankDepositSum);
 
+// 2. Count how many deposits in the bank with at least 1000  in it
+
+
 
 
 
