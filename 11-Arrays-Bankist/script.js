@@ -454,6 +454,7 @@ const bankDepositSum = accounts
   .flatMap(acc => acc.movements)
   .filter(mov => mov > 0)
   .reduce((sum, mov) => sum + mov, 0);
+console.log(bankDepositSum);
 
 
 
