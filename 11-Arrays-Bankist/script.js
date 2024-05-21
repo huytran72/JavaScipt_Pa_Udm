@@ -484,6 +484,8 @@ const convertTitleCase = function (title) {
     .join(' ');
 }
 
+console.log(convertTitleCase('this is a nice title'));
+
 
 
 
