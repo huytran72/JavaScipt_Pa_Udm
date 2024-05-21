@@ -474,6 +474,7 @@ const { deposits1, withdrawals1 } = accounts
 console.log(deposits, withdrawals);
 
 // 4. This is a nice title -> This Is a Nice Title
+const convertTitleCase = function (title)
 
 
 
