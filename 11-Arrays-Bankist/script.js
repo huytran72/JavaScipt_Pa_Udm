@@ -477,6 +477,11 @@ console.log(deposits, withdrawals);
 const convertTitleCase = function (title) {
   const capitalize = str => str[0].toUpperCase() + str.slice(1);
   const exceptions = ['a', 'an', 'the', 'but', 'or', 'on', 'in', 'with'];
+  const titleCase = title
+    .toLowerCase()
+    .split(' ')
+    .map(word => exceptions.includes(word) ? word : capitalize(word))
+    .join(' ');
 }
 
 
