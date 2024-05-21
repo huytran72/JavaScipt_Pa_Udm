@@ -470,7 +470,7 @@ const { deposits1, withdrawals1 } = accounts
     cur > 0 ? sums.deposits1 += cur : sums.withdrawals1 += cur;
     return sums;
   }
-  , { deposits: 0, withdrawals: 0 });
+  , { deposits1: 0, withdrawals1: 0 });
 console.log(deposits, withdrawals);
 
 // 4. This is a nice title -> This Is a Nice Title
