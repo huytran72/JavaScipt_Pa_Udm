@@ -492,6 +492,8 @@ console.log(convertTitleCase('and here is another title with an EXAMPLE'));
 console.log('---------------------------------');
 console.log('--- Coding Challenge #4 ---');
 
+document.body.append(document.createElement('textarea'));
+
 
 
 
