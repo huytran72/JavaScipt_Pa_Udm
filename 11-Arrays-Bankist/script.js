@@ -214,8 +214,10 @@ const movementsUSDfor = [];
 for (const mov of movements) movementsUSDfor.push(mov * eurToUsd);
 console.log(movementsUSDfor);
 
-movements.map(mov, i, arr => {
+const movementsDescriptions = movements.map(mov, i, arr => {
   if (mov > 0) {
+    return `Movement ${i + 1}: You deposited ${mov}`;
+
 )
 
 const movementsDescriptions = movements.map((mov, i) =>
