@@ -518,6 +518,11 @@ console.log(arr4.slice(2));
 console.log(arr4.slice(2, 4));
 console.log(arr4.slice(-2));
 
+var _arr4$splice = arr4.splice(2),
+    _arr4$splice2 = _slicedToArray(_arr4$splice, 3),
+    x1 = _arr4$splice2[0],
+    y1 = _arr4$splice2[1],
+    z1 = _arr4$splice2[2];
 
 
 
