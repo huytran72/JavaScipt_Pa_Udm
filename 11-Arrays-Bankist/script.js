@@ -528,6 +528,7 @@ console.log(x1, y1, z1);
 console.log(arr4);
 
 // REVERSE
+var arr5 = ['j', 'i', 'h', 'g', 'f'];
 
 
 
