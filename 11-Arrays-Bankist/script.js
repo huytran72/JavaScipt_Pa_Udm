@@ -513,6 +513,8 @@ console.log('--- Working with Arrays: A Recap ---');
 // Simple Array Methods
 let arr4 = ['a', 'b', 'c', 'd', 'e'];
 
+// SLICE
+
 
 
 
