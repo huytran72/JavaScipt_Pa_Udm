@@ -515,6 +515,7 @@ let arr4 = ['a', 'b', 'c', 'd', 'e'];
 
 // SLICE
 console.log(arr4.slice(2));
+console.log(arr4.slice(2, 4));
 
 
 
