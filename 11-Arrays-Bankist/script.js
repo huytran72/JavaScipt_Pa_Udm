@@ -200,9 +200,13 @@ console.log('---------------------------------');
 console.log('--- Map Method ---');
 
 const eurToUsd = 1.1;
-const movementsUSD = movements.map(function (mov) {
-  return mov * eurToUsd;
-});
+// const movementsUSD = movements.map(function (mov) {
+//   return mov * eurToUsd;
+// });
+
+const movementsUSD = movements.map(mov => mov * eurToUsd);
+
+
 console.log(movements);
 console.log(movementsUSD);
 
