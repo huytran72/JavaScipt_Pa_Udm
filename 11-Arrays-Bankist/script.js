@@ -534,6 +534,7 @@ console.log(arr5);
 
 // CONCAT
 var letters1 = arr4.concat(arr5);
+console.log(letters1);
 
 
 
