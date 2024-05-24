@@ -532,6 +532,8 @@ var arr5 = ['j', 'i', 'h', 'g', 'f'];
 console.log(arr5.reverse());
 console.log(arr5);
 
+// CONCAT
+
 
 
 
