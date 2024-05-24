@@ -527,6 +527,8 @@ var _arr4$splice = arr4.splice(2),
 console.log(x1, y1, z1);
 console.log(arr4);
 
+// REVERSE
+
 
 
 
