@@ -533,6 +533,7 @@ console.log(arr5.reverse());
 console.log(arr5);
 
 // CONCAT
+var letters1 = arr4.concat(arr5);
 
 
 
