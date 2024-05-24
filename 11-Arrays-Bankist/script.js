@@ -514,6 +514,7 @@ console.log('--- Working with Arrays: A Recap ---');
 let arr4 = ['a', 'b', 'c', 'd', 'e'];
 
 // SLICE
+console.log(arr4.slice(2));
 
 
 
