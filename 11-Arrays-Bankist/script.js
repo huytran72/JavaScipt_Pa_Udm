@@ -524,6 +524,8 @@ var _arr4$splice = arr4.splice(2),
     y1 = _arr4$splice2[1],
     z1 = _arr4$splice2[2];
 
+console.log(x1, y1, z1);
+
 
 
 
