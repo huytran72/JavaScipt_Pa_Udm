@@ -510,6 +510,8 @@ document.querySelector('button').addEventListener('click', function () {
 console.log('---------------------------------');
 console.log('--- Working with Arrays: A Recap ---');
 
+// Simple Array Methods
+
 
 
 
