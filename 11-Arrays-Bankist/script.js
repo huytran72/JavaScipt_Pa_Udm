@@ -571,6 +571,7 @@ movements2.forEach(function (mov) {
     console.log("You withdrew " + Math.abs(mov));
   }
 }
+);
 
 
 
