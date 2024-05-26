@@ -555,6 +555,12 @@ console.log('--- Looping Arrays: forEach ---');
 var movements2 = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 for (var _i = 0; _i < movements2.length; _i++) {
+  if (movements2[_i] > 0) {
+    console.log("You deposited " + movements2[_i]);
+  } else {
+    console.log("You withdrew " + Math.abs(movements2[_i]));
+  }
+}
 
 
 
