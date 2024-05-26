@@ -565,6 +565,12 @@ for (var _i = 0; _i < movements2.length; _i++) {
 console.log('--- FOREACH ---');
 
 movements2.forEach(function (mov) {
+  if (mov > 0) {
+    console.log("You deposited " + mov);
+  } else {
+    console.log("You withdrew " + Math.abs(mov));
+  }
+}
 
 
 
