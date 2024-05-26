@@ -551,6 +551,7 @@ console.log([].concat(arr4, arr5));
 console.log(letters1.join(' - '));
 
 // Looping Arrays: forEach
+console.log('--- Looping Arrays: forEach ---');
 
 
 
