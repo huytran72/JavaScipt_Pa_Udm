@@ -564,6 +564,8 @@ for (var _i = 0; _i < movements2.length; _i++) {
 
 console.log('--- FOREACH ---');
 
+movements2.forEach(function (mov) {
+
 
 
 
