@@ -573,6 +573,8 @@ movements2.forEach(function (mov) {
 }
 );
 
+// forEach with Maps and Sets
+
 
 
 
