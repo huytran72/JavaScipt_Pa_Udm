@@ -547,6 +547,8 @@ var letters1 = arr4.concat(arr5);
 console.log(letters1);
 console.log([].concat(arr4, arr5));
 
+// JOIN
+
 
 
 
