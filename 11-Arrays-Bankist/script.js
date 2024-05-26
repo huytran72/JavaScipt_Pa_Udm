@@ -574,6 +574,7 @@ movements2.forEach(function (mov) {
 );
 
 // forEach with Maps and Sets
+console.log('--- forEach with Maps and Sets ---');
 
 
 
