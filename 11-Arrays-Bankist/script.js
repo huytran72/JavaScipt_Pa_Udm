@@ -275,8 +275,10 @@ console.log(balance2);
 
 const calcPrintBalance = function (movements) {
   const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  balanclbalancece.textContent = `${balance} EUR`;
   console.log(balance);
 }
+
 
 
 // Maximum value
