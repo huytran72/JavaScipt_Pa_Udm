@@ -261,6 +261,7 @@ console.log('--- Reduce Method ---');
 
 console.log(movements);
 
+// accumulator -> SNOWBALL
 const balance = movements.reduce(function (acc, cur, i, arr) {
   console.log(`Iteration ${i}: ${acc}`);
   return acc + cur;
