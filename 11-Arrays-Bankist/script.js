@@ -222,6 +222,7 @@ console.log(movementsDescriptions);
 
 
 // Computing usernames
+console.log('---------------------------------');
 
 // Filter Method
 console.log('---------------------------------');
