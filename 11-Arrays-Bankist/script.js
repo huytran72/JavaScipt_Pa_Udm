@@ -265,8 +265,7 @@ console.log(movements);
 const balance = movements.reduce(function (acc, cur, i, arr) {
   console.log(`Iteration ${i}: ${acc}`);
   return acc + cur;
-}
-, 0);
+}, 0);
 
 console.log(balance);
 
