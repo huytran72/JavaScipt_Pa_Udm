@@ -278,6 +278,7 @@ const calcPrintBalance = function (movements) {
   balanclbalancece.textContent = `${balance} EUR`;
   console.log(balance);
 }
+calcDisplayBalance(account1.movements);
 
 
 
