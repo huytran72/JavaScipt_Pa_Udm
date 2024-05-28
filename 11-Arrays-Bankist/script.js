@@ -273,7 +273,7 @@ let balance2 = 0;
 for (const mov of movements) balance2 += mov;
 console.log(balance2);
 
-
+const calcPrintBalance = function (movements) {
 
 
 // Maximum value
