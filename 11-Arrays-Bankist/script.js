@@ -225,6 +225,9 @@ console.log(movementsDescriptions);
 console.log('---------------------------------');
 console.log('--- Computing usernames ---');
 
+const user = 'Steven Thomas Williams'; // stw
+
+
 // Filter Method
 console.log('---------------------------------');
 console.log('--- Filter Method ---');
