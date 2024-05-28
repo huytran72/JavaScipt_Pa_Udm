@@ -221,6 +221,7 @@ const movementsDescriptions = movements.map((mov, i) =>
 console.log(movementsDescriptions);
 
 
+// Computing usernames
 
 // Filter Method
 console.log('---------------------------------');
