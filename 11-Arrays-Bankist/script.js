@@ -65,7 +65,7 @@ const inputClosePin = document.querySelector('.form__input--pin');
 /////////////////////////////////////////////////
 
 calcDisplaySummary = function (movements) {
-
+  const incomes = movements.filter(mov => mov > 0).reduce((acc, mov) => acc + mov, 0);
 }
 calcDisplayBalance(account1.movements);
 
