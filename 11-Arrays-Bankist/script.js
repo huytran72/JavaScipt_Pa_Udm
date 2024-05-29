@@ -63,6 +63,16 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
+
+calcDisplaySummary = function (movements) {
+
+}
+calcDisplayBalance(account1.movements);
+
+
+
+
+
 // LECTURES
 
 const currencies = new Map([
