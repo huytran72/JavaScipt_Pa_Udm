@@ -70,7 +70,7 @@ calcDisplaySummary = function (movements) {
   .reduce((acc, mov) => acc + mov, 0);
   labelSumIn.textContent = `${incomes} EUR`;
 }
-calcDisplayBalance(account1.movements);
+calcDisplaySummary(account1.movements);
 
 
 
