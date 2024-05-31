@@ -71,7 +71,7 @@ calcDisplaySummary = function (movements) {
   labelSumIn.textContent = `${incomes} EUR`;
 
   const out = movements.filter(mov => mov < 0).reduce((acc, mov) => acc + mov, 0);
-  labelSumOut.textContent
+  labelSumOut.textContent = `${Math.abs(out)} EUR`;
 }
 calcDisplaySummary(account1.movements);
 
