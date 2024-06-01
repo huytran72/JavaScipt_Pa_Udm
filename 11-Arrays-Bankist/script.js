@@ -394,6 +394,7 @@ console.log(account);
 
 
 //Implementing the Login
+console.log('---------------------------------');
 
 // The findIndex Method
 console.log('---------------------------------');
