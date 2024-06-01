@@ -77,6 +77,7 @@ calcDisplaySummary = function (movements) {
   .filter(mov => mov > 0)
   .map(deposit => deposit * 1.2 / 100)
   .filter((int, i, arr) => {
+    console.log(arr);
   .reduce((acc, int) => acc + int, 0);
   labelSumInterest.textContent = `${interest} EUR`;
 }
