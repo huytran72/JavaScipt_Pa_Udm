@@ -79,6 +79,7 @@ calcDisplaySummary = function (movements) {
   .filter((int, i, arr) => {
     console.log(arr);
     return int >= 1;
+  })
   .reduce((acc, int) => acc + int, 0);
   labelSumInterest.textContent = `${interest} EUR`;
 }
