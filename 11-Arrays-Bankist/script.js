@@ -398,6 +398,7 @@ console.log('---------------------------------');
 console.log('--- Implementing the Login ---');
 
 //Event Handler
+btnLogin.addEventListener('click', function () {
 
 
 
