@@ -399,6 +399,7 @@ console.log('--- Implementing the Login ---');
 
 //Event Handler
 btnLogin.addEventListener('click', function (e) {
+  // Prevent form from submitting
   console.log('LOGIN');
 });
 
