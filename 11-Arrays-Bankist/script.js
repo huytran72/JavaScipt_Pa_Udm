@@ -398,12 +398,15 @@ console.log('---------------------------------');
 console.log('--- Implementing the Login ---');
 
 //Event Handler
+let currentAccount;
+
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
 
-accounts.find(acc => { acc.owner === inputLoginUsername.value });
+  currentAccount = accounts.find(acc => { acc.owner === inputLoginUsername.value });
   console.log('LOGIN');
+  console.log(currentAccount);
 });
 
 
