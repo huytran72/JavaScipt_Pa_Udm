@@ -401,6 +401,8 @@ console.log('--- Implementing the Login ---');
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
+
+accounts.find(acc => { acc
   console.log('LOGIN');
 });
 
