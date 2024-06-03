@@ -408,7 +408,7 @@ btnLogin.addEventListener('click', function (e) {
   console.log('LOGIN');
   console.log(currentAccount);
 
-  if(currentAccount.pin === Number())
+  if(currentAccount.pin === Number(inputLoginPin.value))
 });
 
 
