@@ -407,6 +407,8 @@ btnLogin.addEventListener('click', function (e) {
   currentAccount = accounts.find(acc => { acc.owner === inputLoginUsername.value });
   console.log('LOGIN');
   console.log(currentAccount);
+
+  if(currentAccount.pin === Number())
 });
 
 
