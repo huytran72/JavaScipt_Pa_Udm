@@ -413,9 +413,9 @@ btnLogin.addEventListener('click', function (e) {
   labelWelcome.textContent = `Welcome back, ${currentAccount.owner.split(' ')[0]}`;
   containerApp.style.opacity = 100;
 
-
-
   // Display movements
+    displkayMovements(currentAccount.movements);
+
 
   // Display balance
 
