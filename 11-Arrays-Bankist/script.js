@@ -414,6 +414,8 @@ btnLogin.addEventListener('click', function (e) {
   // Display movements
 
   // Display balance
+
+  // Display summary
   
   }
 });
