@@ -420,9 +420,9 @@ btnLogin.addEventListener('click', function (e) {
   // Display balance
   calcDisplayBalance(currentAccount.movements);
 
-  
+
   // Display summary
-  
+  calcDisplaySummary(currentAccount.movements);
   }
 });
 
