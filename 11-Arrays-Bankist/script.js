@@ -437,6 +437,7 @@ btnLogin.addEventListener('click', function (e) {
 btnTransfer.addEventListener('click', function (e) {
   e.preventDefault();
   const amount = Number(inputTransferAmount.value);
+  const receiverAccount = accounts.find(acc => acc.owner === inputTransferTo.value);
 
 
 // The findIndex Method
