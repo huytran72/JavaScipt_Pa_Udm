@@ -440,6 +440,10 @@ btnTransfer.addEventListener('click', function (e) {
   const receiverAccount = accounts.find(acc => acc.owner === inputTransferTo.value);
 
 
+
+
+
+
 // The findIndex Method
 console.log('---------------------------------');
 console.log('--- The findIndex Method ---');
