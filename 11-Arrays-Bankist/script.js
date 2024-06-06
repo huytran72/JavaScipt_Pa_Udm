@@ -434,7 +434,7 @@ btnLogin.addEventListener('click', function (e) {
 
 
 // Implementing Transfer
-btnTransfer.addEventListener
+btnTransfer.addEventListener('click', function (e) {
 
 
 // The findIndex Method
