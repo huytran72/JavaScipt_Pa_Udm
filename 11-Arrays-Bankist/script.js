@@ -441,6 +441,8 @@ btnTransfer.addEventListener('click', function (e) {
 
   inputTransferAmount.value = inputTransferTo.value = '';
 
+  if (amount > 0 && receiverAccount && currentAccount.balance >= amount && receiverAccount?.owner !== currentAccount.owner) {
+
 
 
 
