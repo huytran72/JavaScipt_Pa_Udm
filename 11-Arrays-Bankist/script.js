@@ -444,6 +444,7 @@ btnTransfer.addEventListener('click', function (e) {
 
   if (amount > 0 && receiverAccount && currentAccount.balance >= amount && receiverAccount?.owner !== currentAccount.owner) {
     console.log('Transfer valid');
+  }
 
 
 
