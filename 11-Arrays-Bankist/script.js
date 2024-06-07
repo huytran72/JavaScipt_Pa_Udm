@@ -397,6 +397,8 @@ console.log(account);
 console.log('---------------------------------');
 console.log('--- Implementing the Login ---');
 
+const updateUI = function (acc) {
+
 //Event Handler
 let currentAccount;
 
