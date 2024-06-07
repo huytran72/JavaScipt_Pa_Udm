@@ -418,6 +418,8 @@ btnLogin.addEventListener('click', function (e) {
   inputLoginUsername.value = inputLoginPin.value = '';
   inputLoginPin.blur();
 
+  updateUI(currentAccount);
+
 
   // Display movements
     displkayMovements(currentAccount.movements);
