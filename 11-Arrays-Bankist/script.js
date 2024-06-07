@@ -398,6 +398,17 @@ console.log('---------------------------------');
 console.log('--- Implementing the Login ---');
 
 const updateUI = function (acc) {
+    // Display movements
+    displkayMovements(currentAccount.movements);
+
+
+  // Display balance
+  calcDisplayBalance(currentAccount.movements);
+
+
+  // Display summary
+  calcDisplaySummary(currentAccount.movements);
+};
 
 //Event Handler
 let currentAccount;
@@ -423,17 +434,7 @@ btnLogin.addEventListener('click', function (e) {
   updateUI(currentAccount);
 
 
-  // Display movements
-    displkayMovements(currentAccount.movements);
 
-
-  // Display balance
-  calcDisplayBalance(currentAccount.movements);
-
-
-  // Display summary
-  calcDisplaySummary(currentAccount.movements);
-  }
 });
 
 
