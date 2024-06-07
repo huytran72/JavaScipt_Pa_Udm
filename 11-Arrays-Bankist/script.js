@@ -444,6 +444,7 @@ btnTransfer.addEventListener('click', function (e) {
 
   if (amount > 0 && receiverAccount && currentAccount.balance >= amount && receiverAccount?.owner !== currentAccount.owner) {
     // Doing the transfer
+    currentAccount.movements.push(-amount);
     console.log('Transfer valid');
   }
 });
