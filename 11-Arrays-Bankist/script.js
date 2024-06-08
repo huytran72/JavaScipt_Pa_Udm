@@ -399,7 +399,7 @@ console.log('--- Implementing the Login ---');
 
 const updateUI = function (acc) {
     // Display movements
-    displkayMovements(currentAccount.movements);
+    displkayMovements(acc.movements);
 
 
   // Display balance
