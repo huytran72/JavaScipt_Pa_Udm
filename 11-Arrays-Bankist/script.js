@@ -403,7 +403,7 @@ const updateUI = function (acc) {
 
 
   // Display balance
-  calcDisplayBalance(currentAccount.movements);
+  calcDisplayBalance(acc.movements);
 
 
   // Display summary
