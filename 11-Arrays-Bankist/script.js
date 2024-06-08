@@ -453,6 +453,8 @@ btnTransfer.addEventListener('click', function (e) {
     receiverAccount.movements.push(amount);
     console.log('Transfer valid');
   }
+
+  // Update UI
 });
 
 
