@@ -469,6 +469,7 @@ console.log('--- The findIndex Method ---');
 
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
+  console.log('DELETE');
 
 console.log(movements);
 const index = movements.findIndex(mov => mov === 450);
