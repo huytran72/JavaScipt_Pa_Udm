@@ -467,6 +467,8 @@ btnTransfer.addEventListener('click', function (e) {
 console.log('---------------------------------');
 console.log('--- The findIndex Method ---');
 
+btnClose.addEventListener('click', function (e) {
+
 console.log(movements);
 const index = movements.findIndex(mov => mov === 450);
 console.log(index);
