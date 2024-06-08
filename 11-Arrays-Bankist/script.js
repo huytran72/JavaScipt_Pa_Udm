@@ -407,7 +407,7 @@ const updateUI = function (acc) {
 
 
   // Display summary
-  calcDisplaySummary(currentAccount.movements);
+  calcDisplaySummary(acc.movements);
 };
 
 //Event Handler
