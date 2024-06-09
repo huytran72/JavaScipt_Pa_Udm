@@ -462,8 +462,9 @@ btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
   if (inputCloseUsername.value === currentAccount.owner && Number(inputClosePin.value) === currentAccount.pin) {
-    
+
     const index = accounts.findIndex(acc => acc.owner === currentAccount.owner);
+    console.log(index);
 
     accounts.splice(index, 1);
 
