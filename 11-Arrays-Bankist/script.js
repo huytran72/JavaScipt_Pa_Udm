@@ -466,6 +466,7 @@ btnClose.addEventListener('click', function (e) {
     const index = accounts.findIndex(acc => acc.owner === currentAccount.owner);
     console.log(index);
 
+    // Delete account
     accounts.splice(index, 1);
 
 
