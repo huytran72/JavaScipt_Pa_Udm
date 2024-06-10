@@ -487,6 +487,10 @@ console.log(movements);
 const index = movements.findIndex(mov => mov === 450);
 console.log(index);
 
+
+
+
+
 // Some and Every
 console.log('---------------------------------');
 console.log('--- Some and Every ---');
