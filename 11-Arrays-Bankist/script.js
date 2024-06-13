@@ -475,6 +475,7 @@ btnLoan.addEventListener('click', function (e) {
 });
 
 btnClose.addEventListener('click', function (e) {
+  e.preventDefault();
 
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
