@@ -477,7 +477,7 @@ btnLoan.addEventListener('click', function (e) {
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
-  const 
+  const amount = Number(inputLoanAmount.value);
   inputCloseUsername.value = inputClosePin.value = '';
 
 });
