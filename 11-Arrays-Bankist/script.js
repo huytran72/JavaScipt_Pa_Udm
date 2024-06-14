@@ -503,7 +503,6 @@ btnLoan.addEventListener('click', function (e) {
     // Update UI
     updateUI(currentAccount);
   }
-
 });
 
 btnClose.addEventListener('click', function (e) {
