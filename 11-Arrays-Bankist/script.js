@@ -494,6 +494,8 @@ btnClose.addEventListener('click', function (e) {
 btnLoan.addEventListener('click', function (e) {
   e.preventDefault();
 
+  const amount = Number(inputLoanAmount.value);
+
 });
 
 btnClose.addEventListener('click', function (e) {
