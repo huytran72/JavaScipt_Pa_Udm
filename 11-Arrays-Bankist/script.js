@@ -612,6 +612,11 @@ const overallBalance2 = accounts
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overallBalance2);
 
+
+
+
+
+
 // Sorting Arrays
 console.log('---------------------------------');
 console.log('--- Sorting Arrays ---');
