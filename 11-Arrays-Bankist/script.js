@@ -579,6 +579,8 @@ console.log(movements.some(deposit));
 console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
 
+
+
 // Flat and FlatMap
 console.log('---------------------------------');
 console.log('--- Flat and FlatMap ---');
