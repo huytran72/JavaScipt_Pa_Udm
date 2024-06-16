@@ -654,7 +654,7 @@ movements.sort((a, b) => b - a);
 console.log(movements);
 
 const displayMovements = function (movements, sort = false) {
-  containerMovements
+  containerMovements.innerHTML = '';
 
 
 // More ways
