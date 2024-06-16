@@ -657,6 +657,8 @@ const displayMovements = function (movements, sort = false) {
   containerMovements.innerHTML = '';
   // .textContent = 0;
 
+  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+
 
 // More ways
 console.log([1, 2, 3, 4, 5, 6, 7, 8, 9]);
