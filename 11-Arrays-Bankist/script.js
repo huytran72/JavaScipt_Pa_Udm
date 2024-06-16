@@ -599,6 +599,7 @@ console.log(allMovements);
 const overallBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
 console.log(overallBalance);
 
+// flat
 const overallBalance1 = accounts
   .map(acc => acc.movements)
   .flat()
