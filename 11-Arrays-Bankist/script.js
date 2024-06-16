@@ -655,6 +655,7 @@ console.log(movements);
 
 const displayMovements = function (movements, sort = false) {
   containerMovements.innerHTML = '';
+  // .textContent = 0;
 
 
 // More ways
