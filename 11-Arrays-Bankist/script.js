@@ -539,7 +539,7 @@ btnClose.addEventListener('click', function (e) {
   }
 });
 
-btnSort.addEventListener
+btnSort.addEventListener('click', function (e) {
 
 
 
