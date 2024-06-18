@@ -539,6 +539,8 @@ btnClose.addEventListener('click', function (e) {
   }
 });
 
+btnSort
+
 
 
 // The findIndex Method
