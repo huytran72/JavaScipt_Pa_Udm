@@ -697,10 +697,12 @@ console.log([1, 2, 3, 4, 5, 6, 7, 8, 9].sort((a, b) => b - a));
 const x = new Array(7);
 console.log(x);
 
-const x = new Array(7).fill(1);
+const x2 = new Array(7).fill(1);
 console.log(x);
 x.fill(23, 3, 5);
 console.log(x);
+
+arr.fill(1, 3, 5);
 
 const y = [1, 2, 3, 4, 5];
 console.log(y);
