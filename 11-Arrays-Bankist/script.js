@@ -709,6 +709,11 @@ console.log(arr);
 // Array.from
 console.log('---------------------------------');
 console.log('--- Array.from ---');
+
+Array.from({ length: 7 });
+
+
+
 const y = [1, 2, 3, 4, 5];
 console.log(y);
 
