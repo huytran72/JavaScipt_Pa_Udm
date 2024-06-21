@@ -713,9 +713,6 @@ console.log('--- Array.from ---');
 Array.from({ length: 7 }, () => 1);
 console.log(y);
 
-
-
-
 const y = [1, 2, 3, 4, 5];
 console.log(y);
 
@@ -730,6 +727,8 @@ labelBalance.addEventListener('click', function () {
   console.log(movementsUI);
 }
 );
+
+
 
 // Array Methods Practice
 console.log('---------------------------------');
