@@ -710,7 +710,9 @@ console.log(arr);
 console.log('---------------------------------');
 console.log('--- Array.from ---');
 
-Array.from({ length: 7 });
+Array.from({ length: 7 }, () => 1);
+console.log(y);
+
 
 
 
