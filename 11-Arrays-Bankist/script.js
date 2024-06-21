@@ -705,6 +705,8 @@ console.log(x);
 arr.fill(1, 3, 5);
 console.log(arr);
 
+
+// Array.from
 const y = [1, 2, 3, 4, 5];
 console.log(y);
 
