@@ -761,6 +761,8 @@ let a = 10;
 console.log(++a);
 console.log(a);
 
+
+
 // 3. Create an object which contains the sum of deposits and withdrawals
 const { deposits1, withdrawals1 } = accounts
   .flatMap(acc => acc.movements)
@@ -771,6 +773,9 @@ const { deposits1, withdrawals1 } = accounts
   }
   , { deposits1: 0, withdrawals1: 0 });
 console.log(deposits, withdrawals);
+
+
+
 
 // 4. This is a nice title -> This Is a Nice Title
 const convertTitleCase = function (title) {
