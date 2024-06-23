@@ -759,6 +759,7 @@ console.log(numDeposits1000);
 
 let a = 10;
 console.log(++a);
+console.log(a);
 
 // 3. Create an object which contains the sum of deposits and withdrawals
 const { deposits1, withdrawals1 } = accounts
