@@ -805,6 +805,7 @@ const dogs = [
   { weight: 32, curFood: 340, owners: ['Michael'] },
 ];
 // 1.
+dogs.forEach(dog => dog.recommendedFood = Math.trunc(dog.weight ** 0.75 * 28));
 
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
