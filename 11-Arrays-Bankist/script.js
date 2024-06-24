@@ -799,6 +799,7 @@ console.log('---------------------------------');
 console.log('--- Coding Challenge #4 ---');
 
 const dogs = [
+  { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
 
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
