@@ -803,6 +803,7 @@ const dogs = [
   { weight: 8, curFood: 200, owners: ['Matilda'] },
   { weight: 13, curFood: 275, owners: ['Sarah', 'John'] },
   { weight: 32, curFood: 340, owners: ['Michael'] },
+];
 
 document.body.append(document.createElement('textarea'));
 document.body.append(document.createElement('button'));
