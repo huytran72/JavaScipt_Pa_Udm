@@ -829,6 +829,9 @@ console.log(dogSarah);
 console.log(`Sarah's dog is eating too ${dogSarah.curFood > dogSarah.recommendedFood ? 'much' : 'little'}`);
 
 
+//3.
+
+
 
 
 
