@@ -824,6 +824,7 @@ document.querySelector('button').addEventListener('click', function () {
 
 
 //2.
+const dogSarah = dogs.find(dog => dog.owners.includes('Sarah'));
 
 
 
