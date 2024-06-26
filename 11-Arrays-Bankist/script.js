@@ -840,6 +840,7 @@ console.log(ownersEatTooLittle);
 
 
 //4.
+console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
 
 
 
