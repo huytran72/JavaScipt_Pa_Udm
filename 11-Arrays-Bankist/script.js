@@ -839,6 +839,9 @@ const ownersEatTooLittle = dogs.filter(dog => dog.curFood < dog.recommendedFood)
 console.log(ownersEatTooLittle);
 
 
+//4.
+
+
 
 
 
