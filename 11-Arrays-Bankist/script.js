@@ -830,7 +830,10 @@ console.log(`Sarah's dog is eating too ${dogSarah.curFood > dogSarah.recommended
 
 
 //3.
-const ownersEatTooMuch = dogs.filter(dog => dog.curFood > dog.recommendedFood).flatMap(dog => dog.owners);
+const ownersEatTooMuch = dogs
+.filter(dog => dog.curFood > dog.recommendedFood)
+.flatMap(dog => dog.owners)
+.flat();
 const ownersEatTooLittle = dogs.filter(dog => dog.curFood < dog.recommendedFood).flatMap(dog => dog.owners);
 
 
