@@ -859,6 +859,7 @@ console.log(dogs.some(checkEatingOkay));
 
 
 
+
 // Working with Arrays: A Recap
 console.log('---------------------------------');
 console.log('--- Working with Arrays: A Recap ---');
