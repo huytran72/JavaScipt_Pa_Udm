@@ -846,7 +846,7 @@ console.log(`${ownersEatTooMuch.join(' and ')}'s dogs eat too much!`);
 console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too little!`);
 
 
-
+//5.
 
 
 // Working with Arrays: A Recap
