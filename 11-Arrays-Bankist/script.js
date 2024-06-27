@@ -854,6 +854,10 @@ console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
 const checkEatingOkay = dog => dog.curFood > dog.recommendedFood * 0.9 && dog.curFood < dog.recommendedFood * 1.1;
 
 
+
+
+
+
 // Working with Arrays: A Recap
 console.log('---------------------------------');
 console.log('--- Working with Arrays: A Recap ---');
