@@ -850,6 +850,9 @@ console.log(`${ownersEatTooLittle.join(' and ')}'s dogs eat too little!`);
 console.log(dogs.some(dog => dog.curFood === dog.recommendedFood));
 
 
+//6.
+
+
 // Working with Arrays: A Recap
 console.log('---------------------------------');
 console.log('--- Working with Arrays: A Recap ---');
