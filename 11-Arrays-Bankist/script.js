@@ -860,6 +860,9 @@ console.log(dogs.some(checkEatingOkay));
 console.log(dogs.filter(checkEatingOkay));
 
 
+//8.
+
+
 
 
 // Working with Arrays: A Recap
