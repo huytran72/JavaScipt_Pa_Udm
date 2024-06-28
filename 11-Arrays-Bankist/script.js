@@ -867,6 +867,8 @@ console.log(dogsSorted);
 
 
 
+
+
 // Working with Arrays: A Recap
 console.log('---------------------------------');
 console.log('--- Working with Arrays: A Recap ---');
