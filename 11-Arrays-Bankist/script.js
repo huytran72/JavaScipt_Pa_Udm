@@ -856,7 +856,7 @@ const checkEatingOkay = dog => dog.curFood > dog.recommendedFood * 0.9 && dog.cu
 console.log(dogs.some(checkEatingOkay));
 
 
-
+//7.
 
 
 
