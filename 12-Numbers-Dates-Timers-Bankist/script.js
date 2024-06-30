@@ -262,3 +262,5 @@ btnSort.addEventListener('click', function (e) {
 // Conversion
 // console.log(Number('23'));
 // console.log(+'23');
+
+// Parsing
