@@ -260,3 +260,4 @@ btnSort.addEventListener('click', function (e) {
 // console.log(0.1 + 0.2 === 0.3);
 
 // Conversion
+// console.log(Number('23'));
