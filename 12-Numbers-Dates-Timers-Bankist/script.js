@@ -277,3 +277,4 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Number.isFinite(20));
 // console.log(Number.isFinite('20'));
+// console.log(Number.isFinite(+'20X'));
