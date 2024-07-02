@@ -283,3 +283,5 @@ btnSort.addEventListener('click', function (e) {
 // console.log(Number.isInteger(23));
 // console.log(Number.isInteger(23.0));
 // console.log(Number.isInteger(23 / 0)); // Infinity
+
+// console.log(Math.sqrt(25));
