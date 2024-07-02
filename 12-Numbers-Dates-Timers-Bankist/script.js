@@ -286,4 +286,5 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Math.sqrt(25));
 // console.log(25 ** (1 / 2));
-// console.log(8 ** (1 / 3));
+// console.log(8 ** (1 / 3)); // cube root
+
