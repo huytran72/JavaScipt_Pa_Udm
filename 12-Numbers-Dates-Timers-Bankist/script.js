@@ -290,4 +290,5 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Math.max(5, 18, 23, 11, 2)); // 23
 // console.log(Math.max(5, 18, '23', 11, 2)); // 23
+// console.log(Math.max(5, 18, '23px', 11, 2)); // NaN
 
