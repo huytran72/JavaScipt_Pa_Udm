@@ -294,3 +294,5 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Math.min(5, 18, 23, 11, 2)); // 2
 
+// console.log(Math.PI * Number.parseFloat('10px') ** 2);
+
