@@ -296,5 +296,7 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Math.PI * Number.parseFloat('10px') ** 2);
 
-// console.log(Math.trunc(Math.random() * 6) + 1); // random number between 1 and 6
+// console.log(Math.trunc(Math.random() * 6) + 1); // random number between 1 and 6 
+
+const randomInt = (min, max) =>
 
