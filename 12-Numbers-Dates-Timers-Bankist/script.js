@@ -296,3 +296,5 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Math.PI * Number.parseFloat('10px') ** 2);
 
+// console.log(Math.trunc(Math.random() * 6) + 1);
+
