@@ -310,4 +310,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // console.log(Math.ceil(23.3)); // 24
 // console.log(Math.ceil(23.9)); // 24
 
+// console.log(Math.floor(23.3)); // 23
+
 
