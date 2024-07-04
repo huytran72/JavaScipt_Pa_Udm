@@ -300,5 +300,6 @@ btnSort.addEventListener('click', function (e) {
 
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + min;
 
-// console.log(randomInt(10, 20));
+// console.log(randomInt(10, 20));  // random number between 10 and 20
+
 
