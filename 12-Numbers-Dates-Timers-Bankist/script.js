@@ -325,5 +325,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // console.log(8 % 3); // 2
 // console.log(8 / 3); // 2.6666666666666665
 
+// console.log(6 % 2); // 0
 
 
