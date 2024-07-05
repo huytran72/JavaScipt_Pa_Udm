@@ -314,5 +314,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // console.log(Math.floor('23.9')); // 23
 
 // Rounding decimals
+// console.log((2.7).toFixed(0)); // 3
 
 
