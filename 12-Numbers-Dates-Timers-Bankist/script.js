@@ -322,5 +322,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // Remainder operator
 // console.log(5 % 2); // 1
 // console.log(5 / 2); // 2.5
+// console.log(8 % 3); // 2
 
 
