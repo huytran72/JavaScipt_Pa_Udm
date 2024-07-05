@@ -319,4 +319,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // console.log((2.345).toFixed(2)); // 2.35
 // console.log(+(2.345).toFixed(2)); // 2.35
 
+// Remainder operator
+
 
