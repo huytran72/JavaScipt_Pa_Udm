@@ -331,5 +331,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // const isEven = n => n % 2 === 0;
 // console.log(isEven(8)); // true
 // console.log(isEven(23)); // false
+// console.log(isEven(514)); // true
 
 
