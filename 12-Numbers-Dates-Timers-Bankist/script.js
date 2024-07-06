@@ -333,4 +333,6 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // console.log(isEven(23)); // false
 // console.log(isEven(514)); // true
 
+labelBalance.addEventListener('click', function () {
+
 
