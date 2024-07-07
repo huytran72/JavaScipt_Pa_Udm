@@ -344,4 +344,6 @@ labelBalance.addEventListener('click', function () {
 }
 );
 
+// console.log(23 === 23.0);
+
 
