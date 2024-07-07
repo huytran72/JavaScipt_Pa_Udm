@@ -348,5 +348,6 @@ labelBalance.addEventListener('click', function () {
 
 // Base 10 - 0 to 9. 1/10 = 0.1, 3/10 = 3.
 // Binary base 2 - 0 1
+// console.log(0.1 + 0.2);
 
 
