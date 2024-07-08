@@ -354,4 +354,6 @@ labelBalance.addEventListener('click', function () {
 // Conversion
 // console.log(Number('23'));
 
+// console.log(+'23');
+
 
