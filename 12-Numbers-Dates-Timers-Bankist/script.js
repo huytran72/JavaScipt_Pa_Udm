@@ -357,5 +357,6 @@ labelBalance.addEventListener('click', function () {
 // console.log(+'23');  
 
 // Parsing
+// console.log(Number.parseInt('30px', 10));
 
 
