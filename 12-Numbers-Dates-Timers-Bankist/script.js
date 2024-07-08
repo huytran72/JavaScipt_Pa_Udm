@@ -366,5 +366,6 @@ labelBalance.addEventListener('click', function () {
 
 // console.log(Number.isNaN(20));
 // console.log(Number.isNaN('20'));
+// console.log(Number.isNaN(+'20X'));
 
 
