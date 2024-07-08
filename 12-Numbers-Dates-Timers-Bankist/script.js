@@ -364,4 +364,6 @@ labelBalance.addEventListener('click', function () {
 
 // console.log(Number.parseFloat('  2.5rem  '));
 
+// console.log(Number.isNaN(20));
+
 
