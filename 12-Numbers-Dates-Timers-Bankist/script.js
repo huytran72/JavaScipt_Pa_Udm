@@ -371,5 +371,6 @@ labelBalance.addEventListener('click', function () {
 // console.log(Number.isNaN(23 / 0));
 
 // console.log(Number.isFinite(20));
+// console.log(Number.isFinite('20'));
 
 
