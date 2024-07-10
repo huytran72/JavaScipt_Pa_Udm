@@ -388,3 +388,4 @@ labelBalance.addEventListener('click', function () {
 // console.log(Math.max(5, 18, '23px', 11, 2)); // NaN
 
 
+
