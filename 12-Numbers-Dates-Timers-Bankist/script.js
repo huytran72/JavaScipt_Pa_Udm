@@ -390,3 +390,4 @@ labelBalance.addEventListener('click', function () {
 // console.log(Math.min(5, 18, 23, 11, 2)); // 2
 
 
+
