@@ -381,5 +381,6 @@ labelBalance.addEventListener('click', function () {
 
 // console.log(Math.sqrt(25));  // square root
 // console.log(25 ** (1 / 2)); // square root
+// console.log(8 ** (1 / 3)); // cube root
 
 
