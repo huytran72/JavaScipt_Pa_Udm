@@ -304,6 +304,7 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 
 
 console.log('------------------------------------');
+console.log('Math and Rounding');
 // Rounding integers  
 // console.log(Math.trunc(23.3)); // 23
 // console.log(Math.round(23.3)); // 23
