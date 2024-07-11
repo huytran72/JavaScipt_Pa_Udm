@@ -316,15 +316,15 @@ console.log('Math and Rounding');
 // console.log(Math.floor(23.3)); // 23
 // console.log(Math.floor('23.9')); // 23
 
-
-
-
 // Rounding decimals
 // console.log((2.7).toFixed(0)); // 3
 // console.log((2.7).toFixed(3)); // 2.700
 // console.log((2.345).toFixed(2)); // 2.35
 // console.log(+(2.345).toFixed(2)); // 2.35
 
+
+
+console.log('------------------------------------');
 // Remainder operator
 // console.log(5 % 2); // 1
 // console.log(5 / 2); // 2.5
