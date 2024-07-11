@@ -302,6 +302,8 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + mi
 // 0...1 -> 0...(max - min) -> min...max
 // console.log(randomInt(10, 20));  // random number between 10 and 20  
 
+
+console.log('------------------------------------');
 // Rounding integers  
 // console.log(Math.trunc(23.3)); // 23
 // console.log(Math.round(23.3)); // 23
