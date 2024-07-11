@@ -326,6 +326,8 @@ console.log('Math and Rounding');
 
 console.log('------------------------------------');
 console.log('Remainder Operator');
+
+
 // Remainder operator
 // console.log(5 % 2); // 1
 // console.log(5 / 2); // 2.5
