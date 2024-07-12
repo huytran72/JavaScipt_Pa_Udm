@@ -363,6 +363,7 @@ labelBalance.addEventListener('click', function () {
 
 
 console.log('------------------------------------');
+console.log('Numeric Separators');
 
 // console.log(23 === 23.0);  
 
