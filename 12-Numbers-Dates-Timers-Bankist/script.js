@@ -365,6 +365,9 @@ labelBalance.addEventListener('click', function () {
 console.log('------------------------------------');
 console.log('Numeric Separators');
 
+// Numeric Separators
+//287,460,000,000
+const diameter = 287_460_000_000;
 // console.log(23 === 23.0);  
 
 // Base 10 - 0 to 9. 1/10 = 0.1, 3/10 = 3.  
