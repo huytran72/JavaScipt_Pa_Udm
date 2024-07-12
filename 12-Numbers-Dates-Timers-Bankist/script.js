@@ -354,7 +354,7 @@ labelBalance.addEventListener('click', function () {
 );
 
 labelBalance.addEventListener('click', function () {
-  []
+  [...document.querySelectorAll('.movements_row')].forEach(function (row, i) {
 
 // console.log(23 === 23.0);  
 
