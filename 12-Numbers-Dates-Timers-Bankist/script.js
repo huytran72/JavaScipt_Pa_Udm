@@ -374,6 +374,7 @@ const price = 345_99;
 console.log(price);
 
 const transferFee1 = 15_00;
+const transferFee2 = 1_500;
 
 
 
