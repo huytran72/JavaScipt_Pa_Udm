@@ -382,6 +382,10 @@ console.log(PI);
 console.log(Number('230_00'));
 
 
+console.log('------------------------------------');
+console.log('Working with BigInt');
+
+
 
 
 // console.log(23 === 23.0);  
