@@ -386,6 +386,7 @@ console.log('------------------------------------');
 console.log('Working with BigInt');
 
 // Working with BigInt
+// console.log(2 ** 53 - 1); // 9007199254740991
 
 
 
