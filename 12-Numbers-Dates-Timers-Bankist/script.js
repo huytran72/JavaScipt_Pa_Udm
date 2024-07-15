@@ -396,6 +396,7 @@ console.log('Working with BigInt');
 
 // console.log(9007199254740991n);
 // console.log(BigInt(9007199254740991));
+// console.log(9007199254740991n + 1n);
 
 
 
