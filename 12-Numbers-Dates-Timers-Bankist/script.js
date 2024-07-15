@@ -394,6 +394,8 @@ console.log('Working with BigInt');
 // console.log(2 ** 53 + 3); // 9007199254740996
 // console.log(2 ** 53 + 4); // 9007199254740996
 
+// console.log(9007199254740991n);
+
 
 
 
