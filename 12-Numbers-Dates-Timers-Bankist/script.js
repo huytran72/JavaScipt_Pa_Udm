@@ -380,6 +380,7 @@ const PI = 3.1415_9265;
 console.log(PI);
 
 console.log(Number('230_00'));
+console.log(parseInt(23_000));
 
 
 console.log('------------------------------------');
