@@ -391,6 +391,7 @@ console.log('Working with BigInt');
 // console.log(Number.MAX_SAFE_INTEGER); // 9007199254740991
 // console.log(2 ** 53 + 1); // 9007199254740992
 // console.log(2 ** 53 + 2); // 9007199254740994
+// console.log(2 ** 53 + 3); // 9007199254740996
 
 
 
