@@ -402,6 +402,7 @@ console.log('Working with BigInt');
 // console.log(5n / 2n);
 
 // Operations
+// console.log(10n - 4); // Error
 
 
 
