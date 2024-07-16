@@ -408,6 +408,8 @@ const huge = 202898919489148n;
 const num = 23;
 console.log(huge * BigInt(num));
 
+console.log(20n > 15); // true
+
 
 
 
