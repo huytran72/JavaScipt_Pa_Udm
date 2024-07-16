@@ -404,6 +404,9 @@ console.log('Working with BigInt');
 // Operations
 // console.log(10n - 4); // Error
 
+const huge = 202898919489148n;
+const num = 23;
+
 
 
 
