@@ -406,6 +406,7 @@ console.log('Working with BigInt');
 
 const huge = 202898919489148n;
 const num = 23;
+console.log(huge * BigInt(num));
 
 
 
