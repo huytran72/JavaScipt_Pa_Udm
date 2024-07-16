@@ -401,6 +401,8 @@ console.log('Working with BigInt');
 // console.log(9007199254740991n + BigInt(1));
 // console.log(5n / 2n);
 
+// Operations
+
 
 
 
