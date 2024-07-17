@@ -427,6 +427,7 @@ console.log('Creating Dates');
 
 // Creating Dates
 const now = new Date();
+console.log(now);
 
 
 
