@@ -415,6 +415,8 @@ console.log(20n == 20); // true
 console.log(20n == '20'); // true
 console.log(20n == '20'); // true
 
+console.log(huge + ' is REALLY big!!!');
+
 
 
 
