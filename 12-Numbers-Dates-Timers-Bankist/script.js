@@ -420,6 +420,7 @@ console.log(huge + ' is REALLY big!!!');
 // Divisions
 
 console.log(10n / 3n); // 3n
+console.log(10 / 3); // 3.3333333333333335
 
 
 
