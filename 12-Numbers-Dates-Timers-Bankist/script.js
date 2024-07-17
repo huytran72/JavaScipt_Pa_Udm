@@ -436,6 +436,7 @@ console.log(new Date(account1.movementsDates[0]));
 console.log(new Date(2037, 10, 19, 15, 23, 5));
 console.log(new Date(2037, 10, 33));
 
+console.log(new Date(0));
 
 
 
