@@ -436,6 +436,7 @@ console.log(new Date(account1.movementsDates[0]));
 
 
 
+
 // console.log(23 === 23.0);  
 
 // Base 10 - 0 to 9. 1/10 = 0.1, 3/10 = 3.  
