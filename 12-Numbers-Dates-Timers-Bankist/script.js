@@ -429,6 +429,8 @@ console.log('Creating Dates');
 const now = new Date();
 console.log(now);
 
+console.log(new Date('Aug 02 2020 18:05:41'));
+
 
 
 
