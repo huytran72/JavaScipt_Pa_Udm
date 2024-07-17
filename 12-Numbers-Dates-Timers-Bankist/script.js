@@ -439,6 +439,7 @@ console.log(new Date(2037, 10, 33));
 
 
 
+
 // console.log(23 === 23.0);  
 
 // Base 10 - 0 to 9. 1/10 = 0.1, 3/10 = 3.  
