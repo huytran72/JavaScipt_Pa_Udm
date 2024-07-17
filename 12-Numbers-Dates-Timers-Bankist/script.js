@@ -412,6 +412,7 @@ console.log(20n > 15); // true
 console.log(20n === 20); // false
 console.log(typeof 20n); // bigint
 console.log(20n == 20); // true
+console.log(20n == '20'); // true
 
 
 
