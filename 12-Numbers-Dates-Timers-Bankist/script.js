@@ -465,6 +465,8 @@ console.log('Operations with Dates');
 const future = new Date(2037, 10, 19, 15, 23);
 console.log(Number(future));
 
+const calcDaysPassed = (date1, date2) => Math.abs(date2 - date1) / (1000 * 60 * 60 * 24);
+
 
 
 
