@@ -474,6 +474,14 @@ console.log('------------------------------------');
 console.log('Internationalizing Dates (Intl)');
 // Internationalizing Dates (Intl)  
 const now = new Date();
+const options = {
+  hour: 'numeric',
+  minute: 'numeric',
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric',
+  weekday: 'long'
+};
 
 
 
