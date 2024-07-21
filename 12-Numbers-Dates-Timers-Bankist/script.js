@@ -471,6 +471,7 @@ const days1 = calcDaysPassed(new Date(2037, 3, 14), new Date(2037, 3, 4));
 console.log(days1);
 
 console.log('------------------------------------');
+console.log('Internationalizing Dates (Intl)');
 
 
 
