@@ -484,6 +484,7 @@ const options = {
 };
 
 const locale = navigator.language;
+console.log(locale);
 
 
 
