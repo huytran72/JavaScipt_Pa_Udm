@@ -488,5 +488,7 @@ console.log(locale);
 
 labelDate.textContent = new Intl.DateTimeFormat(locale, options).format(now);
 
+console.log('------------------------------------');
+
 
 
