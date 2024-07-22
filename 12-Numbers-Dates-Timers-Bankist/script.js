@@ -483,6 +483,8 @@ const options = {
   weekday: 'long'
 };
 
+const locale = navigator.language;
+
 
 
 
