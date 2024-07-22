@@ -499,5 +499,7 @@ const options = {
   useGrouping: false
 };
 
+console.log('US: ', new Intl.NumberFormat('en-US', options).format(num));
+
 
 
