@@ -490,6 +490,7 @@ labelDate.textContent = new Intl.DateTimeFormat(locale, options).format(now);
 
 console.log('------------------------------------');
 console.log('Internationalizing Numbers (Intl)');
+// Internationalizing Numbers (Intl)
 
 
 
