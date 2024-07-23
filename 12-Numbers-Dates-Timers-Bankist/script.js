@@ -512,5 +512,7 @@ console.log('Nigeria: ', new Intl.NumberFormat('en-NG', options).format(num));
 console.log('------------------------------------');
 console.log('setTimeout and setInterval');
 
+// setTimeout and setInterval
+
 
 
