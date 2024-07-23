@@ -500,6 +500,7 @@ const options = {
 };
 
 console.log('US: ', new Intl.NumberFormat('en-US', options).format(num));
+console.log('Germany: ', new Intl.NumberFormat('de-DE', options).format(num));
 
 
 
