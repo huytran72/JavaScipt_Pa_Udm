@@ -513,6 +513,7 @@ console.log('------------------------------------');
 console.log('setTimeout and setInterval');
 
 // setTimeout and setInterval
+const ingredients = ['olives', 'spinach'];
 
 
 
