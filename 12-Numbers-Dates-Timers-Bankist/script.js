@@ -533,6 +533,13 @@ console.log('------------------------------------');
 console.log('Implementing a Countdown Timer');
 
 // Implementing a Countdown Timer
+const timer = function () {
+  const now = new Date();
+  const hour = now.getHours();
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
+  console.log(`${hour}:${minutes}:${seconds}`);
+};
 
 
 
