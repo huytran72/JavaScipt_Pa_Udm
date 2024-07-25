@@ -477,8 +477,8 @@ console.log(days1);
 console.log('------------------------------------');
 console.log('Internationalizing Dates (Intl)');
 // Internationalizing Dates (Intl)  
-const now = new Date();
-const options = {
+const now1 = new Date();
+const options1 = {
   hour: 'numeric',
   minute: 'numeric',
   day: 'numeric',
