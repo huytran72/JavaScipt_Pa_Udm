@@ -548,8 +548,6 @@ const timer = function () {
 setInterval(timer, 1000);
 
 
-console.log('------------------------------------');
-console.log('Internationalizing Numbers (Intl)');
 
 
 
