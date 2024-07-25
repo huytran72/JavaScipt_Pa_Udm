@@ -541,5 +541,7 @@ const timer = function () {
   console.log(`${hour}:${minutes}:${seconds}`);
 };
 
+setInterval(timer, 1000);
+
 
 
