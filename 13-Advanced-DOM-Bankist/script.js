@@ -41,3 +41,4 @@ console.log(document.body);
 document.querySelector('.header');
 document.querySelector('.section');
 const allSections = document.querySelectorAll('.section');
+console.log(allSections);
