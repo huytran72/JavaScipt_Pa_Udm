@@ -54,3 +54,4 @@ console.log(document.getElementsByClassName('btn'));
 
 const message = document.createElement('div');
 message.classList.add('cookie-message');
+// message.textContent = 'We use cookies for improved functionality and analytics.';
