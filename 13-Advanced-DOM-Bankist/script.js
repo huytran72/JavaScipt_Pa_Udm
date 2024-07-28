@@ -59,3 +59,4 @@ message.innerHTML = 'We use cookies for improved functionality and analytics. <b
 const header = document.querySelector('.header');
 // header.prepend(message);
 header.append(message);
+// header.append(message.cloneNode(true));
