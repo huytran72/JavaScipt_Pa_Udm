@@ -72,3 +72,4 @@ document.querySelector('.btn--close-cookie').addEventListener('click', function 
 
 // Styles
 message.style.backgroundColor = '#37383d';
+message.style.width = '120%';
