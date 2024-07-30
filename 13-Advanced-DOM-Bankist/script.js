@@ -76,3 +76,5 @@ message.style.width = '120%';
 
 console.log(getComputedStyle(message).color);
 console.log(getComputedStyle(message).height);
+
+message.style.height = Number.parseFloat(getComputedStyle(message).height, 10) + 30 + 'px';
