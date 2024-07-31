@@ -86,3 +86,5 @@ const logo = document.querySelector('.nav__logo');
 console.log(logo.alt);
 console.log(logo.src);
 console.log(logo.className);
+
+logo.alt = 'Beautiful minimalist logo';
