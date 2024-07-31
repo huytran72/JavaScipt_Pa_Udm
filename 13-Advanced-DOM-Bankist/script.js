@@ -90,3 +90,4 @@ console.log(logo.className);
 logo.alt = 'Beautiful minimalist logo';
 
 // Non-standard
+console.log(logo.designer);
