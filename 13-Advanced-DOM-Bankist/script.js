@@ -114,3 +114,7 @@ logo.classList.contains('c');
 logo.className = 'jonas';
 
 const h1 = document.querySelector('h1');
+
+const alertH1 = function (e) {
+  alert('addEventListener: Great! You are reading the heading :D');
+}
