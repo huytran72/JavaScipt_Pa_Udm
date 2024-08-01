@@ -112,3 +112,5 @@ logo.classList.contains('c');
 
 // Don't use
 logo.className = 'jonas';
+
+const h1 = document.querySelector('h1');
