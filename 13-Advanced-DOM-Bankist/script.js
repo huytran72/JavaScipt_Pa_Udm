@@ -107,3 +107,4 @@ console.log(logo.dataset.versionNumber);
 // Classes
 logo.classList.add('c');
 logo.classList.remove('c');
+logo.classList.toggle('c');
