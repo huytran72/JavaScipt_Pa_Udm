@@ -99,3 +99,4 @@ console.log(logo.getAttribute('src'));
 
 const link = document.querySelector('.twitter-link');
 console.log(link.href);
+console.log(link.getAttribute('href'));
