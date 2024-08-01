@@ -111,3 +111,4 @@ logo.classList.toggle('c');
 logo.classList.contains('c');
 
 // Don't use
+logo.className = 'jonas';
