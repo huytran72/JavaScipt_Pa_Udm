@@ -128,3 +128,4 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 // };
 
 // Event propagation
+// rgb(255, 255, 255)
