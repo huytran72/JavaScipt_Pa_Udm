@@ -129,3 +129,4 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 
 // Event propagation
 // rgb(255, 255, 255)
+const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
