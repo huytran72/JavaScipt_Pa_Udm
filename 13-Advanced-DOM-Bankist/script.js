@@ -140,3 +140,5 @@ document.querySelector('.nav__link').addEventListener('click', function (e) {
   // e.stopPropagation();
 }
 );
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
