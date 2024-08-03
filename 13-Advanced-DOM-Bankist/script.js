@@ -139,3 +139,4 @@ document.querySelector('.nav__link').addEventListener('click', function (e) {
   // Stop propagation
   // e.stopPropagation();
 }
+);
