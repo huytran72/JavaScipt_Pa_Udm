@@ -155,3 +155,5 @@ document.querySelector('.nav').addEventListener('click', function (e) {
 
 // DOM traversing
 const h1 = document.querySelector('h1');
+
+// Going downwards: child
