@@ -146,3 +146,5 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log('CONTAINER', e.target, e.currentTarget);
 }
 );
+
+document.querySelector('.nav').addEventListener('click', function (e) {
