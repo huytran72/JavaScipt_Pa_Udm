@@ -169,3 +169,4 @@ console.log(h1.parentElement);
 
 h1.closest('.header').style.background = 'var(--gradient-secondary)';
 h1.closest('h1').style.background = 'var(--gradient-primary)';
+h1.closest('h1').style.background = 'var(--gradient-secondary)';
