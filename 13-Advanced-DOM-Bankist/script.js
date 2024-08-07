@@ -194,3 +194,5 @@ window.addEventListener('scroll', function () {
   else nav.classList.remove('sticky');
 }
 );
+
+// Sticky navigation: Intersection Observer API
