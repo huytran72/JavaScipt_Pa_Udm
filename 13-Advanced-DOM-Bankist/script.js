@@ -238,3 +238,4 @@ const revealSection = function (entries, observer) {
   entry.target.classList.remove('section--hidden');
   observer.unobserve(entry.target);
 }
+
