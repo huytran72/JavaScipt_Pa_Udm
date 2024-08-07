@@ -228,3 +228,4 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
+// Revealing elements on scroll
