@@ -201,3 +201,8 @@ const obsCallback = function (entries, observer) {
     console.log(entry);
   });
 };
+
+const obsOptions = {
+  root: null,
+  threshold: [0, 0.2],
+};
