@@ -186,3 +186,5 @@ console.log(h1.parentElement.children);
 // Sticky navigation
 const initialCoords = section1.getBoundingClientRect();
 console.log(initialCoords);
+
+window.addEventListener('scroll', function () {
