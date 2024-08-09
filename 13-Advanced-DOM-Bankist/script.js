@@ -272,3 +272,4 @@ const imgObserver = new IntersectionObserver(loadImg, {
   threshold: 0,
   rootMargin: '200px',
 });
+
