@@ -80,6 +80,7 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
 });
 
 // Tabbed component
+const tabs = document.querySelectorAll('.operations__tab');
 
 // Styles
 message.style.backgroundColor = '#37383d';
