@@ -79,6 +79,8 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
   });
 });
 
+// Tabbed component
+
 // Styles
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
