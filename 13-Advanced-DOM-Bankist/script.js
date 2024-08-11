@@ -278,3 +278,6 @@ imgTargets.forEach(img => imgObserver.observe(img));
 // Slider
 
 const slider = function () {
+
+
+  
