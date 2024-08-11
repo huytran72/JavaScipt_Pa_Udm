@@ -70,6 +70,8 @@ document.querySelector('.btn--close-cookie').addEventListener('click', function 
   // message.parentElement.removeChild(message);
 });
 
+//Page navigation
+
 // Styles
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
