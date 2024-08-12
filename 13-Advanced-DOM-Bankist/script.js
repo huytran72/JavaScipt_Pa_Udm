@@ -91,6 +91,7 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
   }
 }
+);
 
 // Tabbed component
 const tabs = document.querySelectorAll('.operations__tab');
