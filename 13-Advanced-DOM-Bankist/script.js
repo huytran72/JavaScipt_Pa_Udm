@@ -85,6 +85,8 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log(e.target);
 
+  // Matching strategy
+
 // Tabbed component
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
