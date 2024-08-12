@@ -86,6 +86,10 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log(e.target);
 
   // Matching strategy
+  if (e.target.classList.contains('nav__link')) {
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  }
 
 // Tabbed component
 const tabs = document.querySelectorAll('.operations__tab');
