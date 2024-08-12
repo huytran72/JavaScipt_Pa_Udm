@@ -83,6 +83,7 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
 //2. Determine what element originated the event
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
+  console.log(e.target);
 
 // Tabbed component
 const tabs = document.querySelectorAll('.operations__tab');
