@@ -82,6 +82,8 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
 //1. Add event listener to common parent element
 //2. Determine what element originated the event
 
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+
 // Tabbed component
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
