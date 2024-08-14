@@ -115,7 +115,8 @@ tabsContainer.addEventListener('click', function (e) {
 
 
 // Menu fade animation
-const nav = document.querySelector('.nav');
+nav.addEventListener('mouseover', function (e) {
+
 
 
 // Styles
