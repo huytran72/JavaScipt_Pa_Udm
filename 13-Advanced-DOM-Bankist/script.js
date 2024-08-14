@@ -114,6 +114,8 @@ tabsContainer.addEventListener('click', function (e) {
 }
 
 
+// Menu fade animation
+
 
 // Styles
 message.style.backgroundColor = '#37383d';
