@@ -147,6 +147,10 @@ nav.addEventListener('mouseout', function (e) {
 }
 
 nav.addEventListener('mouseover', function (e) {
+  if (e.target.classList.contains('nav__link')) {
+    e.target.style.opacity = 0.5;
+  }
+}
 
 
 
