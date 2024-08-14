@@ -110,6 +110,8 @@ tabsContainer.addEventListener('click', function (e) {
   document.querySelector(`.operations__content--${clicked.dataset.tab}`).classList.add('operations__content--active');
 }
 
+
+
 // Styles
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
