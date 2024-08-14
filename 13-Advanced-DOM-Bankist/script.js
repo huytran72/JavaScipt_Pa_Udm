@@ -229,6 +229,7 @@ console.log(h1.previousElementSibling);
 console.log(h1.nextElementSibling);
 
 console.log(h1.previousSibling);
+console.log(h1.nextSibling);
 
 console.log(h1.parentElement.children);
 [...h1.parentElement.children].forEach(function (el) {
