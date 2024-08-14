@@ -132,6 +132,8 @@ nav.addEventListener('mouseover', function (e) {
 }
 );
 
+nav.addEventListener('mouseout', function (e) {
+
 
 
 
