@@ -174,6 +174,9 @@ const obsCallback = function (entries, observer) {
 };
 
 const obsOptions = {
+  root: null,
+  threshold: [0, 0.2],
+};
 
 
 
