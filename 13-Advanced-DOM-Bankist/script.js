@@ -167,7 +167,11 @@ window.addEventListener('scroll', function () {
 );
 
 // Sticky navigation: Intersection Observer API
-
+const obsCallback = function (entries, observer) {
+  entries.forEach(entry => {
+    console.log(entry);
+  });
+};
 
 
 
