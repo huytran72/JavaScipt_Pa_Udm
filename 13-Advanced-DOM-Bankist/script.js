@@ -153,7 +153,7 @@ nav.addEventListener('mouseover', function (e) {
 }
 
 // Passing "argument" into handler
-nav.addEventListener
+nav.addEventListener('mouseover', handleHover.bind(0.5));
 
 
 
