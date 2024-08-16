@@ -166,6 +166,9 @@ window.addEventListener('scroll', function () {
 }
 );
 
+// Sticky navigation: Intersection Observer API
+
+
 
 
 
