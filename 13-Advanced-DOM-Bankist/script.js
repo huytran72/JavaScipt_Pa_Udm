@@ -201,6 +201,7 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 
 
+
 // Styles
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
