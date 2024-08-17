@@ -180,6 +180,7 @@ const obsOptions = {
 
 
 const observer = new IntersectionObserver(obsCallback, obsOptions);
+observer.observe(section1);
 
 
 
