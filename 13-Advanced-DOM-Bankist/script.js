@@ -179,6 +179,8 @@ const obsOptions = {
 };
 
 
+const observer = new IntersectionObserver(obsCallback, obsOptions);
+
 
 
 
