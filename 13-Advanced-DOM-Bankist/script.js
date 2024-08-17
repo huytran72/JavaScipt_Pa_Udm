@@ -183,6 +183,7 @@ const observer = new IntersectionObserver(obsCallback, obsOptions);
 observer.observe(section1);
 
 // const header = document.querySelector('.header');
+const navHeight = nav.getBoundingClientRect().height;
 
 
 
