@@ -185,6 +185,8 @@ observer.observe(section1);
 // const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
 
+const stickyNav = function (entries) {
+
 
 
 
