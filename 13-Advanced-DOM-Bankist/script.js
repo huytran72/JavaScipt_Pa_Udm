@@ -211,6 +211,8 @@ const revealSection = function (entries, observer) {
   observer.unobserve(entry.target);
 }
 
+const sectionObserver = new IntersectionObserver(revealSection, {
+
 
 
 
