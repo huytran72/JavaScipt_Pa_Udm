@@ -208,6 +208,8 @@ headerObserver.observe(header);
 // Reveal sections
 const allSections = document.querySelectorAll('.section');
 
+const revealSection = function (entries, observer) {
+
 
 
 // Revealing elements on scroll
