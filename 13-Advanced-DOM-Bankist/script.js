@@ -185,7 +185,7 @@ window.addEventListener('scroll', function () {
 
 
 
-// const header = document.querySelector('.header');
+const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
