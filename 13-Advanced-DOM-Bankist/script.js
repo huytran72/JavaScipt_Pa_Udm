@@ -206,6 +206,7 @@ headerObserver.observe(header);
 
 
 // Reveal sections
+const allSections = document.querySelectorAll('.section');
 
 
 
