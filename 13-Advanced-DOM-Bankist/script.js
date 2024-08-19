@@ -221,6 +221,8 @@ const sectionObserver = new IntersectionObserver(revealSection, {
   threshold: 0.15,
 });
 
+allSections.forEach(function (section) {
+
 
 
 // Revealing elements on scroll
