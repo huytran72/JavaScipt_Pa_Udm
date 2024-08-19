@@ -203,6 +203,12 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
+
+
+// Reveal sections
+
+
+
 // Revealing elements on scroll
 const allSections = document.querySelectorAll('.section');
 
