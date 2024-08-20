@@ -454,6 +454,7 @@ const btnRight = document.querySelector('.slider__btn--right');
 const dotContainer = document.querySelector('.dots');
 
 let curSlide = 0;
+const maxSlide = slides.length;
 
 
 
