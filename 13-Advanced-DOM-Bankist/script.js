@@ -453,6 +453,8 @@ const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
 const dotContainer = document.querySelector('.dots');
 
+let curSlide = 0;
+
 
 
   
