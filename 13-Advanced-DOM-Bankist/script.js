@@ -246,6 +246,10 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 
 
 
+// Lazy loading images
+
+
+
 
 // Styles
 message.style.backgroundColor = '#37383d';
