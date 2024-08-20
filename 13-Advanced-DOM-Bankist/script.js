@@ -247,6 +247,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 
 
 // Lazy loading images
+const imgTargets = document.querySelectorAll('img[data-src]');
 
 
 
