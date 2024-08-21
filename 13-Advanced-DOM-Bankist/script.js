@@ -469,6 +469,16 @@ const goToSlide = function (slide) {
 }
 
 // Next slide
+const nextSlide = function () {
+  if (curSlide === maxSlide - 1) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
+
+  goToSlide(curSlide);
+  activateDot(curSlide);
+}
 
 
 
