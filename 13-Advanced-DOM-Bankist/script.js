@@ -510,6 +510,9 @@ btnRight.addEventListener('click', nextSlide);
 btnLeft.addEventListener('click', prevSlide);
 
 document.addEventListener('keydown', function (e) {
+  if (e.key === 'ArrowLeft') prevSlide();
+  e.key === 'ArrowRight' && nextSlide();
+}
 
 
 
