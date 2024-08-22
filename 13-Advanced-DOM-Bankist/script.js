@@ -526,6 +526,8 @@ dotContainer.addEventListener('click', function (e) {
 
 // LECTURES
 
+// Selecting, creating, and deleting elements
+
 
 
 
