@@ -503,6 +503,8 @@ const activateDot = function (slide) {
   document.querySelector(`.dots__dot[data-slide="${slide}"]`).classList.add('dots__dot--active');
 }
 
+createDots();
+
 
 
 
