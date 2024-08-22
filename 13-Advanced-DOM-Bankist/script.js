@@ -506,6 +506,7 @@ const activateDot = function (slide) {
 createDots();
 activateDot(0);
 
+btnRight.addEventListener('click', nextSlide);
 
 
 
