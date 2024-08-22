@@ -507,6 +507,7 @@ createDots();
 activateDot(0);
 
 btnRight.addEventListener('click', nextSlide);
+btnLeft.addEventListener('click', prevSlide);
 
 
 
