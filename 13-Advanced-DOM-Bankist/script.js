@@ -528,6 +528,8 @@ dotContainer.addEventListener('click', function (e) {
 
 // Selecting, creating, and deleting elements
 
+document.addEventListener('DOMContentLoaded', function (e) {
+
 
 
 
