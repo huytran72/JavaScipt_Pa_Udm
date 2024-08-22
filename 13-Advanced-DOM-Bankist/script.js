@@ -524,6 +524,8 @@ dotContainer.addEventListener('click', function (e) {
 }
 );
 
+// LECTURES
+
 
 
 
