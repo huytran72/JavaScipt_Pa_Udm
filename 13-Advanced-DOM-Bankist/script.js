@@ -504,6 +504,7 @@ const activateDot = function (slide) {
 }
 
 createDots();
+activateDot(0);
 
 
 
