@@ -542,6 +542,8 @@ window.addEventListener('load', function (e) {
 //   e.preventDefault();
 //   console.log(e);
 //   e.returnValue = '';
+// }
+);
 
 
 
