@@ -539,6 +539,7 @@ window.addEventListener('load', function (e) {
 );
 
 // window.addEventListener('beforeunload', function (e) {
+//   e.preventDefault();
 
 
 
