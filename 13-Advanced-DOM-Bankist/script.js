@@ -542,8 +542,11 @@ window.addEventListener('load', function (e) {
 //   e.preventDefault();
 //   console.log(e);
 //   e.returnValue = '';
-// }
-);
+// });
+
+const h1 = document.querySelector('h1');
+
+
 
 
 
