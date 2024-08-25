@@ -39,3 +39,5 @@ Person.hey();
 
 // Prototypes
 console.log(Person.prototype);
+
+Person.prototype.calcAge = function () {
