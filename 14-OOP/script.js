@@ -15,4 +15,5 @@ const jonas = new Person('Jonas', 1991);
 console.log(jonas);
 
 // 1. New {} is created
+// 2. Function is called, this = {}
 
