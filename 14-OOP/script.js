@@ -33,4 +33,5 @@ Person.hey();
 
 // 1. Classes are NOT hoisted
 // 2. Classes are first-class citizens
+// 3. Classes are executed in strict mode
 
