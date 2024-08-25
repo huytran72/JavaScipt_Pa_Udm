@@ -20,4 +20,5 @@ console.log(jonas);
 // 4. Function automatically return {}
 
 const matilda = new Person('Matilda', 2017);
+const jack = new Person('Jack', 1975);
 
