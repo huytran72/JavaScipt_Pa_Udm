@@ -25,3 +25,5 @@ console.log(matilda, jack);
 
 console.log(jonas instanceof Person);
 
+Person.hey = function () {
+
