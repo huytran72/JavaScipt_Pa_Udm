@@ -36,3 +36,5 @@ Person.hey();
 // 3. Classes are executed in strict mode
 
 
+
+// Prototypes
