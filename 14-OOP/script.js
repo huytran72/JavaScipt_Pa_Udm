@@ -11,3 +11,5 @@ const Person = function (firstName, birthYear) {
     // };
     }
 
+const jonas = new Person('Jonas', 1991);
+
