@@ -29,4 +29,5 @@ Person.hey = function () {
     console.log('Hey there 👋');
     console.log(this);
 }
+Person.hey();
 
