@@ -31,3 +31,5 @@ Person.hey = function () {
 }
 Person.hey();
 
+// 1. Classes are NOT hoisted
+
