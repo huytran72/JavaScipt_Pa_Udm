@@ -17,4 +17,5 @@ console.log(jonas);
 // 1. New {} is created
 // 2. Function is called, this = {}
 // 3. {} linked to prototype
+// 4. Function automatically return {}
 
