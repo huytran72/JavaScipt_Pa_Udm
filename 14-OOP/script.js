@@ -23,3 +23,5 @@ const matilda = new Person('Matilda', 2017);
 const jack = new Person('Jack', 1975);
 console.log(matilda, jack);
 
+console.log(jonas instanceof Person);
+
