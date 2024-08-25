@@ -38,3 +38,4 @@ Person.hey();
 
 
 // Prototypes
+console.log(Person.prototype);
