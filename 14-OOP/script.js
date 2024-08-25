@@ -1,3 +1,4 @@
 'use strict';
 
-const Person = require('./person');
+const Person = function (firstName, birthYear) {
+
