@@ -19,3 +19,5 @@ console.log(jonas);
 // 3. {} linked to prototype
 // 4. Function automatically return {}
 
+const matilda = new Person('Matilda', 2017);
+
