@@ -14,3 +14,5 @@ const Person = function (firstName, birthYear) {
 const jonas = new Person('Jonas', 1991);
 console.log(jonas);
 
+// 1. New {} is created
+
