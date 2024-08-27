@@ -45,3 +45,4 @@ Person.prototype.calcAge = function () {
 };
 
 jonas.calcAge();
+matilda.calcAge();
