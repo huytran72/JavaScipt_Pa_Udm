@@ -46,3 +46,5 @@ Person.prototype.calcAge = function () {
 
 jonas.calcAge();
 matilda.calcAge();
+
+console.log(jonas.__proto__);
