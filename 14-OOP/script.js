@@ -51,3 +51,5 @@ console.log(jonas.__proto__);
 console.log(jonas.__proto__ === Person.prototype);
 console.log(Person.prototype.isPrototypeOf(jonas));
 console.log(Person.prototype.isPrototypeOf(matilda));
+
+// .prototypeOfLinkedObjects
