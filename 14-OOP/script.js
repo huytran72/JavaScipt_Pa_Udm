@@ -55,3 +55,4 @@ console.log(Person.prototype.isPrototypeOf(matilda));
 // .prototypeOfLinkedObjects
 Person.prototype
 // {calcAge: ƒ, constructor: ƒ}
+// calcAge: ƒ ()
