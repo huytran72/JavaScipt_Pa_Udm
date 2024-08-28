@@ -64,3 +64,5 @@ console.log(jonas.hasOwnProperty('species'));
 console.log(jonas.__proto__);
 // {calcAge: ƒ, constructor: ƒ}
 // calcAge: ƒ ()
+
+console.dir(Person.prototype.constructor);
