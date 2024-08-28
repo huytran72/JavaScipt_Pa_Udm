@@ -56,5 +56,6 @@ console.log(Person.prototype.isPrototypeOf(matilda));
 
 
 Person.prototype.species = 'Homo Sapiens';
+console.log(jonas.species, matida.species);
 // {calcAge: ƒ, constructor: ƒ}
 // calcAge: ƒ ()
