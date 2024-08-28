@@ -53,6 +53,8 @@ console.log(Person.prototype.isPrototypeOf(jonas));
 console.log(Person.prototype.isPrototypeOf(matilda));
 
 // .prototypeOfLinkedObjects
-Person.prototype
+
+
+Person.prototype.species = 'Homo Sapiens';
 // {calcAge: ƒ, constructor: ƒ}
 // calcAge: ƒ ()
