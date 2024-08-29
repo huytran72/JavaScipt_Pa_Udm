@@ -87,7 +87,11 @@ console.dir(x => x + 1);
 const Car = function (make, speed) {
     this.make = make;
     this.speed = speed;
+
 };
+
+Car.prototype
 
 const bmw = new Car('BMW', 120);
 const mercedes = new Car('Mercedes', 95);
+
