@@ -86,4 +86,5 @@ console.dir(x => x + 1);
 
 const Car = function (make, speed) {
     this.make = make;
+    this.speed = speed;
 }
