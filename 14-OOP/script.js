@@ -114,3 +114,4 @@ mercedes.accelerate();
 
 
 // ES6 Classes
+// class expression
