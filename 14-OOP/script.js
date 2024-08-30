@@ -134,3 +134,5 @@ class PersonCl {
         console.log(`Hey ${this.firstName}`);
     }
 };
+
+const jessica = new PersonCl('Jessica', 1996);
