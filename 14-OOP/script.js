@@ -111,3 +111,6 @@ bmw.accelerate();
 bmw.brake();
 mercedes.accelerate();
 mercedes.accelerate();
+
+
+// ES6 Classes
