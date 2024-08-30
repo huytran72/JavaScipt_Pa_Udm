@@ -115,3 +115,4 @@ mercedes.accelerate();
 
 // ES6 Classes
 // class expression
+// const PersonCl = class {}
