@@ -133,4 +133,4 @@ class PersonCl {
     greet() {
         console.log(`Hey ${this.firstName}`);
     }
-}
+};
