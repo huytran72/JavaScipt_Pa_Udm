@@ -118,3 +118,5 @@ mercedes.accelerate();
 // const PersonCl = class {}
 
 // class declaration
+
+class PersonCl {
