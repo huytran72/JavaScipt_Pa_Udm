@@ -153,3 +153,5 @@ jessica.greet();
 const walter = new PersonCl('Walter', 1965);
 
 PersonCl.hey = function () {
+    console.log('Hey there 👋');
+}
