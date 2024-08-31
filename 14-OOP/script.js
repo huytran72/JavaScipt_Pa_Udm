@@ -151,3 +151,5 @@ jessica.greet();
 // 3. Classes are executed in strict mode
 
 const walter = new PersonCl('Walter', 1965);
+
+PersonCl.hey = function () {
