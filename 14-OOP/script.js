@@ -143,3 +143,5 @@ console.log(jessica.__proto__ === PersonCl.prototype);
 
 // PersonCl.prototype.greet = function () {
 //     console.log(`Hey ${this.firstName}`);
+// };
+jessica.greet();
