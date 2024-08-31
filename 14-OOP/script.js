@@ -137,3 +137,4 @@ class PersonCl {
 
 const jessica = new PersonCl('Jessica', 1996);
 console.log(jessica);
+jessica.calcAge();
