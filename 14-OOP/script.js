@@ -150,6 +150,8 @@ jessica.greet();
 // 2. Classes are first-class citizens
 // 3. Classes are executed in strict mode
 
+const account = {
+
 const walter = new PersonCl('Walter', 1965);
 
 PersonCl.hey = function () {
