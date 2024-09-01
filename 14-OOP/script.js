@@ -30,6 +30,7 @@ Person.hey = function () {
     console.log(this);
 }
 Person.hey();
+jonas.hey();
 
 // 1. Classes are NOT hoisted
 // 2. Classes are first-class citizens
