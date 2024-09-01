@@ -164,6 +164,17 @@ jessica.greet();
 // 2. Classes are first-class citizens
 // 3. Classes are executed in strict mode
 
+
+console.log(account.latest);
+
+const walter = new PersonCl('Walter', 1965);
+
+PersonCl.hey = function () {
+    console.log('Hey there 👋');
+}
+PersonCl.hey();
+
+
 const account = {
     owner: 'Jonas',
     movements: [200, 530, 120, 300],
@@ -176,13 +187,3 @@ const account = {
         this.movements.push(mov);
     }
 };
-
-console.log(account.latest);
-
-const walter = new PersonCl('Walter', 1965);
-
-PersonCl.hey = function () {
-    console.log('Hey there 👋');
-}
-PersonCl.hey();
-
