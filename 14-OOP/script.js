@@ -137,6 +137,8 @@ class PersonCl {
     get age() {
         return 2037 - this.birthYear;
     }
+
+    // Set a property that already exists
 };
 
 const jessica = new PersonCl('Jessica', 1996);
