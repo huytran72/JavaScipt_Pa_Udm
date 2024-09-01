@@ -163,6 +163,8 @@ const account = {
     }
 };
 
+console.log(account.latest);
+
 const walter = new PersonCl('Walter', 1965);
 
 PersonCl.hey = function () {
