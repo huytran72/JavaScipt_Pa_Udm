@@ -151,6 +151,17 @@ jessica.greet();
 // 3. Classes are executed in strict mode
 
 const account = {
+    owner: 'Jonas',
+    movements: [200, 530, 120, 300],
+
+    get latest() {
+        return this.movements.slice(-1).pop();
+    },
+
+    set latest(mov) {
+        this.movements.push(mov);
+    }
+};
 
 const walter = new PersonCl('Walter', 1965);
 
