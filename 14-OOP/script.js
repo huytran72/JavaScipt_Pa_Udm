@@ -258,4 +258,4 @@ class CarCl {
     }
 }
 
-CarCl.prototype.accelerate = function() {
+const ford = new CarCl('Ford', 120);
