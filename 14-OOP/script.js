@@ -257,3 +257,5 @@ class CarCl {
         this.speed = speed * 1.6;
     }
 }
+
+CarCl.prototype.accelerate = function() {
