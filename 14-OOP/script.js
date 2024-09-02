@@ -225,4 +225,5 @@ sarah.init('Sarah', 1979);
 // Coding Challenge #2
 
 /*
-1. Re-create challenge 1, but this time using an ES6 class
+1. Re-create challenge 1, but this time using an ES6 class;
+2. Add a getter called 'speedUS' which returns the current speed in mi/h (divide by 1.6);
