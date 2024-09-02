@@ -223,3 +223,6 @@ sarah.init('Sarah', 1979);
 
 
 // Coding Challenge #2
+
+/*
+1. Re-create challenge 1, but this time using an ES6 class
