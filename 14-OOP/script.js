@@ -232,3 +232,5 @@ sarah.init('Sarah', 1979);
 
 DATA CAR 1: 'Ford' going at 120 km/h
 */
+
+class CarCl {
