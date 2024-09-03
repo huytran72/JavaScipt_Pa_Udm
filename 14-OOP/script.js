@@ -286,3 +286,5 @@ const Student = function (firstName, birthYear, course) {
     Person.call(this, firstName, birthYear);
     this.course = course;
 };
+
+Student.prototype = Object.create(Person.prototype);
