@@ -273,3 +273,7 @@ console.log(ford.speedUS);
 
 
 // Inheritance Between "Classes": Constructor Functions
+const Person = function (firstName, birthYear) {
+    this.firstName = firstName;
+    this.birthYear = birthYear;
+};
