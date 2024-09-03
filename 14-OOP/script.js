@@ -288,3 +288,5 @@ const Student = function (firstName, birthYear, course) {
 };
 
 Student.prototype = Object.create(Person.prototype);
+
+Student.prototype.introduce = function () {
