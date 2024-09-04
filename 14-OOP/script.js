@@ -319,3 +319,8 @@ console.dir(Student.prototype.constructor);
 
 DATA CAR 1: 'BMW' going at 120 km/h, and CAR 2: 'Mercedes' going at 95 km/h.
 */
+
+const Car = function (make, speed) {
+    this.make = make;
+    this.speed = speed;
+};
