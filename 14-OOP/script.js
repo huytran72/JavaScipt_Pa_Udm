@@ -297,3 +297,4 @@ const mike = new Student('Mike', 2020, 'Computer Science');
 mike.introduce();
 
 console.log(mike.__proto__);
+console.log(mike.__proto__.__proto__);
