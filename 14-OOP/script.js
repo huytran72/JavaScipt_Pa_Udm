@@ -306,3 +306,8 @@ console.log(mike instanceof Object);
 Student.prototype.constructor = Student;
 
 console.dir(Student.prototype.constructor);
+
+
+
+
+// Coding Challenge #3
