@@ -304,3 +304,5 @@ console.log(mike instanceof Person);
 console.log(mike instanceof Object);
 
 Student.prototype.constructor = Student;
+
+console.dir(Student.prototype.constructor);
