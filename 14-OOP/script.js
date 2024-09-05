@@ -353,3 +353,5 @@ EV.prototype.accelerate = function () {
     console.log(`${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}`);
 };
 
+const tesla = new EV('Tesla', 120, 23);
+
