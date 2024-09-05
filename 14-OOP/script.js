@@ -85,33 +85,33 @@ console.dir(x => x + 1);
 
 // Coding Challenge #1
 
-const Car = function (make, speed) {
-    this.make = make;
-    this.speed = speed;
+// const Car = function (make, speed) {
+//     this.make = make;
+//     this.speed = speed;
 
-};
+// };
 
-Car.prototype.accelerate = function() {
-    this.speed += 10;
-    console.log(`${this.make} is going at ${this.speed} km/h`);
-};
+// Car.prototype.accelerate = function() {
+//     this.speed += 10;
+//     console.log(`${this.make} is going at ${this.speed} km/h`);
+// };
 
-Car.prototype.accelerate = function() {
-    this.speed -= 5;
-    console.log(`${this.make} is going at ${this.speed} km/h`);
-};
+// Car.prototype.accelerate = function() {
+//     this.speed -= 5;
+//     console.log(`${this.make} is going at ${this.speed} km/h`);
+// };
 
-const bmw = new Car('BMW', 120);
-const mercedes = new Car('Mercedes', 95);
+// const bmw = new Car('BMW', 120);
+// const mercedes = new Car('Mercedes', 95);
 
-bmw.accelerate();
-bmw.accelerate();
-bmw.brake();
-bmw.accelerate();
-bmw.accelerate();
-bmw.brake();
-mercedes.accelerate();
-mercedes.accelerate();
+// bmw.accelerate();
+// bmw.accelerate();
+// bmw.brake();
+// bmw.accelerate();
+// bmw.accelerate();
+// bmw.brake();
+// mercedes.accelerate();
+// mercedes.accelerate();
 
 
 // ES6 Classes
@@ -338,7 +338,9 @@ Car.prototype.brake = function () {
 const EV = function (make, speed, charge) {
     Car.call(this, make, speed);
     this.charge = charge;
-}
+};
+
+// Link the prototypes
 
 const bmw = new Car('BMW', 120);
 const mercedes = new Car('Mercedes', 95);
