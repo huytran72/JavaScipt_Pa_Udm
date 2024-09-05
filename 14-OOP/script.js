@@ -335,5 +335,7 @@ Car.prototype.brake = function () {
     console.log(`${this.make} is going at ${this.speed} km/h`);
 };
 
+const EV = function (make, speed, charge) {
+
 const bmw = new Car('BMW', 120);
 const mercedes = new Car('Mercedes', 95);
