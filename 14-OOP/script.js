@@ -399,11 +399,12 @@ class PersonCl {
     }
 }
 
-// Static Methods
-static hey() {
-    console.log('Hey there 👋');
-    console.log(this);
-}
+    // Static Methods
+    static hey() {
+        console.log('Hey there 👋');
+        console.log(this);
+    }
+};
 
 class StudentCl extends Person {
     constructor(firstName, birthYear, course) {
