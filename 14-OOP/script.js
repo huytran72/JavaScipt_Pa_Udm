@@ -367,3 +367,6 @@ tesla.accelerate();
 tesla.accelerate();
 
 
+
+
+// Inheritance Between "Classes": ES6 Classes
