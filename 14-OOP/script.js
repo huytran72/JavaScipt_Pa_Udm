@@ -376,3 +376,19 @@ static hey() {
     console.log('Hey there 👋');
     console.log(this);
 }
+
+class StudentCl extends Person {
+    constructor(firstName, birthYear, course) {
+        super(firstName, birthYear);
+        this.course = course;
+    }
+
+    introduce() {
+        console.log(`My name is ${this.firstName} and I study ${this.course}`);
+    }
+
+    calcAge() {
+        console.log(`I'm ${2037 - this.birthYear} years old, but as a student I feel more like ${2037 - this.birthYear + 10}`);
+    }
+
+}
