@@ -359,4 +359,6 @@ tesla.brake();
 tesla.chargeBattery(90);
 tesla.accelerate();
 
+console.log(tesla);
+
 
