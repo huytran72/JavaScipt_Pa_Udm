@@ -376,6 +376,7 @@ class PersonCl {
         this.birthYear = birthYear;
     }
 
+    // Instance methods
     calcAge() {
         console.log(2037 - this.birthYear);
     }
