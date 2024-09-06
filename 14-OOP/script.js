@@ -356,5 +356,6 @@ EV.prototype.accelerate = function () {
 const tesla = new EV('Tesla', 120, 23);
 tesla.accelerate();
 tesla.brake();
+tesla.chargeBattery(90);
 
 
