@@ -364,5 +364,6 @@ console.log(tesla);
 tesla.accelerate();
 tesla.accelerate();
 tesla.accelerate();
+tesla.accelerate();
 
 
