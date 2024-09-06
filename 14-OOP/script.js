@@ -370,3 +370,5 @@ tesla.accelerate();
 
 
 // Inheritance Between "Classes": ES6 Classes
+
+// Static Methods
