@@ -370,6 +370,7 @@ tesla.accelerate();
 
 
 // Inheritance Between "Classes": ES6 Classes
+class PersonCl {
 
 // Static Methods
 static hey() {
