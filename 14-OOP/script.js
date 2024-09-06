@@ -372,3 +372,7 @@ tesla.accelerate();
 // Inheritance Between "Classes": ES6 Classes
 
 // Static Methods
+static hey() {
+    console.log('Hey there 👋');
+    console.log(this);
+}
