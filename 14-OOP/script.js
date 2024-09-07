@@ -408,6 +408,7 @@ class PersonCl {
 
 class StudentCl extends Person {
     constructor(firstName, birthYear, course) {
+        // Always needs to happen first!
         super(firstName, birthYear);
         this.course = course;
     }
