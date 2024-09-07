@@ -439,3 +439,5 @@ const PersonProto = {
         this.birthYear = birthYear;
     }
 };
+
+const steven = Object.create(PersonProto);
