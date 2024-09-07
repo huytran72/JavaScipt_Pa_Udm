@@ -463,3 +463,4 @@ jay.calcAge();
 // Another Class Example
 
 class Account {
+    constructor(owner, currency, pin) {
