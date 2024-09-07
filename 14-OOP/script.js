@@ -452,3 +452,5 @@ StudentProto.init = function (firstName, birthYear, course) {
 StudentProto.introduce = function () {
     console.log(`My name is ${this.firstName} and I study ${this.course}`);
 };
+
+const jay = Object.create(StudentProto);
