@@ -472,3 +472,4 @@ class Account {
 
         console.log(`Thanks for opening an account, ${owner}`);
     }
+};
