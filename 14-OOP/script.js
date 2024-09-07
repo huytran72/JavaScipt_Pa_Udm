@@ -441,3 +441,4 @@ const PersonProto = {
 };
 
 const steven = Object.create(PersonProto);
+steven.name = 'Steven';
