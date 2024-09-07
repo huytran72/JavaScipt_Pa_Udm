@@ -448,3 +448,7 @@ StudentProto.init = function (firstName, birthYear, course) {
     PersonProto1.init.call(this, firstName, birthYear);
     this.course = course;
 };
+
+StudentProto.introduce = function () {
+    console.log(`My name is ${this.firstName} and I study ${this.course}`);
+};
