@@ -461,3 +461,5 @@ jay.calcAge();
 
 
 // Another Class Example
+
+class Account {
