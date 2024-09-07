@@ -444,3 +444,7 @@ const steven = Object.create(PersonProto1);
 steven.name = 'Steven';
 
 const StudentProto = Object.create(PersonProto1);
+StudentProto.init = function (firstName, birthYear, course) {
+    PersonProto1.init.call(this, firstName, birthYear);
+    this.course = course;
+};
