@@ -456,3 +456,4 @@ StudentProto.introduce = function () {
 const jay = Object.create(StudentProto);
 jay.init('Jay', 2010, 'Computer Science');
 jay.introduce();
+jay.calcAge();
