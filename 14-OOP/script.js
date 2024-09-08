@@ -481,3 +481,5 @@ acc1.movements.push(250);
 acc1.movements.push(-140);
 
 console.log(acc1);
+
+// Encapsulation: Protected Properties and Methods
