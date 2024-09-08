@@ -474,6 +474,9 @@ class Account {
     }
 
     // Public Interface
+    getMovements() {
+        return this.movements;
+    }
 };
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
