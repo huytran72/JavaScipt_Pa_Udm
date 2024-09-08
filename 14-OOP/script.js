@@ -473,3 +473,5 @@ class Account {
         console.log(`Thanks for opening an account, ${owner}`);
     }
 };
+
+const acc1 = new Account('Jonas', 'EUR', 1111);
