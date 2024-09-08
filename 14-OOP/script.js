@@ -479,3 +479,5 @@ console.log(acc1);
 
 acc1.movements.push(250);
 acc1.movements.push(-140);
+
+console.log(acc1);
