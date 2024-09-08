@@ -477,6 +477,10 @@ class Account {
     getMovements() {
         return this.movements;
     }
+
+    deposit(val) {
+        this.movements.push(val);
+    }
 };
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
