@@ -481,6 +481,10 @@ class Account {
     deposit(val) {
         this.movements.push(val);
     }
+
+    withdraw(val) {
+        this.deposit(-val);
+    }
 };
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
