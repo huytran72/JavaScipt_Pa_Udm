@@ -484,3 +484,4 @@ console.log(acc1);
 
 // Encapsulation: Protected Properties and Methods
 // Protected properties
+// ES6 doesn't have built-in support for protected properties
