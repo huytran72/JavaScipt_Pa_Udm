@@ -535,3 +535,7 @@ console.log(acc1.getMovements());
 // Chaining Methods
 acc1.deposit(300).deposit(500).withdraw(35).requestLoan(2500).withdraw(4000);
 console.log(acc1.getMovements());
+
+
+
+// ES6 Classes Summary
