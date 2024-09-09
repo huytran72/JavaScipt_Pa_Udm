@@ -470,6 +470,7 @@ class Account {
 
     // Private fields (instances)
     #movements = [];
+    #pin;
 
 
     constructor(owner, currency, pin) {
