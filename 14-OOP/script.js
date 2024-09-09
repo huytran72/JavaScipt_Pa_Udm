@@ -465,6 +465,10 @@ jay.calcAge();
 class Account {
 
     // Public fields (instances)
+    locale = navigator.language;
+
+
+
     constructor(owner, currency, pin) {
         this.owner = owner;
         this.currency = currency;
