@@ -528,3 +528,8 @@ console.log(acc1.getMovements());
 // ES6 doesn't have built-in support for protected properties
 // Convention: start protected properties with an underscore
 // There's a proposal to add protected properties to JavaScript
+
+
+
+
+// Chaining Methods
