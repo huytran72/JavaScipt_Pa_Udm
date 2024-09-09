@@ -463,6 +463,8 @@ jay.calcAge();
 // Another Class Example
 
 class Account {
+
+    // Public fields (instances)
     constructor(owner, currency, pin) {
         this.owner = owner;
         this.currency = currency;
