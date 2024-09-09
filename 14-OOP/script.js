@@ -520,6 +520,7 @@ acc1.requestLoan(1000);
 console.log(acc1);
 console.log(acc1.getMovements());
 
+
 // Encapsulation: Protected Properties and Methods
 // Protected properties
 // ES6 doesn't have built-in support for protected properties
