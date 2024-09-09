@@ -468,6 +468,7 @@ class Account {
     locale = navigator.language;
     _movements = [];
 
+    // Private fields (instances)
 
 
     constructor(owner, currency, pin) {
