@@ -489,6 +489,13 @@ class Account {
     _approveLoan(val) {
         return true;
     }
+
+    requestLoan(val) {
+        if (this._approveLoan(val)) {
+            this.deposit(val);
+            console.log('Loan approved');
+        }
+    }
 };
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
