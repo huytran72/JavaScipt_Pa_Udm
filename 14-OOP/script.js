@@ -518,6 +518,7 @@ acc1.withdraw(400);
 acc1.requestLoan(1000);
 
 console.log(acc1);
+console.log(acc1.getMovements());
 
 // Encapsulation: Protected Properties and Methods
 // Protected properties
