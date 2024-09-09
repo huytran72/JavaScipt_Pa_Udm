@@ -533,3 +533,4 @@ console.log(acc1.getMovements());
 
 
 // Chaining Methods
+acc1.deposit(300);
