@@ -485,6 +485,10 @@ class Account {
     withdraw(val) {
         this.deposit(-val);
     }
+
+    _approveLoan(val) {
+        return true;
+    }
 };
 
 const acc1 = new Account('Jonas', 'EUR', 1111);
