@@ -466,6 +466,7 @@ class Account {
 
     // Public fields (instances)
     locale = navigator.language;
+    _movements = [];
 
 
 
