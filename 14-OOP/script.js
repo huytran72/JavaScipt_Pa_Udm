@@ -548,5 +548,6 @@ console.log(acc1.getMovements());
 2. Make the 'EVCl' class have a 'charge' property in addition to the 'make' and 'speed';
 3. Create a 'chargeBattery' method for the 'EVCl' class;
 4. Overwrite the 'accelerate' method in the 'CarCl' class for the 'EVCl' class;
+5. Test the 'EVCl' class and the 'accelerate' method.
 
 */
