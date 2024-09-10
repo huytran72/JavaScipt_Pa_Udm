@@ -588,6 +588,7 @@ class EVCl extends CarCl {
 
     chargeBattery(chargeTo) {
         this.#charge = chargeTo;
+        return this;
     }
 
     accelerate() {
@@ -605,3 +606,4 @@ rivian.chargeBattery(90);
 rivian.accelerate();
 
 console.log(rivian);
+
