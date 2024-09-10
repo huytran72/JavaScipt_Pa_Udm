@@ -547,5 +547,6 @@ console.log(acc1.getMovements());
 1. Re-create challenge #3, but this time using ES6 classes: create an 'EVCl' child class of the 'CarCl' class;
 2. Make the 'EVCl' class have a 'charge' property in addition to the 'make' and 'speed';
 3. Create a 'chargeBattery' method for the 'EVCl' class;
+4. Overwrite the 'accelerate' method in the 'CarCl' class for the 'EVCl' class;
 
 */
