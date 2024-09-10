@@ -601,3 +601,4 @@ const rivian = new EVCl('Rivian', 120, 23);
 console.log(rivian);
 rivian.accelerate();
 rivian.brake();
+rivian.chargeBattery(90);
