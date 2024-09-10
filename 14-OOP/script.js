@@ -550,4 +550,6 @@ console.log(acc1.getMovements());
 4. Overwrite the 'accelerate' method in the 'CarCl' class for the 'EVCl' class;
 5. Test the 'EVCl' class and the 'accelerate' method.
 
+DATA CAR 1: 'Rivian' going at 120 km/h, with a charge of 23%
+
 */
