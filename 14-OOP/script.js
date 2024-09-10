@@ -602,3 +602,4 @@ console.log(rivian);
 rivian.accelerate();
 rivian.brake();
 rivian.chargeBattery(90);
+rivian.accelerate();
