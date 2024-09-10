@@ -603,3 +603,5 @@ rivian.accelerate();
 rivian.brake();
 rivian.chargeBattery(90);
 rivian.accelerate();
+
+console.log(rivian);
