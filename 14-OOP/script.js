@@ -544,5 +544,6 @@ console.log(acc1.getMovements());
 
 // Coding Challenge #4
 /*
+1. Re-create challenge #3, but this time using ES6 classes: create an 'EVCl' child class of the 'CarCl' class;
 
 */
