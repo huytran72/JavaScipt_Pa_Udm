@@ -606,5 +606,5 @@ rivian.brake();
 rivian.chargeBattery(90);
 rivian.accelerate();
 
-console.log(rivian);
+console.log(rivian.speedUS);
 
