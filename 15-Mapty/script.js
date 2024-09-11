@@ -23,7 +23,10 @@ navigator.geolocation.getCurrentPosition(
     L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
         maxZoom: 19,
     }).addTo(map);
-    
+
+    L.marker([51.5, -0.09])
+
+
     function () {
         alert('Could not get your position');
     }
