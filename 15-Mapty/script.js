@@ -20,4 +20,4 @@ navigator.geolocation.getCurrentPosition(
     function () {
         alert('Could not get your position');
     }
-    );
+);
