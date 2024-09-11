@@ -28,7 +28,7 @@ navigator.geolocation.getCurrentPosition(
         .addTo(map)
         .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
         .openPopup();
-
+    },
 
     function () {
         alert('Could not get your position');
