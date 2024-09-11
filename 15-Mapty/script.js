@@ -17,6 +17,8 @@ navigator.geolocation.getCurrentPosition(
         const { longitude } = position.coords;
         console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
     },
+
+    var map = L.map('map').setView([51.505, -0.09], 13);
     function () {
         alert('Could not get your position');
     }
