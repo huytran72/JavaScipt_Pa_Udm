@@ -19,6 +19,8 @@ navigator.geolocation.getCurrentPosition(
     },
 
     var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
     function () {
         alert('Could not get your position');
     }
