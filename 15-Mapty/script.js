@@ -67,3 +67,5 @@ if (navigator.geolocation) {
         console.log('submit');
     }
 } else {
+    alert('Geolocation is not available');
+}
