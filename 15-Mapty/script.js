@@ -69,3 +69,4 @@ if (navigator.geolocation) {
     }
     );
 
+inputType.addEventListener('change', function () {
