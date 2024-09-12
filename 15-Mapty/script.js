@@ -32,6 +32,8 @@ if (navigator.geolocation) {
                 .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
                 .openPopup();
             
+
+            // Handling clicks on map
             map.on('click', function (mapEvent) {
                 form.classList.remove('hidden');
                 inputDistance.focus();
@@ -69,3 +71,4 @@ if (navigator.geolocation) {
 } else {
     alert('Geolocation is not available');
 }
+
