@@ -31,6 +31,8 @@ if (navigator.geolocation) {
                 .addTo(map)
                 .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
                 .openPopup();
+            
+            map.on('click', function (mapEvent) {
         },
         function () {
             alert('Could not get your position');
