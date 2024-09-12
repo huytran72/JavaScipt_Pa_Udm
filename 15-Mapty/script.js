@@ -74,4 +74,3 @@ inputType.addEventListener('change', function () {
     inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
 }
 );
-}
