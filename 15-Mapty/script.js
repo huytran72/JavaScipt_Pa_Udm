@@ -18,6 +18,8 @@ if (navigator.geolocation) {
             const { longitude } = position.coords;
             console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
 
+            const coords = [latitude, longitude];
+
             var map = L.map('map').setView([latitude, longitude], 13);
 
             L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
