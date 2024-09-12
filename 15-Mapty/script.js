@@ -34,6 +34,7 @@ if (navigator.geolocation) {
             
             map.on('click', function (mapEvent) {
                 form.classList.remove('hidden');
+                inputDistance.focus();
 
                 console.log(mapEvent);
                 const { lat, lng } = mapEvent.latlng;
