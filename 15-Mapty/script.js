@@ -66,3 +66,4 @@ if (navigator.geolocation) {
         // Display marker
         console.log('submit');
     }
+} else {
