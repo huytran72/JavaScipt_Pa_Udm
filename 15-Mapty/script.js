@@ -38,6 +38,8 @@ class App {
                     OpenStreetMap</a> contributors',
             }).addTo(map);
 
+            // Handling clicks on map
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
