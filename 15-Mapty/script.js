@@ -30,6 +30,8 @@ class App {
 
             const coords = [latitude, longitude];
 
+            this.map = L.map('map').setView(coords, 13);
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
