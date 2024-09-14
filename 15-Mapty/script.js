@@ -28,6 +28,8 @@ class App {
             const { longitude } = position.coords;
             console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
 
+            const coords = [latitude, longitude];
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
