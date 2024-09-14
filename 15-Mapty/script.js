@@ -51,6 +51,8 @@ class App {
             inputDistance.focus();
         }
 
+        _toggleElevationField() {
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
