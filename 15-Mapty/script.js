@@ -82,9 +82,11 @@ class App {
     }
 }
 
+const app = new App();
 
 
-    form.addEventListener('submit', function (e) {
+
+form.addEventListener('submit', function (e) {
         e.preventDefault();
 
         // Clear input fields
