@@ -33,6 +33,8 @@ class App {
             this.map = L.map('map').setView(coords, 13);
             // console.log(map);
 
+            L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
