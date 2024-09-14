@@ -25,6 +25,7 @@ class App {
 
         _loadMap(position) {
             const { latitude } = position.coords;
+            const { longitude } = position.coords;
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
