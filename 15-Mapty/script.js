@@ -15,7 +15,10 @@ let map, mapEvent;
 
 class App {
     constructor() {
-        this.map_getPosition() {
+        this.map_getPosition(); 
+    }
+    
+    _getPosition() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(this._loadMap,function () {
                         alert('Could not get your position');
@@ -82,7 +85,7 @@ class App {
     }
 }
 
-let app = new App();
+const app = new App();
 app._getPosition();
 
 
