@@ -24,14 +24,7 @@ class App {
         }
 
         _loadMap(position) {
-            L.map('map').setView([this.coords.latitude, this.coords.longitude], 13);
-            L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">
-                OpenStreetMap</a> contributors',
-            }).addTo(map);
-
-            map.on('click', this._showForm.bind(this));
-        }
+            const { latitude } = position.coords;
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
