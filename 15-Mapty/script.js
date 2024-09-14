@@ -26,6 +26,7 @@ class App {
         _loadMap(position) {
             const { latitude } = position.coords;
             const { longitude } = position.coords;
+            console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
