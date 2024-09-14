@@ -56,6 +56,8 @@ class App {
             inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
         }
 
+        _newWorkout(e) {
+
         form.addEventListener('submit', this._newWorkout.bind(this));
 
         inputType.addEventListener('change', this._toggleElevationField);
