@@ -44,6 +44,9 @@ class App {
                 inputDistance.focus();
             }
             );
+        }
+
+        _showForm() {
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
