@@ -18,13 +18,13 @@ class App {
         this.map_getPosition(); 
     }
     
-    _getPosition() {
+    _getPosition
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(this._loadMap,function () {
                         alert('Could not get your position');
                     }
                 );
-        }
+    }
 
         _loadMap(position) {
             const { latitude } = position.coords;
