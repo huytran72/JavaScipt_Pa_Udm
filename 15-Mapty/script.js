@@ -57,6 +57,28 @@ class App {
         }
 
         _newWorkout(e) {
+            e.preventDefault();
+
+            // Clear input fields
+            inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
+
+            // Display marker
+            console.log(mapEvent);
+            const { lat, lng } = mapEvent.latlng;
+            L.marker([lat, lng])
+                .addTo(map)
+                .bindPopup(
+                    L.popup({
+                        maxWidth: 250,
+                        minWidth: 100,
+                        autoClose: false,
+                        closeOnClick: false,
+                        className: 'running-popup',
+                    })
+                )
+                .setPopupContent('Workout')
+                .openPopup();
+        }
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
