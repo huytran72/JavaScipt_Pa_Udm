@@ -39,6 +39,10 @@ class App {
 
             // Handling clicks on map
             map.on('click', function (mapE) {
+                mapEvent = mapE;
+                form.classList.remove('hidden');
+                inputDistance.focus();
+            }
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
