@@ -38,6 +38,7 @@ class App {
             }).addTo(map);
 
             // Handling clicks on map
+            map.on('click', function (mapE) {
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
