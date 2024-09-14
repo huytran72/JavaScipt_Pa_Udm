@@ -47,6 +47,9 @@ class App {
         }
 
         _showForm() {
+            form.classList.remove('hidden');
+            inputDistance.focus();
+        }
 
         form.addEventListener('submit', this._newWorkout.bind(this));
 
