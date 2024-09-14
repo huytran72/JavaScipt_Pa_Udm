@@ -79,10 +79,6 @@ class App {
                 .setPopupContent('Workout')
                 .openPopup();
         }
-
-        form.addEventListener('submit', this._newWorkout.bind(this));
-
-        inputType.addEventListener('change', this._toggleElevationField);
     }
 }
 
