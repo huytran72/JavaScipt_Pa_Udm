@@ -36,7 +36,7 @@ class App {
 
             const coords = [latitude, longitude];
 
-            this.map = L.map('map').setView(coords, 13);
+            this.#map = L.map('map').setView(coords, 13);
             // console.log(map);
 
             L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
