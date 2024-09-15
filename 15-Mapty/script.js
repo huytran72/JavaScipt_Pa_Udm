@@ -93,33 +93,6 @@ class App {
 const app = new App();
 app._getPosition();
 
-
-
-form.addEventListener('submit', function (e) {
-        e.preventDefault();
-
-        // Clear input fields
-        inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
-
-        // Display marker
-        console.log(mapEvent);
-        const { lat, lng } = mapEvent.latlng;
-        L.marker([lat, lng])
-            .addTo(map)
-            .bindPopup(
-                L.popup({
-                    maxWidth: 250,
-                    minWidth: 100,
-                    autoClose: false,
-                    closeOnClick: false,
-                    className: 'running-popup',
-                })
-            )
-            .setPopupContent('Workout')
-            .openPopup();
-    }
-    );
-
 inputType.addEventListener('change', function () {
     inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
     inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
