@@ -74,7 +74,7 @@ class App {
             console.log(mapEvent);
             const { lat, lng } = mapEvent.latlng;
             L.marker([lat, lng])
-                .addTo(map)
+                .addTo(this.#map)
                 .bindPopup(
                     L.popup({
                         maxWidth: 250,
