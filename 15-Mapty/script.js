@@ -18,7 +18,9 @@ class App {
     #mapEvent;
 
     constructor() {
-        this.map_getPosition(); 
+        this._getPosition(); 
+
+        form.addEventListener('submit', this._newWorkout.bind(this));
     }
     
     _getPosition() {
