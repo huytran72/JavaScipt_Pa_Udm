@@ -36,6 +36,8 @@ class Running extends Workout {
     }
 }
 
+class Cycling extends Workout {
+
 let map, mapEvent;
 
 class App {
