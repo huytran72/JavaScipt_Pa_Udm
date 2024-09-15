@@ -44,8 +44,8 @@ class App {
             }).addTo(this.#map);
 
             // Handling clicks on map
-            map.on('click', function (mapE) {
-                mapEvent = mapE;
+            this.#map.on('click', function (mapE) {
+                this.#mapEvent = mapE;
                 form.classList.remove('hidden');
                 inputDistance.focus();
             }
