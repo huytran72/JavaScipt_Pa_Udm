@@ -131,6 +131,7 @@ class App {
                 if (!Number.isFinite(distance) || !Number.isFinite(duration) || !Number.isFinite(cadence))
                     return alert('Input have to be positive numbers');
                 workout = new Running([lat, lng], distance, duration, cadence);
+                this.#workouts.push(workout);
             }
 
             // If workout cycling, create cycling object
