@@ -150,7 +150,8 @@ class App {
             // Render workout on map as marker
             this.renderWorkoutMarker(workout);
 
-            // Clear input fields
+
+            // Hide form + Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
             // Display marker
