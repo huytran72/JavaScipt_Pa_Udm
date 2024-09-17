@@ -154,9 +154,7 @@ class App {
             // Hide form + Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
-            // Display marker
-            console.log(mapEvent);
-            const { lat, lng } = this.#mapEvent.latlng;
+        renderWorkoutMarker(workout) {
             L.marker([lat, lng])
                 .addTo(this.#map)
                 .bindPopup(
