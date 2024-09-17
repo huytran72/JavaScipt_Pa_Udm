@@ -116,6 +116,7 @@ class App {
             const type = inputType.value;
             const distance = +inputDistance.value;
             const duration = +inputDuration.value;
+            const { lat, lng } = this.#mapEvent.latlng;
 
             // Check if data is valid
 
