@@ -150,7 +150,7 @@ class App {
 
             // Display marker
             console.log(mapEvent);
-            const { lat, lng } = mapEvent.latlng;
+            const { lat, lng } = this.#mapEvent.latlng;
             L.marker([lat, lng])
                 .addTo(this.#map)
                 .bindPopup(
