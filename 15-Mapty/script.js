@@ -122,6 +122,8 @@ class App {
 
             // Add new object to workout array
 
+            // Render workout on map as marker
+
             // Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
