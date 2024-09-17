@@ -113,6 +113,8 @@ class App {
             e.preventDefault();
 
             // Clear input fields
+
+            // Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
             // Display marker
