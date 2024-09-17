@@ -61,6 +61,7 @@ let map, mapEvent;
 class App {
     #map;
     #mapEvent;
+    #workouts = [];
 
     constructor() {
         this._getPosition(); 
