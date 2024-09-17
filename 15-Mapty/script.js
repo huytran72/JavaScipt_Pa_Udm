@@ -122,6 +122,13 @@ class App {
             // Check if data is valid
 
             // If workout running, create running object
+            if (type === 'running') {
+                const cadence = +inputCadence.value;
+                // Check if data is valid
+                if (!Number.isFinite(distance) || !Number.isFinite(duration) || !Number.isFinite(cadence))
+                    return alert('Input have to be positive numbers');
+                workout = new Running([lat, lng], distance, duration, cadence);
+            }
 
             // If workout cycling, create cycling object
 
