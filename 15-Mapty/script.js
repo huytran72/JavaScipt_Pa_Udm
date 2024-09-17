@@ -113,6 +113,7 @@ class App {
             e.preventDefault();
 
             // Get data from form
+            const type = inputType.value;
 
             // Check if data is valid
 
