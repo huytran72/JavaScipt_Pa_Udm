@@ -148,6 +148,7 @@ class App {
             console.log(workout);
 
             // Render workout on map as marker
+            this.renderWorkoutMarker(workout);
 
             // Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
