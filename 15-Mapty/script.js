@@ -112,7 +112,9 @@ class App {
         _newWorkout(e) {
             e.preventDefault();
 
-            // Clear input fields
+            // Get data from form
+
+            // Check if data is valid
 
             // Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
