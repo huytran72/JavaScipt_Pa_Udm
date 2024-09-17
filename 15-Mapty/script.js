@@ -117,6 +117,7 @@ class App {
             const distance = +inputDistance.value;
             const duration = +inputDuration.value;
             const { lat, lng } = this.#mapEvent.latlng;
+            let workout;
 
             // Check if data is valid
 
