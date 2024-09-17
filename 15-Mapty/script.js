@@ -118,6 +118,8 @@ class App {
 
             // If workout running, create running object
 
+            // If workout cycling, create cycling object
+
             // Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
