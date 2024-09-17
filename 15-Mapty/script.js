@@ -155,7 +155,7 @@ class App {
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
         renderWorkoutMarker(workout) {
-            L.marker([lat, lng])
+            L.marker(workout.coords)
                 .addTo(this.#map)
                 .bindPopup(
                     L.popup({
