@@ -110,6 +110,8 @@ class App {
         }
 
         _newWorkout(e) {
+            const validInputs = (...inputs) => inputs.every(inp => Number.isFinite(inp));
+
             e.preventDefault();
 
             // Get data from form
