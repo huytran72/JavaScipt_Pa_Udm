@@ -169,6 +169,9 @@ class App {
                 .setPopupContent('Workout')
                 .openPopup();
         }
+
+        _renderWorkout(workout) {
+            
     }
 }
 
