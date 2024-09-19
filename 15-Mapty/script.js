@@ -154,7 +154,7 @@ class App {
             // Hide form + Clear input fields
             inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
 
-        renderWorkoutMarker(workout) {
+        _renderWorkoutMarker(workout) {
             L.marker(workout.coords)
                 .addTo(this.#map)
                 .bindPopup(
