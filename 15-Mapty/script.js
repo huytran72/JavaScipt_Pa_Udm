@@ -18,6 +18,7 @@ class Workout {
         this.coords = coords; // [lat, lng]
         this.distance = distance; // in km
         this.duration = duration; // in min
+        this._setDescription();
     }
 
     _setDescription() {
