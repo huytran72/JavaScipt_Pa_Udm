@@ -85,6 +85,8 @@ class App {
         // Get data from local storage
         this._getLocalStorage();
 
+        // Attach event handlers
+
         form.addEventListener('submit', this._newWorkout.bind(this));
     }
     
