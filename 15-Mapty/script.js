@@ -221,6 +221,8 @@ class App {
     _moveToPopup(e) {
         const workoutEl = e.target.closest('.workout');
         console.log(workoutEl);
+
+        if (!workoutEl) return;
     }
 }
 
