@@ -242,6 +242,7 @@ class App {
         });
 
         // Using the public interface
+        workout.click();
     }
 }
 
