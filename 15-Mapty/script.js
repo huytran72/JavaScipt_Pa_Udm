@@ -219,6 +219,7 @@ class App {
         }     
     
     _moveToPopup(e) {
+        const workoutEl = e.target.closest('.workout');
     }
 }
 
