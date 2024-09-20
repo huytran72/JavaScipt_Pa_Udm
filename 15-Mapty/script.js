@@ -86,8 +86,8 @@ class App {
         this._getLocalStorage();
 
         // Attach event handlers
-
         form.addEventListener('submit', this._newWorkout.bind(this));
+        inputType.addEventListener('change', this._toggleElevationField);
     }
     
     _getPosition() {
