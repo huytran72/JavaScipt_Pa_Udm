@@ -167,7 +167,10 @@ class App {
 
 
             // Hide form + Clear input fields
-            inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
+            this._hideForm();
+
+            // Render workout on list
+            this._renderWorkout(workout);
 
         _renderWorkoutMarker(workout) {
             L.marker(workout.coords)
