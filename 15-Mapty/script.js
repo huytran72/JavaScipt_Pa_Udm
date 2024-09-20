@@ -240,6 +240,8 @@ class App {
                 duration: 1,
             },
         });
+
+        // Using the public interface
     }
 }
 
