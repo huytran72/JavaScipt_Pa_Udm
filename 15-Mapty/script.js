@@ -250,6 +250,10 @@ class App {
         // Using the public interface
         workout.click();
     }
+
+    _setLocalStorage() {
+        localStorage.setItem('workouts', JSON.stringify(this.#workouts));
+    }
 }
 
 const app = new App();
