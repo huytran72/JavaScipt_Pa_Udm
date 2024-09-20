@@ -82,6 +82,8 @@ class App {
         // Get user's position
         this._getPosition(); 
 
+        // Get data from local storage
+
         form.addEventListener('submit', this._newWorkout.bind(this));
     }
     
