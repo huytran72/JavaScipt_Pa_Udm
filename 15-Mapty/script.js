@@ -216,7 +216,9 @@ class App {
 
             form.insertAdjacentHTML('afterend', html);
             }
-        }           
+        }     
+    
+    _moveToPopup(e) {
     }
 }
 
