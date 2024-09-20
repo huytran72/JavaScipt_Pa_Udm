@@ -173,6 +173,7 @@ class App {
             this._renderWorkout(workout);
 
             // Set local storage to all workouts
+            this._setLocalStorage();
 
         _renderWorkoutMarker(workout) {
             L.marker(workout.coords)
