@@ -172,6 +172,8 @@ class App {
             // Render workout on list
             this._renderWorkout(workout);
 
+            // Set local storage to all workouts
+
         _renderWorkoutMarker(workout) {
             L.marker(workout.coords)
                 .addTo(this.#map)
