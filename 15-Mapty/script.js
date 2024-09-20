@@ -79,6 +79,7 @@ class App {
     #workouts = [];
 
     constructor() {
+        // Get user's position
         this._getPosition(); 
 
         form.addEventListener('submit', this._newWorkout.bind(this));
