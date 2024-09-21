@@ -263,6 +263,7 @@ class App {
     }
 
     _getLocalStorage() {
+        localStorage.getItem('workouts');
 }
 
 const app = new App();
