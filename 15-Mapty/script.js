@@ -264,6 +264,7 @@ class App {
 
     _getLocalStorage() {
         localStorage.getItem('workouts');
+        if (!data) return;
 }
 
 const app = new App();
