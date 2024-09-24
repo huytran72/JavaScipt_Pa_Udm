@@ -5,5 +5,6 @@ const countriesContainer = document.querySelector('.countries');
 
 ///////////////////////////////////////
 
-const renderCountry = function (data, className = '') {
+const request = new XMLHttpRequest();
+
 
