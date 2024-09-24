@@ -9,6 +9,7 @@ const request = new XMLHttpRequest();
 request.open('GET', 'https://restcountries.com/v3.1/name/usa');
 data = request.send();
 console.log(data);
+console.log(request.responseText);
 
 request.addEventListener('load', function () {
     console.log(this.responseText);
