@@ -16,5 +16,6 @@ request.addEventListener('load', function () {
     console,log(data);
 
     const html = `
+    <article class="country">
 });
 
