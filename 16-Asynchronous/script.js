@@ -17,5 +17,13 @@ request.addEventListener('load', function () {
 
     const html = `
     <article class="country">
+        <img class="country__img" src="${data.flags.png}" />
+        <div class="country__data">
+            <h3 class="country__name">${data.name.common}</h3>
+            <h4 class="country__region">${data.region}</h4>
+            <p class="country__row"><span>👫</span>${(data.population / 1000000).toFixed(1)}M people</p>
+            <p class="country__row"><span>🗣️</span>${Object.values(data.languages).join(', ')}</p>
+            <p class="country__row"><span>💰</span>${Object.values(data.currencies).join(', ')}</p>
+        </div>
 });
 
