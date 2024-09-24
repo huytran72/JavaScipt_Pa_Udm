@@ -25,5 +25,6 @@ request.addEventListener('load', function () {
             <p class="country__row"><span>🗣️</span>${Object.values(data.languages).join(', ')}</p>
             <p class="country__row"><span>💰</span>${Object.values(data.currencies).join(', ')}</p>
         </div>
+    </article>
 });
 
