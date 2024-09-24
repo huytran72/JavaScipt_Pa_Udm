@@ -10,4 +10,5 @@ request.open('GET', 'https://restcountries.com/v3.1/name/usa');
 data = request.send();
 console.log(data);
 
+request.addEventListener('load', function () {
 
