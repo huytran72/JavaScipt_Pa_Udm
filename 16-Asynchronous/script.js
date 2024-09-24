@@ -11,4 +11,5 @@ data = request.send();
 console.log(data);
 
 request.addEventListener('load', function () {
+    console.log(this.responseText);
 
