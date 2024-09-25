@@ -29,3 +29,5 @@ request.addEventListener('load', function () {
     `;
 });
 
+countriesContainer.insertAdjacentHTML('beforeend', html);
+
