@@ -37,4 +37,5 @@ getCountryData('portugal');
 getCountryData('canada');
 getCountryData('tanzania');
 
+const getCountryAndNeighbour = function (country) {
 
