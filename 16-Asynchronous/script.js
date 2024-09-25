@@ -42,3 +42,5 @@ const getCountryAndNeighbour = function (country) {
     request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
     request.send();
 
+    request.addEventListener('load', function () {
+
