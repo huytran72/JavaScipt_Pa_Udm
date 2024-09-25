@@ -47,4 +47,5 @@ const getCountryAndNeighbour = function (country) {
         console.log(data);
         renderVCountry(data);
     });
+};
 
