@@ -38,4 +38,5 @@ getCountryData('canada');
 getCountryData('tanzania');
 
 const getCountryAndNeighbour = function (country) {
+    const request = new XMLHttpRequest();
 
