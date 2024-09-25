@@ -35,5 +35,6 @@ request.addEventListener('load', function () {
 getCountryData('usa');
 getCountryData('portugal');
 getCountryData('canada');
+getCountryData('tanzania');
 
 
