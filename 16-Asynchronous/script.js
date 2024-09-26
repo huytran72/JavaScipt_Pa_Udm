@@ -53,6 +53,8 @@ const getCountryAndNeighbour = function (country) {
 
         // Get neighbour country (2)
         const [neighbour] = data.borders;
+
+        if (!neighbour) return;
     });
 };
 
