@@ -58,6 +58,7 @@ const getCountryAndNeighbour = function (country) {
 
         // AJAX call country 2
         const request2 = new XMLHttpRequest();
+        request2.open('GET', `https://restcountries.com/v3.1/alpha/${neighbour}`);
     });
 };
 
