@@ -57,4 +57,5 @@ const getCountryAndNeighbour = function (country) {
 };
 
 getCountryAndNeighbour('usa');
+getCountryAndNeighbour('portugal');
 
