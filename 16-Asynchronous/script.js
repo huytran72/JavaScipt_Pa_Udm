@@ -52,6 +52,7 @@ const getCountryAndNeighbour = function (country) {
         renderVCountry(data);
 
         // Get neighbour country (2)
+        const [neighbour] = data.borders;
     });
 };
 
