@@ -55,6 +55,8 @@ const getCountryAndNeighbour = function (country) {
         const [neighbour] = data.borders;
 
         if (!neighbour) return;
+
+        // AJAX call country 2
     });
 };
 
