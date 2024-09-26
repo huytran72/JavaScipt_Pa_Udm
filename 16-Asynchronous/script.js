@@ -60,6 +60,8 @@ const getCountryAndNeighbour = function (country) {
         const request2 = new XMLHttpRequest();
         request2.open('GET', `https://restcountries.com/v3.1/alpha/${neighbour}`);
         request2.send();
+
+        request2.addEventListener('load', function () {
     });
 };
 
