@@ -62,8 +62,10 @@ const getCountryAndNeighbour = function (country) {
         request2.send();
 
         request2.addEventListener('load', function () {
-            const [data2] = JSON.parse(this.responseText);
+            const data2 = JSON.parse(this.responseText);
             console.log(data2);
+
+            renderCountry(data2, 'neighbour');
     });
 };
 
