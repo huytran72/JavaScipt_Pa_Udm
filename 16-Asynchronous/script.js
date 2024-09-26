@@ -38,6 +38,8 @@ getCountryData('canada');
 getCountryData('tanzania');
 
 const getCountryAndNeighbour = function (country) {
+
+    // AJAX call country 1
     const request = new XMLHttpRequest();
     request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
     request.send();
