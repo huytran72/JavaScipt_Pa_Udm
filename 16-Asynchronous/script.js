@@ -66,6 +66,7 @@ const getCountryAndNeighbour = function (country) {
             console.log(data2);
 
             renderCountry(data2, 'neighbour');
+        });
     });
 };
 
