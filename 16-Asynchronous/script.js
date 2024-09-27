@@ -75,4 +75,5 @@ getCountryAndNeighbour('portugal');
 
 setTimeout(() => {
     console.log('1 second passed'); 
+    setTimeout(()) => {
 
