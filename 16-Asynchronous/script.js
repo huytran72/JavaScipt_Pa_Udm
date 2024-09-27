@@ -80,4 +80,6 @@ setTimeout(() => {
         setTimeout(() => {
             console.log('3 seconds passed');
             setvTimeout(() => {
+                console.log('4 seconds passed');
+            }
 
