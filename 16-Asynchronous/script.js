@@ -128,8 +128,7 @@ const getCountryData = function (country) {
         .then(function (data) {
             console.log(data);
             renderCountry(data[0]);
-        }
-    )
+        });
 };
 
 getCountryData('portugal');
