@@ -130,3 +130,4 @@ const getCountryData = function (country) {
             renderCountry(data[0]);
         }
     );
+};
