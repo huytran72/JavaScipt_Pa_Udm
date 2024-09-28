@@ -129,5 +129,5 @@ const getCountryData = function (country) {
             console.log(data);
             renderCountry(data[0]);
         }
-    );
+    )
 };
