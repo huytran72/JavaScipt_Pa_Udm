@@ -125,3 +125,4 @@ const getCountryData = function (country) {
             console.log(response);
             return response.json();
         }
+        .then(function (data) {
