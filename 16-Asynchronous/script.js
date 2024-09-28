@@ -116,5 +116,7 @@ setTimeout(() => {
 // request.open('GET', 'https://restcountries.com/v3.1/name/usa');
 // request.send();
 
-const request = fetch('https://restcountries.com/v3.1/name/portugal');
-console.log(request);
+const request1 = fetch('https://restcountries.com/v3.1/name/portugal');
+console.log(request1);
+
+const getCountryData = function (country) {
