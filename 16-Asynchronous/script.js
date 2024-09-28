@@ -129,7 +129,7 @@ console.log(request1);
 
 const getCountryData = function (country) {
     fetch(`https://restcountries.com/v3.1/name/${country}`)
-        .then(response => response.json()) {
+        .then(response => response.json())
             console.log(response);
             return response.json();
         }
