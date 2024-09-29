@@ -141,6 +141,7 @@ const getCountryData = function (country) {
             return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
         })
         .then(response => response.json())
+        .then(data => renderCountry(data, 'neighbour'))
 };
 
 getCountryData('portugal');
