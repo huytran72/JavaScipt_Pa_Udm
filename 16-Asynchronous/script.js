@@ -148,7 +148,7 @@ getCountryData('portugal');
 getCountryData('usa');
 getCountryData('canada');
 
-
+btn.addEventListener('click', function () {
 
 
 
