@@ -133,8 +133,7 @@ const getCountryData = function (country) {
         .then(response => response.json())
         .then(function (data) {
             renderCountry(data[0]);
-            console.log(data);
-            renderCountry(data[0]);
+            const neighbour = data[0].borders[0];
         });
 };
 
