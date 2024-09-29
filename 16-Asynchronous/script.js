@@ -134,6 +134,8 @@ const getCountryData = function (country) {
         .then(function (data) {
             renderCountry(data[0]);
             const neighbour = data[0].borders[0];
+
+            if (!neighbour) return;
         });
 };
 
