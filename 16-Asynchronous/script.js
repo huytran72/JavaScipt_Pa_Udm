@@ -131,10 +131,8 @@ const getCountryData = function (country) {
     // Country 1
     fetch(`https://restcountries.com/v3.1/name/${country}`)
         .then(response => response.json())
-            console.log(response);
-            return response.json();
-        }
         .then(function (data) {
+            renderCountry(data[0]);
             console.log(data);
             renderCountry(data[0]);
         });
