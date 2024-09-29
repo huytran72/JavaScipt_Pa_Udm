@@ -138,6 +138,7 @@ const getCountryData = function (country) {
             if (!neighbour) return;
 
             // Country 2
+            return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
         });
 };
 
