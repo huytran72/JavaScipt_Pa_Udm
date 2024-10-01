@@ -133,6 +133,10 @@ const renderError = function (msg) {
     countriesContainer.style.opacity = 1;
 };
 
+const getJson = function(url) {
+    
+}
+
 
 const getCountryData = function (country) {
     // Country 1
