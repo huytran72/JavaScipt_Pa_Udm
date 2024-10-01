@@ -148,7 +148,9 @@ const getCountryData = function (country) {
             // Country 2
             return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
         })
-        .then(response => response.json())
+        .then(response =>  {
+            if (!response.ok) throw new Error(`Country not found (${response.status})`);
+            response.json())
         .then(data => renderCountry(data, 'neighbour'))
         .catch(err => {
             console.error(`${err} 💥💥💥`);
