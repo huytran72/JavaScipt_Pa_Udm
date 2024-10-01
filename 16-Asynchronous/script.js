@@ -133,7 +133,7 @@ const renderError = function (msg) {
     countriesContainer.style.opacity = 1;
 };
 
-const getJson = function(url) {
+const getJson = function(url, errorMsg = 'Something went wrong') {
     fetch(url)
         .then(response => {
             if (!response.ok) throw new Error(`Country not found (${response.status})`);
