@@ -129,7 +129,7 @@ console.log(request1);
 
 
 const renderError = function (msg) {
-    countriesContainer
+    countriesContainer.insertAdjacentText('beforeend', msg);
 
 
 const getCountryData = function (country) {
