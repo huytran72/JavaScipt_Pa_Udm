@@ -127,6 +127,10 @@ console.log(request1);
 
 
 
+
+const renderCountry
+
+
 const getCountryData = function (country) {
     // Country 1
     fetch(`https://restcountries.com/v3.1/name/${country}`)
