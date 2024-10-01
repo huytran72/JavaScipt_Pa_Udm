@@ -129,6 +129,7 @@ console.log(request1);
 
 
 const renderError = function (msg) {
+    countriesContainer
 
 
 const getCountryData = function (country) {
