@@ -143,6 +143,7 @@ const getCountryData = function (country) {
             const neighbour = data[0].borders[0];
 
             if (!neighbour) return;
+                throw new Error('No neighbour found!');
 
             // Country 2
             return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
@@ -165,6 +166,8 @@ getCountryData('canada');
 btn.addEventListener('click', function () {
     getCountryData('usa');
 });
+
+
 
 
 
