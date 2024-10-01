@@ -128,7 +128,7 @@ console.log(request1);
 
 
 
-const renderCountry
+const renderError = function (msg) {
 
 
 const getCountryData = function (country) {
