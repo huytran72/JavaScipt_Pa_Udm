@@ -154,7 +154,8 @@ const getCountryData = function (country) {
             renderError(`Something went wrong 💥💥 ${err.message}. Try again!`);
         })
         .finally(() => {
-            )
+            countriesContainer.style.opacity = 1;
+        });
 };
 
 getCountryData('portugal');
