@@ -134,7 +134,12 @@ const renderError = function (msg) {
 };
 
 const getJson = function(url) {
-    
+    fetch(url)
+        .then(response => {
+            if (!response.ok) throw new Error(`Country not found (${response.status})`);
+            
+            return response.json();
+        });
 }
 
 
