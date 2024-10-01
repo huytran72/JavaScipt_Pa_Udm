@@ -130,7 +130,7 @@ console.log(request1);
 const getCountryData = function (country) {
     // Country 1
     fetch(`https://restcountries.com/v3.1/name/${country}`)
-        .then(response => response.json())
+        .then(response => response.json(), err => alert(err))
         .then(function (data) {
             renderCountry(data[0]);
             const neighbour = data[0].borders[0];
