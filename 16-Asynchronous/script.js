@@ -144,6 +144,7 @@ const getCountryData = function (country) {
         .then(data => renderCountry(data, 'neighbour'))
         .catch(err => {
             console.error(`${err} 💥💥💥`);
+        })
 };
 
 getCountryData('portugal');
