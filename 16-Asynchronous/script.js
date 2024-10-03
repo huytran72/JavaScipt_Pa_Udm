@@ -206,6 +206,7 @@ In this challenge you will build a function 'whereAmI' which renders a country o
 Here are your tasks:
 
 PART 1
+1. Create a function 'whereAmI' which takes as input a latitude value ('lat') and a longitude value ('lng') (these are GPS coordinates).
 
 
 
