@@ -201,7 +201,7 @@ btn.addEventListener('click', function () {
 // Coding Challenge #1
 
 /*
-In this
+In this challenge you will build a function 'whereAmI' which renders a country only based on GPS coordinates. For that, you will use a second API to geocode coordinates.
 
 
 
