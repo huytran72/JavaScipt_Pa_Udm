@@ -209,6 +209,7 @@ PART 1
 1. Create a function 'whereAmI' which takes as input a latitude value ('lat') and a longitude value ('lng') (these are GPS coordinates).
 2. Do 'reverse geocoding' of the provided coordinates. Reverse geocoding is the process of converting geographic coordinates into a human-readable address.
 3. Use this API to do reverse geocoding: https://geocode.xyz/api. The AJAX call will be done to a URL with this format: 'https://geocode.xyz/52.508,13.381?json=1'.
+4. Make sure to replace the coordinates in the URL with the provided latitude and longitude.
 
 
 
