@@ -211,8 +211,8 @@ PART 1
 3. Once you have the data, take a look at it in the console to see all the attributes that you retrieved about the provided location. Then, using this data, log a message like this to the console: 'You are in Berlin, Germany'.
 4. Chain a .catch method to the end of the promise returned by the fetch method. If there is an error, log 'Something went wrong'.
 5. This API allows you to make only 3 requests per second. If you reload fast, you will get this error with code 403. This is an error with the request. Remember, fetch() does NOT reject the promise in this case. So create an error to reject the promise yourself, with a meaningful error message.
-6. Take the relevant data from the API response, and console log data like this: 'You are in Berlin, Germany'.
 
+PART 2
 
 
 
