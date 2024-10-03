@@ -207,6 +207,7 @@ Here are your tasks:
 
 PART 1
 1. Create a function 'whereAmI' which takes as input a latitude value ('lat') and a longitude value ('lng') (these are GPS coordinates).
+2. Do 'reverse geocoding' of the provided coordinates. Reverse geocoding is the process of converting geographic coordinates into a human-readable address.
 
 
 
