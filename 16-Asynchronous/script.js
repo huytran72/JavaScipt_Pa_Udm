@@ -211,6 +211,7 @@ PART 1
 3. Use this API to do reverse geocoding: https://geocode.xyz/api. The AJAX call will be done to a URL with this format: 'https://geocode.xyz/52.508,13.381?json=1'.
 4. Make sure to replace the coordinates in the URL with the provided latitude and longitude.
 5. Use the fetch API and promises to get the data. Do not use the 'XMLHttpRequest'.
+6. Take the relevant data from the API response, and console log data like this: 'You are in Berlin, Germany'.
 
 
 
