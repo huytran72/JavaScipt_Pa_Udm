@@ -217,6 +217,7 @@ PART 2
 7. Render the country and catch any errors, just like you have done before. The full code is available in the coding challenge starter.
 
 TEST DATA 1: 52.508, 13.381 (Latitude, Longitude)
+TEST DATA 2: 19.037, 72.873
 
 
 
