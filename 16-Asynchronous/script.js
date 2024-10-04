@@ -213,6 +213,7 @@ PART 1
 5. This API allows you to make only 3 requests per second. If you reload fast, you will get this error with code 403. This is an error with the request. Remember, fetch() does NOT reject the promise in this case. So create an error to reject the promise yourself, with a meaningful error message.
 
 PART 2
+6. Now it's time to use the received data to render a country. So take the relevant attribute from the geocoding API data, and plug it into the countries API that you have been using.
 
 
 
