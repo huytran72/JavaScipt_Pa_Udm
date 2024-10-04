@@ -227,7 +227,7 @@ const whereAmI = function (lat, lng) {
     fetch(`https://geocode.xyz/${lat},${lng}?json=1`)
     .then(res => res.json())
     .then(data => {
-        
+        console.log(data);
     )
 
 
