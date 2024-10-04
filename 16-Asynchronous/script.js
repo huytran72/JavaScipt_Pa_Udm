@@ -214,6 +214,7 @@ PART 1
 
 PART 2
 6. Now it's time to use the received data to render a country. So take the relevant attribute from the geocoding API data, and plug it into the countries API that you have been using.
+7. Render the country and catch any errors, just like you have done before. The full code is available in the coding challenge starter.
 
 
 
