@@ -273,3 +273,4 @@ Promise.resolve('Resolved promise 2').then(res => {
 }
 );
 
+console.log('Test end');
