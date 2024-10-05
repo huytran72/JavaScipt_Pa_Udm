@@ -263,4 +263,5 @@ whereAmI(-33.933, 18.474);
 
 
 console.log('Test start');
+setTimeout(() => console.log('0 sec timer'), 0);
 
