@@ -226,6 +226,7 @@ GOOD LUCK 😀
 const whereAmI = function (lat, lng) {
     fetch(`https://geocode.xyz/${lat},${lng}?json=1`)
     .then(res =>  {
+        if (!res.ok) throw new Error(`Problem with geocoding ${res.status}`);
         console.log(res);
         return res.json();
     })
