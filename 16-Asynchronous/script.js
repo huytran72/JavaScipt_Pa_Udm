@@ -271,4 +271,5 @@ Promise.resolve('Resolved promise 2').then(res => {
     for (let i = 0; i < 1000000000; i++) {}
     console.log(res);
 }
+);
 
