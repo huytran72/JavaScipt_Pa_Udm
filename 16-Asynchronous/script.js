@@ -283,3 +283,7 @@ console.log('Test end');
 
 
 new Promise((resolve, reject) => {
+    console.log('Initial');
+    resolve();
+    reject();
+}
