@@ -287,3 +287,4 @@ new Promise((resolve, reject) => {
     resolve();
     reject();
 }
+).then(() => console.log('Resolved!')).catch(() => console.log('Rejected!'));
