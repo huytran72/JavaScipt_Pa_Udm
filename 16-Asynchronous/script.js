@@ -285,7 +285,10 @@ console.log('Test end');
 new lotteryPromise = new Promise(function(resolve, reject) {
     if (Math.random() >= 0.5) {
         resolve('You win!');
+    } else {
+        reject('You lost your money!');
     }
+}
     console.log('Initial');
     resolve();
     reject();
