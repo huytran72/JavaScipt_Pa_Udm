@@ -289,10 +289,5 @@ new lotteryPromise = new Promise(function(resolve, reject) {
         reject('You lost your money!');
     }
 }
+);
 
-
-    console.log('Initial');
-    resolve();
-    reject();
-}
-).then(() => console.log('Resolved!')).catch(() => console.log('Rejected!'));
