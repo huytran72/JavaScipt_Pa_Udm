@@ -291,14 +291,8 @@ new lotteryPromise = new Promise(function(resolve, reject) {
         } else {
             reject('You lost your money!');
         }
-    }, 2000);
-    if (Math.random() >= 0.5) {
-        resolve('You win!');
-    } else {
-        reject('You lost your money!');
-    }
-}
-);
+    }, 2000); 
+});
 
 lotteryPromise.then(res => console.log(res)).catch(err => console.error(err));
 
