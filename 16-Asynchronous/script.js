@@ -283,6 +283,8 @@ console.log('Test end');
 
 
 new lotteryPromise = new Promise(function(resolve, reject) {
+
+    console.log('Lottery draw is happening 🔮');    
     if (Math.random() >= 0.5) {
         resolve('You win!');
     } else {
