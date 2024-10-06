@@ -289,7 +289,7 @@ new lotteryPromise = new Promise(function(resolve, reject) {
         if (Math.random() >= 0.5) {
             resolve('You win!');
         } else {
-            reject('You lost your money!');
+            reject(new Error('You lost your money!'));
         }
     }, 2000); 
 });
