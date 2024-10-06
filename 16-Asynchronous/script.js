@@ -296,3 +296,5 @@ new lotteryPromise = new Promise(function(resolve, reject) {
 
 lotteryPromise.then(res => console.log(res)).catch(err => console.error(err));
 
+const wait = function(seconds) {
+
