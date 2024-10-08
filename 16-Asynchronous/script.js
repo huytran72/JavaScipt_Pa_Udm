@@ -319,4 +319,5 @@ wait(1)
     })
     .then(() => {
         console.log('I waited for 4 seconds');
+        return wait(1);
     }
