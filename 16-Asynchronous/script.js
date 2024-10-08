@@ -306,3 +306,4 @@ const wait = function(seconds) {
 
 wait(1).then(() => {
     console.log('I waited for 1 second');
+    return wait(1);
