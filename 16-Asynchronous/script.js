@@ -313,3 +313,4 @@ wait(1).then(() => {
     return wait(1);
 }
 .then(() => {
+    console.log('I waited for 3 seconds');
