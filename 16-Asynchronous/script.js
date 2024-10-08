@@ -304,3 +304,4 @@ const wait = function(seconds) {
     );
 };
 
+wait(1).then(() => {
