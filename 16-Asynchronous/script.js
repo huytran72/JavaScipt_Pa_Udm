@@ -338,4 +338,5 @@ navigator.geolocation.getCurrentPosition(position => {
 console.log('Getting position...');
 
 const getPosition = function() {
+    return new Promise(function(resolve, reject) {
 
