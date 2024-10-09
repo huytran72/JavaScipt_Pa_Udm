@@ -333,5 +333,5 @@ Promise.reject(new Error('Problem!')).catch(x => console.error(x));
 
 
 navigator.geolocation.getCurrentPosition(position => {
-    console.log(position);
+    console.log(position), err => console.error(err);
 }
