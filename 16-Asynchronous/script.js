@@ -344,3 +344,5 @@ const getPosition = function() {
 );
 
 getPosition().then(pos => console.log(pos));
+
+const whereAmI = function() {
