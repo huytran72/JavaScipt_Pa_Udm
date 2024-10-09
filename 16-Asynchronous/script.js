@@ -332,4 +332,4 @@ Promise.reject(new Error('Problem!')).catch(x => console.error(x));
 
 
 
-navigator.geolocation.getCurrentPosition(
+navigator.geolocation.getCurrentPosition(position => {
