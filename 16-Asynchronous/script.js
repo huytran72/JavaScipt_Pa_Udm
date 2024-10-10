@@ -379,4 +379,5 @@ console.log('Coding Challenge #2');
 // Coding Challenge #2
 
 /*
+Build the image loading functionality that I just showed you on the screen.
 
