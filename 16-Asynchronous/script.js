@@ -383,3 +383,5 @@ Build the image loading functionality that I just showed you on the screen.
 
 Tasks are not super-descriptive this time, so that you can figure out some stuff on your own. Pretend you're working on your own 😉
 
+PART 1
+
