@@ -388,3 +388,5 @@ PART 1
 
 If this part is too tricky for you, just watch the first part of the solution.
 
+PART 2
+
