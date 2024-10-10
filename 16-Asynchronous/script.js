@@ -390,5 +390,6 @@ If this part is too tricky for you, just watch the first part of the solution.
 
 PART 2
 2. Comsume the promise using .then and also add an error handler.
+3. After the image has loaded, pause execution for 2 seconds using the 'wait' function we created earlier.
 
 */
