@@ -393,5 +393,6 @@ PART 2
 3. After the image has loaded, pause execution for 2 seconds using the 'wait' function we created earlier.
 4. After the 2 seconds have passed, hide the current image (set display CSS property to 'none'), and load a second image (Hint: Use the image element returned by the 'createImage' promise to hide the current image. You will need a global variable for that 😉).
 5. After the second image has loaded, pause execution for 2 seconds again.
+6. After the 2 seconds have passed, hide the current image.
 
 */
