@@ -389,5 +389,6 @@ PART 1
 If this part is too tricky for you, just watch the first part of the solution.
 
 PART 2
+2. Comsume the promise using .then and also add an error handler.
 
 */
