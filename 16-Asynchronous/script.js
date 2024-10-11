@@ -400,6 +400,7 @@ Test data: Images in the img folder. Test the error handler by passing the wrong
 GOOD LUCK 😀
 */
 
+const imgContainer = document.querySelector('.images');
 
 const createImage = function(imgPath) {
     return new Promise(function(resolve, reject) {
