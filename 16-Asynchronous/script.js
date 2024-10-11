@@ -401,6 +401,9 @@ GOOD LUCK 😀
 */
 
 const wait = function(seconds) {
+    return new Promise(function(resolve) {
+        setTimeout(resolve, seconds * 1000);
+    });
 
 const imgContainer = document.querySelector('.images');
 
