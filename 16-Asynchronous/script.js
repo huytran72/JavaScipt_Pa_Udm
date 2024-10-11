@@ -414,6 +414,6 @@ const createImage = function(imgPath) {
 
         img.addEventListener('error', function() {
             reject(new Error('Image not found'));
-        }
+        });
     })
-}
+};
