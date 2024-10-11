@@ -397,4 +397,5 @@ PART 2
 
 Test data: Images in the img folder. Test the error handler by passing the wrong image path. Set the network speed to 'Fast 3G' in the dev tools Network tab, otherwise images load too fast.
 
+GOOD LUCK 😀
 */
