@@ -400,6 +400,8 @@ Test data: Images in the img folder. Test the error handler by passing the wrong
 GOOD LUCK 😀
 */
 
+const wait = function(seconds) {
+
 const imgContainer = document.querySelector('.images');
 
 const createImage = function(imgPath) {
@@ -418,5 +420,7 @@ const createImage = function(imgPath) {
     })
 };
 
-createImage('img/img-1.jpg').then(img => {
+createImage('img/img-1.jpg')
+    .then(img => {
     console.log('Image 1 loaded');
+
