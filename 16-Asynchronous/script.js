@@ -403,3 +403,4 @@ GOOD LUCK 😀
 
 const createImage = function(imgPath) {
     return new Promise(function(resolve, reject) {
+        const img = document.createElement('img');
