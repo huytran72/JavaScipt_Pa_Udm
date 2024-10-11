@@ -430,4 +430,5 @@ createImage('img/img-1.jpg')
     return wait1(2);
     })
     .then(() => {
+        img1.style.display = 'none';
 
