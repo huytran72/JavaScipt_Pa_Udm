@@ -432,4 +432,5 @@ createImage('img/img-1.jpg')
     .then(() => {
         img1.style.display = 'none';
         return createImage('img/img-2.jpg');
+    }
 
