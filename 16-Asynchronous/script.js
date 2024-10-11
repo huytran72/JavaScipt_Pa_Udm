@@ -436,4 +436,5 @@ createImage('img/img-1.jpg')
         return createImage('img/img-2.jpg');
     })
     .then(img => {
+        currentImage = img;
 
