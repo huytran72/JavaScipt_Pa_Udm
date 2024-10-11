@@ -400,10 +400,11 @@ Test data: Images in the img folder. Test the error handler by passing the wrong
 GOOD LUCK 😀
 */
 
-const wait = function(seconds) {
+const wait1 = function(seconds) {
     return new Promise(function(resolve) {
         setTimeout(resolve, seconds * 1000);
     });
+};
 
 const imgContainer = document.querySelector('.images');
 
