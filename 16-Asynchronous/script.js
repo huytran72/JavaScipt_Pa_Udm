@@ -399,3 +399,6 @@ Test data: Images in the img folder. Test the error handler by passing the wrong
 
 GOOD LUCK 😀
 */
+
+
+const createImage = function(imgPath) {
