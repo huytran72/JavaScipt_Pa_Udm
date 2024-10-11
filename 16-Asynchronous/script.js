@@ -417,3 +417,5 @@ const createImage = function(imgPath) {
         });
     })
 };
+
+createImage('img/img-1.jpg')
