@@ -452,10 +452,11 @@ createImage('img/img-1.jpg')
 
 
 
-const getPosition = function() {
+const getPosition2 = function() {
     return new Promise(function(resolve, reject) {
         navigator.geolocation.getCurrentPosition(resolve, reject);
-    }
+    });
+};
 
 
 const whereAmI2 = async function(country) {
