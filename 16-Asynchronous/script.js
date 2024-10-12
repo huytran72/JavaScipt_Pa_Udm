@@ -456,3 +456,4 @@ const whereAmI2 = async function(country) {
     const res = await fetch(`https://restcountries.com/v3.1/name/${country}`)
     console.log(res);
 };
+whereAmI2('portugal');
