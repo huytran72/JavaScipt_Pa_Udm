@@ -453,5 +453,6 @@ createImage('img/img-1.jpg')
 
 
 const whereAmI2 = async function(country) {
-    await fetch(`https://restcountries.com/v3.1/name/${country}`)
+    const res = await fetch(`https://restcountries.com/v3.1/name/${country}`)
+    console.log(res);
 };
