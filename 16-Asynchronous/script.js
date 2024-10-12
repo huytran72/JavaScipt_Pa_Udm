@@ -457,3 +457,4 @@ const whereAmI2 = async function(country) {
     console.log(res);
 };
 whereAmI2('portugal');
+console.log('First');
