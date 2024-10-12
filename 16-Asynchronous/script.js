@@ -345,7 +345,7 @@ const getPosition = function() {
 
 getPosition().then(pos => console.log(pos));
 
-const whereAmI = function() {
+const whereAmI1 = function() {
     getPosition()
         .then(pos => {
             const {latitude: lat, longitude: lng} = pos.coords;
@@ -452,5 +452,6 @@ createImage('img/img-1.jpg')
 
 
 
-const whereAmI = async function(country) {
+const whereAmI2 = async function(country) {
     await fetch(`https://restcountries.com/v3.1/name/${country}`)
+};
