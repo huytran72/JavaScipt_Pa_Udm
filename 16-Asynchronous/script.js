@@ -452,6 +452,9 @@ createImage('img/img-1.jpg')
 
 
 
+const getPosition = function() {
+
+
 const whereAmI2 = async function(country) {
     const {} = await getPosition();
 
