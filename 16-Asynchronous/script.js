@@ -458,7 +458,8 @@ const whereAmI2 = async function(country) {
 
     fetch(`https://restcountries.com/v3.1/name/${country}`)
     const data = await res.json();
-    console.log(res);
+    console.log(data);
+    renderCountry(data[0]);
 };
 whereAmI2('portugal');
 console.log('First');
