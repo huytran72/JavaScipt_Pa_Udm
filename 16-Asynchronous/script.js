@@ -467,6 +467,7 @@ const whereAmI2 = async function(country) {
     // Reverse geocoding
     const resGeo = await fetch(`https://geocode.xyz/${lat},${lng}?json=1`);
     const dataGeo = await resGeo.json();
+    console.log(dataGeo);
     // const res = await fetch(`https://restcountries.com/v3.1/name/${country}`)
     // console.log(res);
 
