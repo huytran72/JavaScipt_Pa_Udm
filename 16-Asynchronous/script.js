@@ -461,6 +461,7 @@ const getPosition2 = function() {
 
 const whereAmI2 = async function(country) {
     // Geolocation
+    const pos = await getPosition();
 
     const {} = await getPosition();
     const {latitude: lat, longitude: lng} = pos.coords;
