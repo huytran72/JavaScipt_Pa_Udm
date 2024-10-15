@@ -476,6 +476,8 @@ const whereAmI2 = async function(country) {
     const data = await res.json();
     console.log(data);
     renderCountry(data[0]);} catch(err) {
+        console.error(err);
+    }
 };
 whereAmI2('portugal');
 console.log('First');
