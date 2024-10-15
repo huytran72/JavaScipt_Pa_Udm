@@ -500,3 +500,4 @@ try {
 console.log('1: Will get location');
 const city = whereAmI2();
 console.log(city);
+console.log('3: Finished getting location');
