@@ -505,5 +505,6 @@ const city = whereAmI2();
 whereAmI2()
     .then(city => console.log(`2: ${city}`))
     .catch(err => console.error(`2: ${err.message}`));
+    .finally(() => console.log('3: Finished getting location'));
 console.log(city);
 console.log('3: Finished getting location');
