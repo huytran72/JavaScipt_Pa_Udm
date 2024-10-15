@@ -498,3 +498,4 @@ try {
 }
 
 console.log('1: Will get location');
+const city = whereAmI2();
