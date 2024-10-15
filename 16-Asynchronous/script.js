@@ -484,6 +484,8 @@ const whereAmI2 = async function(country) {
     } catch (err) {
         console.error(err);
         renderCountry(`Something went wrong 💥💥 ${err.message}. Try again!`);
+
+        // Reject promise returned from async function
     }
 };
 whereAmI2('portugal');
