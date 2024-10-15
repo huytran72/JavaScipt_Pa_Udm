@@ -475,8 +475,10 @@ const whereAmI2 = async function(country) {
     const res = await fetch(`https://restcountries.com/v3.1/name/${dataGeo.country}`)
     const data = await res.json();
     console.log(data);
-    renderCountry(data[0]);} catch(err) {
+    renderCountry(data[0]);
+    } catch (err) {
         console.error(err);
+        renderCountry(`Something went wrong 💥💥 ${err.message}. Try again!`);
     }
 };
 whereAmI2('portugal');
