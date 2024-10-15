@@ -517,6 +517,7 @@ console.log('3: Finished getting location');
 
 (async function() {
     try {
+        const city = await whereAmI2();
 
 
     } catch(err) {
