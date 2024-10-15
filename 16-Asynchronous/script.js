@@ -516,3 +516,4 @@ console.log('3: Finished getting location');
 
 
 (async function() {
+    try
