@@ -496,3 +496,5 @@ try {
 } catch(err) {
     alert(err.message);
 }
+
+console.log('1: Will get location');
