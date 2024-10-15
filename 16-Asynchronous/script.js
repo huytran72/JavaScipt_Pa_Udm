@@ -467,7 +467,7 @@ const whereAmI2 = async function(country) {
 
     // Reverse geocoding
     const resGeo = await fetch(`https://geocode.xyz/${lat},${lng}?json=1`);
-    if (!resGeo.ok) throw new Error('Problem getting location
+    if (!resGeo.ok) throw new Error('Problem getting location data');
 
     const dataGeo = await resGeo.json();
     console.log(dataGeo);
