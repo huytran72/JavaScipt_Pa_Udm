@@ -533,3 +533,4 @@ console.log('3: Finished getting location');
 
 
 const get3Countries = async function(c1, c2, c3) {
+    try {}
