@@ -523,3 +523,4 @@ console.log('3: Finished getting location');
     } catch(err) {
         console.error(err);
     }
+    console.log(`2: ${city}`);
