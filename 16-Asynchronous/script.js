@@ -570,6 +570,10 @@ get3Countries('portugal', 'canada', 'tanzania');
 // Promise.race
 (async function() {
     const res = await Promise.race([
+        getJSON(`https://restcountries.com/v3.1/name/italy`),
+        getJSON(`https://restcountries.com/v3.1/name/egypt`),
+        getJSON(`https://restcountries.com/v3.1/name/mexico`)
+    ]);
 
 
 })();
