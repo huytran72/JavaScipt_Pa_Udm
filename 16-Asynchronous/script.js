@@ -525,3 +525,4 @@ console.log('3: Finished getting location');
     }
     console.log(`2: ${city}`);
     console.log('3: Finished getting location');
+}
