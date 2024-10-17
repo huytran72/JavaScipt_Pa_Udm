@@ -560,3 +560,11 @@ const data = await Promise.all([
 console.log(data.map(d => d[0].capital));
 
 get3Countries('portugal', 'canada', 'tanzania');
+
+
+
+
+
+
+
+// Promise.race([
