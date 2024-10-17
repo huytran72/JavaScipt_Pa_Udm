@@ -569,7 +569,7 @@ get3Countries('portugal', 'canada', 'tanzania');
 
 // Promise.race
 (async function() {
-    const res = await Promise
+    const res = await Promise.race([
 
 
 })();
