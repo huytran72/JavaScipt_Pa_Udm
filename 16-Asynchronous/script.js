@@ -533,4 +533,6 @@ console.log('3: Finished getting location');
 
 
 const get3Countries = async function(c1, c2, c3) {
-    try {}
+    try {
+        const [data1] = await getJSON(`https://restcountries.com/v3.1/name/${c1}`);
+    }
