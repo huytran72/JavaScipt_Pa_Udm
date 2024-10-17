@@ -557,4 +557,6 @@ const data = await Promise.all([
     getJSON(`https://restcountries.com/v3.1/name/${c3}`)
 ]);
 
+console.log(data.map(d => d[0].capital));
+
 get3Countries('portugal', 'canada', 'tanzania');
