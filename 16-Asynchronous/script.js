@@ -540,3 +540,4 @@ const get3Countries = async function(c1, c2, c3) {
     } catch(err) {
         console.error(err);
     }
+}
