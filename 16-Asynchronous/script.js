@@ -552,5 +552,9 @@ console.log('3: Finished getting location');
 // };
 
 const data = await Promise.all([
+    getJSON(`https://restcountries.com/v3.1/name/${c1}`),
+    getJSON(`https://restcountries.com/v3.1/name/${c2}`),
+    getJSON(`https://restcountries.com/v3.1/name/${c3}`)
+]);
 
 get3Countries('portugal', 'canada', 'tanzania');
