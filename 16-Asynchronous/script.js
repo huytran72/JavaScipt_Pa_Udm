@@ -574,4 +574,5 @@ get3Countries('portugal', 'canada', 'tanzania');
         getJSON(`https://restcountries.com/v3.1/name/egypt`),
         getJSON(`https://restcountries.com/v3.1/name/mexico`)
     ]);
+    console.log(res[0]);
 })();
