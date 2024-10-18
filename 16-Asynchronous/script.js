@@ -576,3 +576,5 @@ get3Countries('portugal', 'canada', 'tanzania');
     ]);
     console.log(res[0]);
 })();
+
+const timeout = function(sec) {
