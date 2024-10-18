@@ -597,3 +597,4 @@ Promise.race([
 // Promise.allSettled
 Promise.allSettled([
     Promise.resolve('Success'),
+    Promise.reject('ERROR'),
