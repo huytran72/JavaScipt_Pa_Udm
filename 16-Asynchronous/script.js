@@ -585,4 +585,6 @@ const timeout = function(sec) {
         , sec * 1000);
     }
     );
-}
+};
+
+Promise.race([
