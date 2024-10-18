@@ -588,3 +588,6 @@ const timeout = function(sec) {
 };
 
 Promise.race([
+    getJSON(`https://restcountries.com/v3.1/name/tanzania`),
+    timeout(0.1)
+])
