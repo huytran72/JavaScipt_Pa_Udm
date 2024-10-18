@@ -578,3 +578,4 @@ get3Countries('portugal', 'canada', 'tanzania');
 })();
 
 const timeout = function(sec) {
+    return new Promise(function(_, reject) {
