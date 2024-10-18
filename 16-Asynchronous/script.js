@@ -591,3 +591,4 @@ Promise.race([
     getJSON(`https://restcountries.com/v3.1/name/tanzania`),
     timeout(0.1)
 ])
+    .then(res => console.log(res[0]))
