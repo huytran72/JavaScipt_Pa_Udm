@@ -580,3 +580,5 @@ get3Countries('portugal', 'canada', 'tanzania');
 const timeout = function(sec) {
     return new Promise(function(_, reject) {
         setTimeout(function() {
+            reject(new Error('Request took too long!'));
+        }
