@@ -583,3 +583,4 @@ const timeout = function(sec) {
             reject(new Error('Request took too long!'));
         }
         , sec * 1000);
+    }
