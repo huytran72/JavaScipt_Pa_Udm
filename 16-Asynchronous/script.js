@@ -600,3 +600,6 @@ Promise.allSettled([
     Promise.reject('ERROR'),
     Promise.resolve('Another success')
 ])
+
+
+
