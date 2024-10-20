@@ -602,6 +602,7 @@ Promise.allSettled([
 ]).then(res => console.log(res));
 
 Promise.all([
+    Promise.resolve('Success'),
 
 
 
