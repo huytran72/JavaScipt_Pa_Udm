@@ -601,5 +601,7 @@ Promise.allSettled([
     Promise.resolve('Another success')
 ]).then(res => console.log(res));
 
+Promise.all([
+
 
 
