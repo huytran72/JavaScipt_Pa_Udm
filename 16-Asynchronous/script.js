@@ -622,5 +622,6 @@ Promise.any([
 
 
 console.log('------------------------');
+console.log('Coding Challenge #3');
 
 
