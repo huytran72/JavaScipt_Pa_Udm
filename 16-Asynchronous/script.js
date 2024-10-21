@@ -626,5 +626,6 @@ console.log('Coding Challenge #3');
 // Coding Challenge #3
 /*
 PART 1
+Write an async function 'loadNPause' that recreates Challenge #2, this time using async/await (only the part where the promise is consumed). Compare the two versions, think about the big differences, and see which one you like more.
 
 
