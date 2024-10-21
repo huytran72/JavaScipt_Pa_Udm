@@ -611,6 +611,7 @@ Promise.all([
 
 // Promise.any
 Promise.any([
+    Promise.resolve('Success'),
 
 
 
