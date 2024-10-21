@@ -610,6 +610,7 @@ Promise.all([
 .catch(err => console.error(err));
 
 // Promise.any
+Promise.any([
 
 
 
