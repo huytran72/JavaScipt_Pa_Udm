@@ -629,4 +629,5 @@ PART 1
 Write an async function 'loadNPause' that recreates Challenge #2, this time using async/await (only the part where the promise is consumed). Compare the two versions, think about the big differences, and see which one you like more.
 Don't forget to test the error handler, and to set the network speed to 'Fast 3G' in the dev tools Network tab.
 
+PART 2
 */
