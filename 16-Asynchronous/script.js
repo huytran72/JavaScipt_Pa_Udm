@@ -630,4 +630,5 @@ Write an async function 'loadNPause' that recreates Challenge #2, this time usin
 Don't forget to test the error handler, and to set the network speed to 'Fast 3G' in the dev tools Network tab.
 
 PART 2
+1. Create an async function 'loadAll' that receives an array of image paths 'imgArr'.
 */
