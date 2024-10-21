@@ -612,6 +612,7 @@ Promise.all([
 // Promise.any
 Promise.any([
     Promise.resolve('Success'),
+    Promise.reject('ERROR'),
 
 
 
