@@ -631,4 +631,5 @@ Don't forget to test the error handler, and to set the network speed to 'Fast 3G
 
 PART 2
 1. Create an async function 'loadAll' that receives an array of image paths 'imgArr'.
+2. Use .map to loop over the array, to load all the images with the 'createImage' function (call the resulting array 'imgs')
 */
