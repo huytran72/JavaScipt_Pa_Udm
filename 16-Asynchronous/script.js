@@ -614,6 +614,7 @@ Promise.any([
     Promise.resolve('Success'),
     Promise.reject('ERROR'),
     Promise.resolve('Another success')
+])
 
 
 
