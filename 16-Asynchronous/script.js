@@ -615,6 +615,7 @@ Promise.any([
     Promise.reject('ERROR'),
     Promise.resolve('Another success')
 ])
+.then(res => console.log(res))
 
 
 
