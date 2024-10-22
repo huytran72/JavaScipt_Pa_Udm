@@ -647,3 +647,4 @@ const wait2 = function(seconds) {
         setTimeout(resolve, seconds * 1000);
     }
     );
+}
