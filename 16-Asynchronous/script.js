@@ -653,3 +653,4 @@ const imgContainer1 = document.querySelector('.images');
 
 const createImage1 = function(imgPath) {
     return new Promise(function(resolve, reject) {
+        const img = document.createElement('img');
