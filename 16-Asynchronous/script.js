@@ -646,3 +646,4 @@ const wait2 = function(seconds) {
     return new Promise(function(resolve) {
         setTimeout(resolve, seconds * 1000);
     }
+    );
