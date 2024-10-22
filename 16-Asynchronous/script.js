@@ -660,3 +660,5 @@ const createImage1 = function(imgPath) {
         imgContainer1.append(img);
         resolve(img);
     }
+
+    img.addEventListener('error', function() {
