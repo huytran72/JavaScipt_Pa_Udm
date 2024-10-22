@@ -643,3 +643,4 @@ GOOD LUCK 😀
 
 
 const wait2 = function(seconds) {
+    return new Promise(function(resolve) {
