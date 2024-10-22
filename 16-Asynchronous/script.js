@@ -637,4 +637,6 @@ PART 2
 5. Part 2 is more difficult, so don't worry if you don't get it. Just watch the solution.
 
 TEST DATA: ['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg']. To test, turn off the 'loadNPause' function.
+
+GOOD LUCK 😀
 */
