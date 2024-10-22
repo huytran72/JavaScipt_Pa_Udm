@@ -633,4 +633,5 @@ PART 2
 1. Create an async function 'loadAll' that receives an array of image paths 'imgArr'.
 2. Use .map to loop over the array, to load all the images with the 'createImage' function (call the resulting array 'imgs')
 3. Check out the 'imgs' array in the console! Is it like you expected?
+4. Use a promise to log the image from the array as soon as it is loaded.
 */
