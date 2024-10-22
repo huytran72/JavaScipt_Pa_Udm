@@ -667,3 +667,4 @@ const createImage1 = function(imgPath) {
     );
     }
     );
+};
