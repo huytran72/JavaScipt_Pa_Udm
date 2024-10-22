@@ -658,3 +658,4 @@ const createImage1 = function(imgPath) {
     
     img.addEventListener('load', function() {
         imgContainer1.append(img);
+        resolve(img);
