@@ -635,4 +635,6 @@ PART 2
 3. Check out the 'imgs' array in the console! Is it like you expected?
 4. Use a promise to log the image from the array as soon as it is loaded.
 5. Part 2 is more difficult, so don't worry if you don't get it. Just watch the solution.
+
+TEST DATA: ['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg']. To test, turn off the 'loadNPause' function.
 */
