@@ -676,4 +676,5 @@ createImage('img/img-1.jpg')
         return wait2(2);
     })
     .then(() => {
+        currentImage1.style.display = 'none';
 
