@@ -683,4 +683,5 @@ createImage('img/img-1.jpg')
         currentImage1 = img;
         console.log('Image 2 loaded');
         return wait2(2);
+    })
 
