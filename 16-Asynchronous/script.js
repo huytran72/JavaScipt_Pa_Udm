@@ -681,4 +681,5 @@ createImage('img/img-1.jpg')
     })
     .then(img => {
         currentImage1 = img;
+        console.log('Image 2 loaded');
 
