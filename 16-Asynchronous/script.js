@@ -670,5 +670,6 @@ const createImage1 = function(imgPath) {
 let currentImage1;
 
 createImage('img/img-1.jpg')
+    .then(img => {
 
 
