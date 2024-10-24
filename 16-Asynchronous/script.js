@@ -671,5 +671,6 @@ let currentImage1;
 
 createImage('img/img-1.jpg')
     .then(img => {
+        currentImage1 = img;
 
 
