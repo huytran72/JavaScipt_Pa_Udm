@@ -679,4 +679,5 @@ createImage('img/img-1.jpg')
         currentImage1.style.display = 'none';
         return createImage('img/img-2.jpg');
     })
+    .then(img => {
 
