@@ -666,3 +666,7 @@ const createImage1 = function(imgPath) {
         });
     });
 };
+
+let currentImage1;
+
+
