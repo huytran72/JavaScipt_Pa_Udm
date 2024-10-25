@@ -684,4 +684,5 @@ createImage('img/img-1.jpg')
         console.log('Image 2 loaded');
         return wait2(2);
     })
+    .then(() => {
 
