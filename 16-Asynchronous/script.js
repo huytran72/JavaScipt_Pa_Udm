@@ -687,4 +687,5 @@ createImage('img/img-1.jpg')
     .then(() => {
         currentImage1.style.display = 'none';
     })
+    .catch(err => console.error(err));
 
