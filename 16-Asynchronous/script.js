@@ -698,4 +698,6 @@ const loadNPause = async function() {
 };
 
 const loadNPause1 = async function() {
-    try {}
+    try {
+
+    } catch(err) {
