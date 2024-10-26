@@ -706,6 +706,8 @@ const loadNPause1 = async function() {
         await wait2(2);
         img1.style.display = 'none';
 
+        // Load image 2
+
 
     } catch(err) {
         console.error(err);
