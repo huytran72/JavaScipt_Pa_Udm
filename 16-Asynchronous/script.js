@@ -641,7 +641,7 @@ TEST DATA: ['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg']. To test, turn of
 GOOD LUCK 😀
 */
 
-// Part 1
+
 const wait2 = function(seconds) {
     return new Promise(function(resolve) {
         setTimeout(resolve, seconds * 1000);
@@ -697,6 +697,7 @@ const loadNPause = async function() {
     }   
 };
 
+// PART 1
 const loadNPause1 = async function() {
     try {
         // Load image 1
