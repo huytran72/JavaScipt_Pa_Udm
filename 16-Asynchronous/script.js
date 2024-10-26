@@ -699,6 +699,7 @@ const loadNPause = async function() {
 
 const loadNPause1 = async function() {
     try {
+        // Load image 1
         let img1 = await createImage('img/img-1.jpg');
         console.log('Image 1 loaded');
     } catch(err) {
