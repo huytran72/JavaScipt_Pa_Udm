@@ -701,3 +701,5 @@ const loadNPause1 = async function() {
     try {
 
     } catch(err) {
+        console.error(err);
+    }
