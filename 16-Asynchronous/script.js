@@ -716,3 +716,4 @@ const loadNPause1 = async function() {
         console.error(err);
     }
 }
+loadNPause1();
