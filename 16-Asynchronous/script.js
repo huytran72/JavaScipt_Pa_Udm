@@ -719,3 +719,4 @@ const loadNPause1 = async function() {
 loadNPause1();
 
 // PART 2
+const loadAll = async function(imgArr) {
