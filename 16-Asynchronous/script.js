@@ -721,3 +721,4 @@ loadNPause1();
 // PART 2
 const loadAll = async function(imgArr) {
     try {
+        const imgs = imgArr.map(async img => await createImage(img));
