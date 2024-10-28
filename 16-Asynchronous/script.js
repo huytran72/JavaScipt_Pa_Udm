@@ -730,3 +730,4 @@ const loadAll = async function(imgArr) {
     } catch(err) {
         console.error(err);
     }
+}
