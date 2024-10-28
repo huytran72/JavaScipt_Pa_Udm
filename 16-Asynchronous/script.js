@@ -720,3 +720,4 @@ loadNPause1();
 
 // PART 2
 const loadAll = async function(imgArr) {
+    try {
