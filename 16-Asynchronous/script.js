@@ -725,3 +725,4 @@ const loadAll = async function(imgArr) {
         console.log(imgs);
 
         const imgsEl = await Promise.all(imgs);
+        console.log(imgsEl);
