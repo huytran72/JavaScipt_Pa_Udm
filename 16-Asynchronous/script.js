@@ -717,3 +717,5 @@ const loadNPause1 = async function() {
     }
 }
 loadNPause1();
+
+// PART 2
