@@ -5,5 +5,5 @@ const shippingCost = 10;
 const cart = [];
 
 const addToCart = function (product, quantity) {
-
+    cart.push({ product, quantity });
 };       
