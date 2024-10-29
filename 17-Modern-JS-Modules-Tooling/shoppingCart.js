@@ -2,3 +2,4 @@
 console.log('shoppingCart.js');
 
 const shippingCost = 10;
+const cart = [];
