@@ -722,7 +722,7 @@ loadNPause1();
 const loadAll = async function(imgArr) {
     try {
         const imgs = imgArr.map(async img => await createImage(img));
-        createImage
+        createImage.forEach(async img => {
         console.log(imgs);
 
         const imgsEl = await Promise.all(imgs);
