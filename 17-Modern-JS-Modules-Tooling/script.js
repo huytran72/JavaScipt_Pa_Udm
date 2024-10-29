@@ -5,4 +5,4 @@ console.log(shippingCost);
 
 
 addToCart('bread', 5);
-console.log(cart);
+console.log(totalPrice, totalQuantity);
