@@ -16,3 +16,4 @@ console.log(totalPrice, totalQuantity);
 // console.log(price, cart);
 
 import add from './shoppingCart.js';
+add('pizza', 2);
