@@ -6,3 +6,5 @@ console.log(shippingCost);
 
 addToCart('bread', 5);
 console.log(totalPrice, totalQuantity);
+
+// import * as ShoppingCart from './shoppingCart.js';
