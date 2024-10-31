@@ -14,3 +14,4 @@ const totalQuantity = 23;
 
 export { totalPrice, totalQuantity as tq };
 
+export default function (product, quantity) {
