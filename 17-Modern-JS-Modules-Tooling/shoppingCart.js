@@ -15,3 +15,4 @@ const totalQuantity = 23;
 export { totalPrice, totalQuantity as tq };
 
 export default function (product, quantity) {
+    cart.push({ product, quantity });
