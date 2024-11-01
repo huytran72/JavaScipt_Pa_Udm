@@ -28,3 +28,6 @@ fetch('https://api.chucknorris.io/jokes/random')
     .catch(err => console.log(err));
 
 if(module.hot) {
+
+    module.hot.accept();
+}
