@@ -1,6 +1,7 @@
 // Importing modules
 console.log('shoppingCart.js');
 
+// Blocking code
 const shippingCost = 10;
 const cart = [];
 
