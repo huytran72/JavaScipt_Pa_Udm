@@ -23,3 +23,4 @@ add('apples', 4);
 console.log(cart);
 
 fetch('https://api.chucknorris.io/jokes/random')
+    .then(responde => responde.json())
