@@ -3,6 +3,9 @@ console.log('shoppingCart.js');
 
 // Blocking code
 console.log('Start fetching user');
+await fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(data => console.log(data));
 const shippingCost = 10;
 const cart = [];
 
