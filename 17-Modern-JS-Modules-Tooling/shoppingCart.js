@@ -6,6 +6,7 @@ console.log('Start fetching user');
 await fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then(data => console.log(data));
+console.log('Finish fetching user');
 const shippingCost = 10;
 const cart = [];
 
