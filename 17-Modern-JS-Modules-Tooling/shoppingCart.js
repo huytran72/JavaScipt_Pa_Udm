@@ -2,6 +2,7 @@
 console.log('shoppingCart.js');
 
 // Blocking code
+console.log('Start fetching user');
 const shippingCost = 10;
 const cart = [];
 
