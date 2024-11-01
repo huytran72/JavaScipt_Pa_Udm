@@ -49,4 +49,5 @@ console.log(lastPost2);
 
 (function() {
     const cart = [];
+    const shippingCost = 10;
 })
