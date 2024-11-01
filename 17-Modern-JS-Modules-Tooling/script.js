@@ -22,7 +22,7 @@ add('apples', 4);
 
 console.log(cart);
 
-const res = await fetch('https://api.chucknorris.io/jokes/random')
+const res = await fetch('https://api.chucknorris.io/jokes/random');
     .then(responde => responde.json())
     .then(data => console.log(data))
     .catch(err => console.log(err));
