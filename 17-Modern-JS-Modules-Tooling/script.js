@@ -54,4 +54,5 @@ console.log(lastPost2);
     const totalQuantity = 23;
 
     const addToCart = function (product, quantity) {
+        cart.push({ product, quantity });
 })
