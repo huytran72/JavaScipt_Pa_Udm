@@ -51,4 +51,5 @@ console.log(lastPost2);
     const cart = [];
     const shippingCost = 10;
     const totalPrice = 237;
+    const totalQuantity = 23;
 })
