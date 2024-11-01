@@ -52,4 +52,6 @@ console.log(lastPost2);
     const shippingCost = 10;
     const totalPrice = 237;
     const totalQuantity = 23;
+
+    const addToCart = function (product, quantity) {
 })
