@@ -56,4 +56,5 @@ console.log(lastPost2);
     const addToCart = function (product, quantity) {
         cart.push({ product, quantity });
         console.log(`${quantity} ${product} added to cart`);
-})
+    }
+})();
