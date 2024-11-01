@@ -28,6 +28,7 @@ const res = await fetch('https://api.chucknorris.io/jokes/random');
     .catch(err => console.log(err));
 
 const data = await res.json();
+console.log(data);
 
 if(module.hot) {
 
