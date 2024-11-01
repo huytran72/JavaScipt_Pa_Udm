@@ -36,3 +36,4 @@ const getLastPost = async function () {
     console.log(data);
 
     return {title: data[0].title, body: data[0].body};
+}
