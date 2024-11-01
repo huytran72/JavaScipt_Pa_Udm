@@ -26,3 +26,5 @@ fetch('https://api.chucknorris.io/jokes/random')
     .then(responde => responde.json())
     .then(data => console.log(data))
     .catch(err => console.log(err));
+
+if(module.hot) {
