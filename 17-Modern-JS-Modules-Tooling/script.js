@@ -44,3 +44,4 @@ console.log(lastPost);
 lastPost.then(data => console.log(data));
 
 const lastPost2 = await getLastPost();
+console.log(lastPost2);
