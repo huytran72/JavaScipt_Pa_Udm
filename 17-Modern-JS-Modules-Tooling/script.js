@@ -59,4 +59,6 @@ console.log(lastPost2);
     }
 
     const orderStock = function (product, quantity) {
+        console.log(`${quantity} ${product} ordered from supplier`);
+    }
 })();
