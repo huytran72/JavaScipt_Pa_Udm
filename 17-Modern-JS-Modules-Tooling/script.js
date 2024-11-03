@@ -87,3 +87,4 @@ import {addToCart} from './shoppingCart.js';
 addToCart('bread', 5);
 
 // Import all
+import * as ShoppingCart from './shoppingCart.js';
