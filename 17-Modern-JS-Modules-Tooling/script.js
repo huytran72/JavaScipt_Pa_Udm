@@ -66,5 +66,6 @@ console.log(lastPost2);
         addToCart,
         cart,
         totalPrice,
+        totalQuantity
     }
 })();
