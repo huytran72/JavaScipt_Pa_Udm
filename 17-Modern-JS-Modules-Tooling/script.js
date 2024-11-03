@@ -83,3 +83,4 @@ export const addToCart = function (product, quantity) {
 };
 
 // Import
+import {addToCart} from './shoppingCart.js';
