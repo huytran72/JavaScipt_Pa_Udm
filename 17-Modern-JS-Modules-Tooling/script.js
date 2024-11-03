@@ -77,3 +77,7 @@ console.log(ShoppingCart2.shippingCost);
 
 
 // Export
+export const addToCart = function (product, quantity) {
+    cart.push({ product, quantity });
+    console.log(`${quantity} ${product} added to cart`);
+};
