@@ -124,3 +124,4 @@ if (module.hot) {
 }
 
 // Parcel
+// npm run start
