@@ -129,3 +129,4 @@ if (module.hot) {
 // npm run build:css
 // npm run dev
 // npm run lint
+// npm run prettier
