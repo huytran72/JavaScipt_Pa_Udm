@@ -93,3 +93,6 @@ ShoppingCart.addToCart('bread', 5);
 // Import default
 import add from './shoppingCart.js';
 add('pizza', 2);
+
+
+// Export
