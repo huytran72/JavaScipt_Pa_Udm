@@ -96,3 +96,4 @@ add('pizza', 2);
 
 
 // Export
+export default function (product, quantity) {
