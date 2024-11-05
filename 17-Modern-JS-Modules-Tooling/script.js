@@ -130,3 +130,4 @@ if (module.hot) {
 // npm run dev
 // npm run lint
 // npm run prettier
+// npm run test
