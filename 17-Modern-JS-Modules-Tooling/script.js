@@ -136,3 +136,4 @@ if (module.hot) {
 // npm run test:lint
 // npm run test:lint:fix
 // npm run test:lint:fix:watch
+// npm run test:lint:fix:coverage
