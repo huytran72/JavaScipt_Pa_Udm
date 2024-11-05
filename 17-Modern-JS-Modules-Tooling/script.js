@@ -128,3 +128,4 @@ if (module.hot) {
 // npm run build
 // npm run build:css
 // npm run dev
+// npm run lint
