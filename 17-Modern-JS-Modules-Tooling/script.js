@@ -106,6 +106,6 @@ import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
 
 const state = {
     cart: [
-        
+        {product: 'bread', quantity: 5},
     ]
 }
