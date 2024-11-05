@@ -131,3 +131,4 @@ if (module.hot) {
 // npm run lint
 // npm run prettier
 // npm run test
+// npm run test:watch
