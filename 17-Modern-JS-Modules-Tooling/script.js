@@ -132,3 +132,4 @@ if (module.hot) {
 // npm run prettier
 // npm run test
 // npm run test:watch
+// npm run test:coverage
