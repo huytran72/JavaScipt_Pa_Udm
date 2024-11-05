@@ -110,4 +110,5 @@ const state = {
         {product: 'pizza', quantity: 5},
     ],
     user: {loggedIn: true},
-}
+};
+const stateClone = Object.assign({}, state);
