@@ -105,5 +105,7 @@ export default function (product, quantity) {
 import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
 
 const state = {
-    
+    cart: [
+        
+    ]
 }
