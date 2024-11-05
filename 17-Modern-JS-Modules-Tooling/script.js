@@ -99,3 +99,4 @@ add('pizza', 2);
 export default function (product, quantity) {
     cart.push({ product, quantity });
     console.log(`${quantity} ${product} added to cart`);
+}
