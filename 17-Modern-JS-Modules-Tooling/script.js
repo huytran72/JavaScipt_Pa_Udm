@@ -125,3 +125,4 @@ if (module.hot) {
 
 // Parcel
 // npm run start
+// npm run build
