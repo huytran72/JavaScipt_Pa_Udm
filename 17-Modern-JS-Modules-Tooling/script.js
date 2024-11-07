@@ -142,5 +142,6 @@ class Person {
     greeting = 'Hey';
     constructor(name) {
         this.name = name;
+        console.log(`${this.greeting}, ${this.name}`);
     }
 }
