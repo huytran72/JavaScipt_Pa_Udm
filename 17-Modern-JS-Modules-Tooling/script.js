@@ -140,4 +140,7 @@ if (module.hot) {
 
 class Person {
     greeting = 'Hey';
+    constructor(name) {
+        
+    })
 }
