@@ -145,3 +145,4 @@ class Person {
         console.log(`${this.greeting}, ${this.name}`);
     }
 }
+const jonas = new Person('Jonas');
