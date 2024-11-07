@@ -62,4 +62,6 @@ var bigExpenses = function (limit) {
   output = output.slice(0, -2); // Remove last '/ '
   console.log(output);
 };
+
+console.log(budget);
 bigExpenses(1000);
