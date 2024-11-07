@@ -138,4 +138,6 @@ if (module.hot) {
 // npm run test:lint:fix:watch
 // npm run test:lint:fix:coverage
 
-class Person {}
+class Person {
+    greeting = 'Hey';
+}
