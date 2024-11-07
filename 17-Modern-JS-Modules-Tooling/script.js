@@ -146,3 +146,5 @@ class Person {
     }
 }
 const jonas = new Person('Jonas');
+
+console.log('Jonas' ?? null);
