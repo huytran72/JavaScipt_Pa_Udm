@@ -156,4 +156,5 @@ Promise.resolve('TEST').then(x => console.log(x));
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 
