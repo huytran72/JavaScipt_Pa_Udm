@@ -561,6 +561,7 @@ console.log(index);
 
 
 // The New findLast and findLastIndex Methods
+console.log('---------------------------------');
 
 
 
