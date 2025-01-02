@@ -547,7 +547,6 @@ btnSort.addEventListener('click', function (e) {
 });
 
 
-
 // The findIndex Method
 console.log('---------------------------------');
 console.log('--- The findIndex Method ---');
@@ -559,6 +558,9 @@ btnClose.addEventListener('click', function (e) {
 console.log(movements);
 const index = movements.findIndex(mov => mov === 450);
 console.log(index);
+
+
+// The New findLast and findLastIndex Methods
 
 
 
