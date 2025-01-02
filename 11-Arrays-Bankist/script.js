@@ -565,6 +565,7 @@ console.log('---------------------------------');
 
 console.log(movements);
 const lastWithdrawal = movements.slice().reverse().find(mov => mov < 0);
+console.log(lastWithdrawal);
 
 
 
