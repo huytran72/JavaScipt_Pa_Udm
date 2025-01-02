@@ -568,6 +568,8 @@ const lastWithdrawal = movements.slice().reverse().find(mov => mov < 0);
 console.log(lastWithdrawal);
 
 const lastWithdrawalIndex = movements.findIndex(mov => mov < 0);
+const lastestLargeMovementIndex = movements.findLastIndex(mov => mov > 1000);
+console.log(lastestLargeMovementIndex);
 
 
 
